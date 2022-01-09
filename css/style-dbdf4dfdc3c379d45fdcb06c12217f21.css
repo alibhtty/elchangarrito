@@ -4120,3 +4120,8 @@ a.menubtn {
     margin-top: 10px;
   }
 }
+
+
+::-webkit-scrollbar{
+  display: none;
+}
