@@ -1,2 +1,2 @@
-# El-Changarrito
+# ElChangarrito
 Mexican Food
