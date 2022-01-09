@@ -86,7 +86,7 @@ body {
   font-weight: 400;
   line-height: 22px;
   background-color: #000;  /* #e1e1e1 */
-  font-family: "OakesGroteskRegular";
+  font-family: "OakesGroteskRegular" !important;
   -webkit-text-size-adjust: none;
 }
 article,
@@ -3298,9 +3298,9 @@ footer .social-icon a.googleplus-icon:hover {
     /* width: 50%; */
     float: right;
   }
-  header.active .logo {
-    /* width: 100%; */
-  }
+/*   header.active .logo {
+    /* width: 100%; /
+  } */
   .menu span {
     width: 30px;
   }
