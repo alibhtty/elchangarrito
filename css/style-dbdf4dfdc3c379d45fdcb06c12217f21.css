@@ -1077,7 +1077,7 @@ h1 {
   color: #1a1a11;
   line-height: 25px;
   margin-bottom: 35px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .content-area .block1 .block1-left .read-btn {
   border: 2px solid #000;
@@ -1756,7 +1756,7 @@ section.panel p a {
   color: #fff;
   line-height: 20px;
   margin-bottom: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .content-area .gallery-block .box-bg {
   width: 100%;
@@ -2507,7 +2507,7 @@ footer .social-icon a.googleplus-icon:hover {
   color: #000;
   line-height: 25px;
   margin-bottom: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .overlay1 p a {
   color: #1a1a11;
@@ -3362,7 +3362,7 @@ footer .social-icon a.googleplus-icon:hover {
     width: 80%;
   }
   header.active .menu span {
-    background-color: #fff;
+    background-color: #000;
   }
   header {
     height: 59px;
