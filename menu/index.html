@@ -65,12 +65,12 @@ img.emoji {
 <!--[if lt IE 8]>
 <link rel='stylesheet' id='quay-ie7-css'  href='wp-content/themes/quay/css/ie7-ver=20160816.css' type='text/css' media='all' />
 <![endif]-->
-<link rel="stylesheet" href="/css/lacarta.css" type="text/css">
 <link rel='stylesheet' id='quay-bootstrap-style-css'  href='/css/bootstrap-91765ff28322b37b893490e4190c1f01.css' data-minify="1"  type='text/css' media='all' />  <!-- wp-content/cache/min/1/wp-content/themes/quay/ -->
 <link rel='stylesheet' id='quay-custom-style-css'  href='/css/style-dbdf4dfdc3c379d45fdcb06c12217f21.css' data-minify="1"  type='text/css' media='all' />  <!-- wp-content/cache/min/1/wp-content/themes/quay/ -->
 <link rel='stylesheet' id='quay-aos-style-css'  href='/css/aos-804bf1c3ad7fadaa65ade65a45884beb.css' data-minify="1"  type='text/css' media='all' />  <!-- wp-content/cache/min/1/wp-content/themes/quay/css/ -->
 <link rel='stylesheet' id='quay-prefetch-style-css'  href='https://npmcdn.com/flickity@2/dist/flickity.css?ver=24a0c0d08fa483cc1585b2e3601883e8' type='text/css' media='all' />
 <link rel='stylesheet' id='quay-fonts-style-css'  href='/assets/fonts/fonts-e9c4dbfd14bc73f29b5fdd26da01fa07.css' data-minify="1"  type='text/css' media='all' />
+<link rel="stylesheet" href="/css/lacarta.css" type="text/css">
 
 <script type='text/javascript' src='/js/jquery/jquery.min-ver=3.5.1.js' id='jquery-core-js'></script>
 <script type='text/javascript' src='/js/jquery/jquery-migrate.min-ver=3.3.2.js' id='jquery-migrate-js'></script>
@@ -190,7 +190,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="fs_menu_overlay"></div>
                         <div class="hamburger_menu">
-                            <div class="hamburger_close"><img src="assets/icons/cancel.png" alt="" title=""></div>
+                            <div class="hamburger_close"><img src="/assets/icons/cancel.png" alt="" title=""></div>
 
                         <div class="hamburger_menu_content text-right"><ul id="menu-main-menu" class="mobile_menu-nav-list"><li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-105 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link cta makebtn " href="index.html" aria-current="page">Inicio</a></li>
                             <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link cta makebtn " href="menu2/index.html">Carta</a></li>
@@ -274,212 +274,324 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="row">
         <ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab">Breakfast</a>
+            <a class="nav-link" id="tacos-tab" data-toggle="tab" href="#tacos" role="tab">Tacos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab">Lunch</a>
+            <a class="nav-link" id="quesadillas-tab" data-toggle="tab" href="#quesadillas" role="tab">Quesadillas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab">Dinner</a>
+            <a class="nav-link" id="bebidas-tab" data-toggle="tab" href="#bebidas" role="tab">Bebidas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="botanas-tab" data-toggle="tab" href="#botanas" role="tab">Botanas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="especialidades-tab" data-toggle="tab" href="#especialidades" role="tab">Especialidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="postres-tab" data-toggle="tab" href="#postres" role="tab">Postres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="cocteles-tab" data-toggle="tab" href="#cocteles" role="tab">Cocteles</a>
           </li>
         </ul>
           </div>
       <div class="row">
         <div class="tab-content col-lg-12" id="myTabContent">
-          <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+
+<!-- BOTANAS -->
+          <div class="tab-pane fade show active" id="botanas" role="tabpanel" aria-labelledby="breakfast-tab">
             <div class="row">
               <div class="col-md-6">
                 <div class="single_menu">
                   <img src="/assets/img/taco-al-pastor.jpg" alt="burger"> <!-- https://i.imgur.com/kbpceNv.jpg -->
                   <div class="menu_content">
-                    <h4>Chicken Burger  <span>$24</span></h4>
-                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                    <h4>Nachos con Guacamole<span>$10</span></h4>
+                    <p>Crujientes totopos de maíz con frijoles negros, queso fundido, pico de gallo y guacamole por encima.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="black coffee">
                   <div class="menu_content">
-                    <h4>Black coffee <span>$20</span></h4>
-                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                    <h4>Guacamole<span>$6.90</span></h4>
+                    <p>Aguacate martajado al momento con jitomate, cebolla, cilantro, queso fresco y aceite de oliva.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="fried rice">
                   <div class="menu_content">
-                    <h4>Fried Rice  <span>$45</span></h4>
-                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-                  </div>
-                </div>
-                <div class="single_menu">
-                  <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
-                  <div class="menu_content">
-                    <h4>meat  <span>$24</span></h4>
+                    <h4>Ensalada de Nopales<span>$7.95</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
               </div>
+
               <div class="col-md-6">
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/TAq7lDR.jpg" alt="burger">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="burger">
                   <div class="menu_content">
-                    <h4>Chicken Burger  <span>$24</span></h4>
+                    <h4>Sincronizada<span>$5.0</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="black coffee">
                   <div class="menu_content">
-                    <h4>Black coffee <span>$20</span></h4>
-                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-                  </div>
-                </div>
-                <div class="single_menu">
-                  <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
-                  <div class="menu_content">
-                    <h4>Fried Rice  <span>$45</span></h4>
-                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-                  </div>
-                </div>
-                <div class="single_menu">
-                  <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
-                  <div class="menu_content">
-                    <h4>meat  <span>$24</span></h4>
+                    <h4>Frijoles de la Olla<span>$5.80</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+
+<!-- TACOS -->
+          <div class="tab-pane fade" id="tacos" role="tabpanel" aria-labelledby="lunch-tab">
             <div class="row">
               <div class="col-md-6">
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/Aowufa1.jpg" alt="pizza">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="pizza">
                   <div class="menu_content">
-                    <h4>12" Pizza  <span>$35</span></h4>
+                    <h4>Taco de Tinga de Pollo<span>$2.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/DJlmZDJ.jpg" alt="salad">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="salad">
                   <div class="menu_content">
-                    <h4>Salad <span>$20</span></h4>
+                    <h4>Taco de Cochinita Pibil<span>$2.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/knnQm7e.jpg" alt="green tea">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="green tea">
                   <div class="menu_content">
-                    <h4>green tea <span>$15</span></h4>
+                    <h4>Taco de Mole Verde<span>$2.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="meat">
                   <div class="menu_content">
-                    <h4>meat  <span>$24</span></h4>
+                    <h4>Taco de Mole Poblano<span>$2.00</span></h4>
+                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                  </div>
+                </div>
+                <div class="single_menu">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="meat">
+                  <div class="menu_content">
+                    <h4>Taco de Papa con Frijol<span>$2.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="burger">
                   <div class="menu_content">
-                    <h4>Chicken Burger  <span>$24</span></h4>
+                    <h4>Taco al Pastor<span>$2.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="black coffee">
                   <div class="menu_content">
-                    <h4>Black coffee <span>$20</span></h4>
+                    <h4>Taco de Carne<span>$2.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="fried rice">
                   <div class="menu_content">
-                    <h4>Fried Rice  <span>$45</span></h4>
+                    <h4>Taco de Papa con Chorizo<span>$2.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="meat">
                   <div class="menu_content">
-                    <h4>meat  <span>$24</span></h4>
+                    <h4>Taco de Queso Panela<span>$2.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+
+<!-- QUESADILAS -->
+          <div class="tab-pane fade" id="quesadillas" role="tabpanel" aria-labelledby="dinner-tab">
             <div class="row">
               <div class="col-md-6">
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="burger">
                   <div class="menu_content">
-                    <h4>Chicken Burger  <span>$24</span></h4>
+                    <h4>Quesadilla de Flor de Calabaza <span>$3.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="black coffee">
                   <div class="menu_content">
-                    <h4>Black coffee <span>$20</span></h4>
+                    <h4>Quesadilla de Huitlacoche<span>$3.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="fried rice">
                   <div class="menu_content">
-                    <h4>Fried Rice  <span>$45</span></h4>
+                    <h4>Quesadilla de Rajas con queso<span>$3.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="meat">
                   <div class="menu_content">
-                    <h4>meat  <span>$24</span></h4>
+                    <h4>Quesadilla de Huevo Trufa<span>$3.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="burger">
                   <div class="menu_content">
-                    <h4>Chicken Burger  <span>$24</span></h4>
+                    <h4>Quesadilla de Cochinita Pibil<span>$3.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="black coffee">
                   <div class="menu_content">
-                    <h4>Black coffee <span>$20</span></h4>
+                    <h4>Quesadilla de Champiñones al Ajillo<span>$3.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
                 <div class="single_menu">
-                  <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="fried rice">
                   <div class="menu_content">
-                    <h4>Fried Rice  <span>$45</span></h4>
-                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
-                  </div>
-                </div>
-                <div class="single_menu">
-                  <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
-                  <div class="menu_content">
-                    <h4>meat  <span>$24</span></h4>
+                    <h4>Quesadilla de Carne<span>$3.00</span></h4>
                     <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+<!-- ESPECIALIDADES -->
+          <div class="tab-pane fade" id="especialidades" role="tabpanel" aria-labelledby="breakfast-tab">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="single_menu">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="burger"> <!-- https://i.imgur.com/kbpceNv.jpg -->
+                  <div class="menu_content">
+                    <h4>Tacos Dorados (4unds)<span>$12.00</span></h4>
+                    <p>Crujientes totopos de maíz con frijoles negros, queso fundido, pico de gallo y guacamole por encima.</p>
+                  </div>
+                </div>
+                <div class="single_menu">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="black coffee">
+                  <div class="menu_content">
+                    <h4>Enchiladas Verdes<span>$12.00</span></h4>
+                    <p>Aguacate martajado al momento con jitomate, cebolla, cilantro, queso fresco y aceite de oliva.</p>
+                  </div>
+                </div>
+                <div class="single_menu">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="fried rice">
+                  <div class="menu_content">
+                    <h4>Choriqueso<span>$12.00</span></h4>
+                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-6">
+                <div class="single_menu">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="burger">
+                  <div class="menu_content">
+                    <h4>Champiqueso<span>$12.00</span></h4>
+                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                  </div>
+                </div>
+                <div class="single_menu">
+                  <img src="/assets/img/taco-al-pastor.jpg" alt="black coffee">
+                  <div class="menu_content">
+                    <h4>Alambre<span>$12.00</span></h4>
+                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!-- BEBIDAS -->
+<div class="tab-pane fade" id="bebidas" role="tabpanel" aria-labelledby="dinner-tab">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="single_menu">
+        <img src="/assets/img/taco-al-pastor.jpg" alt="burger">
+        <div class="menu_content">
+          <h4>Corona<span>$3.50</span></h4>
+          <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
         </div>
-        <a href="#" class=" menu_btn btn btn-danger">VER MAS</a>
+      </div>
+      <div class="single_menu">
+        <img src="/assets/img/taco-al-pastor.jpg" alt="black coffee">
+        <div class="menu_content">
+          <h4>Negra Modelo<span>$3.50</span></h4>
+          <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+        </div>
+      </div>
+      <div class="single_menu">
+        <img src="/assets/img/taco-al-pastor.jpg" alt="fried rice">
+        <div class="menu_content">
+          <h4>Modelo Especial<span>$3.50</span></h4>
+          <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+        </div>
+      </div>
+      <div class="single_menu">
+        <img src="/assets/img/taco-al-pastor.jpg" alt="meat">
+        <div class="menu_content">
+          <h4>Pacífico<span>$3.50</span></h4>
+          <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="single_menu">
+        <img src="/assets/img/taco-al-pastor.jpg" alt="burger">
+        <div class="menu_content">
+          <h4>Ocho Reales<span>$4.70</span></h4>
+          <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+        </div>
+      </div>
+      <div class="single_menu">
+        <img src="/assets/img/taco-al-pastor.jpg" alt="black coffee">
+        <div class="menu_content">
+          <h4>Estela Artois<span>$2.50</span></h4>
+          <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+        </div>
+      </div>
+      <div class="single_menu">
+        <img src="/assets/img/taco-al-pastor.jpg" alt="fried rice">
+        <div class="menu_content">
+          <h4>Agua<span>$2.00</span></h4>
+          <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+        </div>
+      </div>
+      <div class="single_menu">
+        <img src="/assets/img/taco-al-pastor.jpg" alt="fried rice">
+        <div class="menu_content">
+          <h4>Coca-Cola<span>$2.50</span></h4>
+          <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+
+        <!-- <a href="#" class=" menu_btn btn btn-danger">VER MAS</a> -->
       </div>
     </div>
   </section>

@@ -45,11 +45,12 @@
     transition: .2s;
 }
 .nav-tabs .nav-link.active {
-    background: #ffae8e;
-    color: #fff;
+    background: #fff;
+    color: #000;
     text-align: center;
     font-weight: 700;
-    border: 1px solid #ffae8e;
+    /* border: 1px solid #fff; */
+    border: none;
     text-transform: capitalize;
     border-radius: 25px;
 }
@@ -59,7 +60,7 @@
 .nav-tabs .nav-link:hover {
     background: #fff;
     color: #fff;
-    border: 1.5px solid #000;
+    /* border: 1.5px solid #000; */
     border-radius: 25px;
 }
 .single_menu {
@@ -83,13 +84,13 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     border-radius: 5px;
 }
 .menu_content {
-    padding-left: 200px;
+    padding-left: 200px;   /* 200px */
 }
 .menu_content h4 {
     font-size: 25px;
     font-weight: 300;
     border-bottom: 1px dashed #c0392b;
-    line-height: 2;
+    line-height: 30px;
     text-transform: capitalize;
 }
 .menu_content h4 span {
@@ -101,7 +102,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 }
 .menu_content p {
     font-weight: 200;
-    font-size: 16px;
+    font-size: 13px;
     letter-spacing: 1px;
 }
 .menu_btn.btn.btn-danger {
@@ -144,10 +145,10 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 
 
 .contenedor{
-    width: 90%;
+    width: 95%;
 }
 .nav{
-    width: 90%;
+    width: 95%;
 }
 
 /* div{
