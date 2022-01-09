@@ -153,7 +153,7 @@ h6 {
   font-family: "OakesGroteskBold";
 }
 h1 {
-  font-size: 34px;
+  font-size: 32px;
 }
 h2 {
   font-size: 50px;
@@ -186,6 +186,7 @@ h6 {
   line-height: 60px;
   margin-bottom: 15px;
 }
+
 input[type="text"],
 input[type="submit"],
 input[type="button"],
@@ -299,6 +300,7 @@ header .right-side {
   font-size: 12px;
   text-transform: uppercase;
   font-family: "OakesGroteskBold";
+  border-radius: 25px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   letter-spacing: 2px;
@@ -1687,7 +1689,7 @@ section.panel p a {
   filter: none;
 }
 .content-area .gallery-block .image6 {
-  background: url("https://www.quay.com.au/wp-content/themes/quay/images/gallery-image2.jpg")
+  background: url("assets/imag/tacos-bg.jpg")
     no-repeat left top;
   background-size: cover;
   width: 100%;
@@ -2440,8 +2442,8 @@ footer .social-icon a.googleplus-icon:hover {
   text-align: center;
   height: 50px;
   z-index: 999;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+/*   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); */
 }
 .make-btn {
   width: auto;
@@ -2454,7 +2456,7 @@ footer .social-icon a.googleplus-icon:hover {
   text-transform: uppercase;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  margin: 8px 0 8px;
+  margin: 0px 0 8px;
   display: inline-block;
   letter-spacing: 2px;
   font-weight: 700;
@@ -2800,7 +2802,7 @@ footer .social-icon a.googleplus-icon:hover {
     line-height: 60px;
   }
   .content-details .read-btn {
-    padding: 5px 70px 3px;
+    padding: 5px 30px 3px;
   }
   .content-details h3 {
     font-size: 15px;
@@ -3292,17 +3294,17 @@ footer .social-icon a.googleplus-icon:hover {
     margin: 12px 0 0 5px;
   }
   .logo {
-    width: 50%;
+    /* width: 50%; */
     float: right;
   }
   header.active .logo {
-    width: 100%;
+    /* width: 100%; */
   }
   .menu span {
     width: 30px;
   }
   header.active .logo-image {
-    width: 50%;
+    width: 20%;   /* 50% */
   }
   .club-block .main-club {
     max-width: 100% !important;
@@ -3366,12 +3368,17 @@ footer .social-icon a.googleplus-icon:hover {
     padding: 4px 10px;
   }
   header .logo-image1 {
-    width: 165px;
+    width: 80%;  /* 165px */
     float: right;
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
     padding-top: 11px;
+    padding-left: 0px;
+    padding-right: 15px;
+    /* margin-right: -20px; */
+    /* max-width: 60%; */
+    /* box-sizing: border-box; */
   }
   .block1 .left-image {
     -webkit-box-flex: 0;
@@ -4035,7 +4042,7 @@ a.experienceVoucherButton:hover {
     color: #fff !important;
   }
   .home header .hamburger_menu_content {
-    padding-top: 45px;
+    padding-top: 70px;
   }
 }
 @media (min-width: 500px) {
