@@ -1,0 +1,19 @@
+{
+    "name": "elchangarrito",
+    "short_name": "elchangarrito",
+    "icons": [
+        {
+            "src": "https://alibhtty.github.io/ElChangarrito/assets/icons/chan.svg",
+            "sizes": "192x192",
+            "type": "image/svg"
+        },
+        {
+            "src": "https://alibhtty.github.io/ElChangarrito/assets/icons/chan.svg",
+            "sizes": "384x384",
+            "type": "image/svg"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

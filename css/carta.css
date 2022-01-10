@@ -15,7 +15,8 @@
 
 ul li{
     line-height: 12px;
-    font-size: 16px;
+    font-size: 13px;
+    text-transform: uppercase;
     color: #373d48;
     /* font-family: "OakesGroteskBold", Arial, Helvetica, sans-serif; */
     font-family: dinot; 
@@ -102,23 +103,22 @@ ul li{
 }
 .nav-tabs .nav-link.active {
     background: #fff;
-    color: #000;
+    color: #222;
     text-align: center;
     font-weight: 700;
     /* border: 1px solid #fff; */
     border: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     border-radius: 25px;
 }
 .nav-link {
-    color: #000;
+    color: #222;
 }
 .nav-tabs .nav-link:hover {
     background: rgb(250, 250, 250, .5);
     color: #fff;
     /* border: 1.5px solid #000; */
     border-radius: 25px;
-    transition: .6s;
 }
 .single_menu {
     height: 60px;
@@ -139,14 +139,16 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     transition: .3s;
     /* border: 1px solid #ddd; */
-    border-radius: 5px;
+    border-radius: 4px;
 }
 .menu_content {
     padding-left: 150px;   /* 200px */
 }
 .menu_content h4 {
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 24px;
+    color: #111;
+    font-family: dinot;
+    font-weight: 600;
     border-bottom: .8px dashed #ff7b00; /* 1px dashed #c0392b */
     line-height: 30px;
     text-transform: capitalize;
@@ -158,7 +160,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     font-weight: 800;
     float: right;
     /* font-style: italic; */
-    color: #010101;
+    color: #222;
 }
 .menu_content p {
     font-weight: 200;
