@@ -13,7 +13,7 @@
     font-size: 100px;
 } */
 
-ul li a{
+ul li{
     line-height: 12px;
     font-size: 16px;
     color: #373d48;
@@ -34,8 +34,10 @@ ul li a{
     padding-left: 20px;
 }
 
+
+/* LINEA SUB NAV */
 .nav-tabs {
-    border-bottom: 1px solid #ffe600;
+    border-bottom: 0px solid rgb(255, 231, 11);
 }
 
 .nav-tabs .nav-link {
@@ -45,10 +47,6 @@ ul li a{
     border-top-right-radius: 0.25rem; */
 }
 
-.alibhtty a::hover{ 
-    color: #ffe600;
-}
-
 
 
 
@@ -56,7 +54,7 @@ ul li a{
 #our_menu{
     /* background-color: #d5dddb; */
     /* background: #ffedd4; background: -moz-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: -webkit-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); */
-    background: #ffc800; background: -moz-linear-gradient(to bottom,  #fbd035 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #fbd035 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #fbd035 0%,#d5dddb 100%);
+    background: #ffcf22; background: -moz-linear-gradient(to bottom,  #ffcf22 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffcf22 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffcf22 0%,#d5dddb 100%);
     /* background: #fbd035; background: -moz-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: -webkit-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); */
 }
 .page_title {
@@ -116,10 +114,11 @@ ul li a{
     color: #000;
 }
 .nav-tabs .nav-link:hover {
-    background: #fff;
+    background: rgb(250, 250, 250, .5);
     color: #fff;
     /* border: 1.5px solid #000; */
     border-radius: 25px;
+    transition: .6s;
 }
 .single_menu {
     height: 60px;
