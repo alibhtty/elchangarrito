@@ -65,7 +65,7 @@
 }
 .single_menu {
     position: relative;
-    margin-bottom: 75px;
+    margin-bottom: 75px;  /* 75px */
     transition: .3s;
 }
 .single_menu:hover img{
@@ -74,9 +74,9 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 
 }
 .single_menu img {
-    width: 33%;
+    width: auto;   /* 33% */
     position: absolute;
-    height: 140px;
+    height: 140px;   /* 140px */
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     transition: .3s;
@@ -151,6 +151,54 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     width: 95%;
 }
 
-/* div{
-    margin: 10px;
-} */
+
+
+
+
+
+
+
+
+
+/* BOOTSTRAP REPARE */
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+div{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    list-style: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+ul li{
+    line-height: 10px;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: .5rem!important;
+}
+
+
+@media (max-width: 767px) {
+    .single_menu{
+        margin-bottom: 35px;
+    }
+}
