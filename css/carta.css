@@ -3,10 +3,31 @@
     box-sizing: border-box;
 }
 
-
-ul li{
-    line-height: 12px;
+@font-face {
+    font-family: dinot;
+    src: url(https://ali-bhtty.web.app/assets/fonts/dinot.ttf);
 }
+
+/* .nav-link a{
+    font-family:  dinot;
+    font-size: 100px;
+} */
+
+ul li a{
+    line-height: 12px;
+    font-size: 16px;
+    color: #373d48;
+    /* font-family: "OakesGroteskBold", Arial, Helvetica, sans-serif; */
+    font-family: dinot; 
+    font-weight: 600;
+    padding: 0 0 5px 0;
+    /* list-style: outside circle; */
+}
+
+
+
+
+
 
 .col-md-6{
     padding-right: 20px;
@@ -35,7 +56,8 @@ ul li{
 #our_menu{
     /* background-color: #d5dddb; */
     /* background: #ffedd4; background: -moz-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: -webkit-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); */
-    background: #fbd035; background: -moz-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: -webkit-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%);
+    background: #ffc800; background: -moz-linear-gradient(to bottom,  #fbd035 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #fbd035 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #fbd035 0%,#d5dddb 100%);
+    /* background: #fbd035; background: -moz-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: -webkit-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); */
 }
 .page_title {
     padding: 30px 0px;
@@ -126,13 +148,14 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 .menu_content h4 {
     font-size: 22px;
     font-weight: 300;
-    border-bottom: .8px dashed #ff5100; /* 1px dashed #c0392b */
+    border-bottom: .8px dashed #ff7b00; /* 1px dashed #c0392b */
     line-height: 30px;
     text-transform: capitalize;
 }
 .menu_content h4 span {
     font-size: 18px;
-    font-family: OakesGroteskBold;
+    /* font-family: OakesGroteskBold; */
+    font-family: dinot;
     font-weight: 800;
     float: right;
     /* font-style: italic; */
@@ -196,9 +219,12 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 
 
 
+
+
+
 @media (max-width: 767px) {
     .mb-4, .my-4 {
-        margin-bottom: .5rem!important;
+        margin-bottom: .6rem!important;
     }
     .single_menu{
         height: 120px;
