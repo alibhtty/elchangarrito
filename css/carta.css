@@ -1,5 +1,41 @@
+/* BOOTSTRAP RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+ul li{
+    line-height: 12px;
+}
+
+.col-md-6{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ffe600;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    /* border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem; */
+}
+
+.alibhtty a::hover{ 
+    color: #ffe600;
+}
+
+
+
+
+/* LA CARTA CSS */
 #our_menu{
-    background-color: #d5dddb;
+    /* background-color: #d5dddb; */
+    /* background: #ffedd4; background: -moz-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: -webkit-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); */
+    background: #fbd035; background: -moz-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: -webkit-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%);
 }
 .page_title {
     padding: 30px 0px;
@@ -64,6 +100,7 @@
     border-radius: 25px;
 }
 .single_menu {
+    height: 60px;
     position: relative;
     margin-bottom: 75px;  /* 75px */
     transition: .3s;
@@ -76,29 +113,30 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 .single_menu img {
     width: auto;   /* 33% */
     position: absolute;
-    height: 140px;   /* 140px */
+    height: 120px;   /* 140px */
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     transition: .3s;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     border-radius: 5px;
 }
 .menu_content {
-    padding-left: 200px;   /* 200px */
+    padding-left: 150px;   /* 200px */
 }
 .menu_content h4 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 300;
-    border-bottom: 1px dashed #c0392b;
+    border-bottom: .8px dashed #ff5100; /* 1px dashed #c0392b */
     line-height: 30px;
     text-transform: capitalize;
 }
 .menu_content h4 span {
-    font-size: 25px;
+    font-size: 18px;
+    font-family: OakesGroteskBold;
     font-weight: 800;
     float: right;
-    font-style: italic;
-    color: #ffc456;
+    /* font-style: italic; */
+    color: #010101;
 }
 .menu_content p {
     font-weight: 200;
@@ -158,47 +196,21 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 
 
 
-
-
-/* BOOTSTRAP REPARE */
-.row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-div{
-    margin: 0 auto;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    text-decoration: none;
-    list-style: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-
-ul li{
-    line-height: 10px;
-}
-
-.mb-4, .my-4 {
-    margin-bottom: .5rem!important;
-}
-
-
 @media (max-width: 767px) {
+    .mb-4, .my-4 {
+        margin-bottom: .5rem!important;
+    }
     .single_menu{
-        margin-bottom: 35px;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+    .single_menu img{
+        height: 140px;
+    }
+    .menu_content p {
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: .8px;
     }
 }
