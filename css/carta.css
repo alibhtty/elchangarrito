@@ -53,10 +53,10 @@ ul li{
 
 /* LA CARTA CSS */
 #our_menu{
-    /* background-color: #d5dddb; */
-    /* background: #ffedd4; background: -moz-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: -webkit-linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); background: linear-gradient(-63deg,  #ffedd4 0%,#ffb9a2 100%); */
-    background: #ffcf22; background: -moz-linear-gradient(to bottom,  #ffcf22 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffcf22 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffcf22 0%,#d5dddb 100%);
-    /* background: #fbd035; background: -moz-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: -webkit-linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); background: linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%); */
+     /* background-color: #ffc934; */
+        background: #ffc037; background: -moz-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%);
+     /* background-color: #ffbf34; */
+     /* background: #ffc934; background: -moz-linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); */
 }
 .page_title {
     padding: 30px 0px;
@@ -115,11 +115,17 @@ ul li{
     color: #222;
 }
 .nav-tabs .nav-link:hover {
-    background: rgb(250, 250, 250, .5);
+    background-color: rgb(250, 250, 250,);
+    /* background: rgb(250, 250, 250, .5); */
     color: #fff;
     /* border: 1.5px solid #000; */
     border-radius: 25px;
 }
+
+.nav-item .nav-link:hover{
+    background-color: rgb(250, 250, 250, 0.3);
+}
+
 .single_menu {
     height: 60px;
     position: relative;
@@ -179,9 +185,9 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
   width: 140px;
 }
 .btn.btn-danger {
-  background: #c0392b;
-  border: 1px solid #c0392b;
-  transition: .3s;
+  background: #ff9e35;
+  border: 1px solid #ff9e35;
+  transition: .2s;
   position: relative;
   z-index: 1;
   text-transform: capitalize;
@@ -192,7 +198,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 .btn.btn-danger::before {
   position: absolute;
   content: '';
-  background: #ffc456;
+  background: #ffcc5e;
   width: 100%;
   height: 100%;
   left: -100%;
@@ -205,7 +211,6 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     left: 0;
 }
 
-
 .contenedor{
     width: 95%;
 }
@@ -217,13 +222,8 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 
 
 
-
-
-
-
-
-
 @media (max-width: 767px) {
+
     .mb-4, .my-4 {
         margin-bottom: .6rem!important;
     }

@@ -2778,8 +2778,8 @@ footer .social-icon a.googleplus-icon:hover {
     height: 240px;
   }
   .content-area .block1 .block1-left p {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 12.5px;
+    line-height: 18px;
   }
   .content-area .club-block .right-club {
     width: 100%;
@@ -4125,3 +4125,35 @@ a.menubtn {
 
 
 html, body {overflow-x: hidden;}
+
+
+
+
+/* HOVER DESLIZAR */
+.deslis {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+  background-color: rgb(255, 166, 0, 0.3);
+  background-blend-mode: luminosity;
+}
+
+.deslis::before {
+  /* background: hsl(45 100% 70%); */
+  /* background: #d8ff7e; background: -moz-linear-gradient(to right,  #d8ff7e 0%,#97e7a2 100%); background: -webkit-linear-gradient(to right,  #d8ff7e 0%,#97e7a2 100%); background: linear-gradient(to right,  #d8ff7e 0%,#97e7a2 100%); */
+  background: #ffcc5e; background: -moz-linear-gradient(to right,  #ffcc5e 0%,#ffeabb 100%); background: -webkit-linear-gradient(to right,  #ffcc5e 0%,#ffeabb 100%); background: linear-gradient(to right,  #ffcc5e 0%,#ffeabb 100%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  height: 120%;
+  margin-top: -2%;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.deslis:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
