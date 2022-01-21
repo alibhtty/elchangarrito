@@ -18,8 +18,8 @@ ul li{
     font-size: 13px;
     text-transform: uppercase;
     color: #373d48;
-    /* font-family: "OakesGroteskBold", Arial, Helvetica, sans-serif; */
-    font-family: dinot; 
+    font-family: "OakesGroteskBold", Arial, Helvetica, sans-serif;
+    /* font-family: dinot;  */
     font-weight: 600;
     padding: 0 0 5px 0;
     /* list-style: outside circle; */
@@ -153,7 +153,8 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 .menu_content h4 {
     font-size: 24px;
     color: #111;
-    font-family: dinot;
+    font-family: OakesGroteskBold;
+    /* font-family: dinot; */
     font-weight: 600;
     border-bottom: .8px dashed #ff7b00; /* 1px dashed #c0392b */
     line-height: 30px;
@@ -161,8 +162,8 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 }
 .menu_content h4 span {
     font-size: 18px;
-    /* font-family: OakesGroteskBold; */
-    font-family: dinot;
+    font-family: OakesGroteskBold;
+    /* font-family: dinot;  */
     font-weight: 800;
     float: right;
     /* font-style: italic; */
