@@ -5,7 +5,7 @@
       format("eot"),
     url("https://www.quay.com.au/wp-content/themes/quay/fonts/OpenSans-Bold.woff")
       format("woff"),
-    url("https://alibhtty.github.io/ElChangarrito/assets/fonts/OpenSans-Bold.ttf")
+    url("https://alibhtty.github.io/elchangarrito/assets/fonts/OpenSans-Bold.ttf")
       format("truetype"),
     url("https://www.quay.com.au/wp-content/themes/quay/fonts/OpenSans-Bold.svg#OpenSans-Bold")
       format("svg");
@@ -14,12 +14,12 @@
 }
 @font-face {
   font-family: "OakesGroteskBold";
-  src: url("https://alibhtty.github.io/ElChangarrito/assets/fonts/OakesGroteskBold.eot");
+  src: url("https://alibhtty.github.io/elchangarrito/assets/fonts/OakesGroteskBold.eot");
   src: url("https://www.quay.com.au/wp-content/themes/quay/fonts/OakesGroteskBold.eot?#iefix")
       format("embedded-opentype"),
-    url("https://alibhtty.github.io/ElChangarrito/assets/fonts/OakesGroteskBold.woff")
+    url("https://alibhtty.github.io/elchangarrito/assets/fonts/OakesGroteskBold.woff")
       format("woff"),
-    url("https://alibhtty.github.io/ElChangarrito/assets/fonts/OakesGroteskBold.ttf")
+    url("https://alibhtty.github.io/elchangarrito/assets/fonts/OakesGroteskBold.ttf")
       format("truetype"),
     url("https://www.quay.com.au/wp-content/themes/quay/fonts/OakesGroteskBold.svg#OakesGroteskBold")
       format("svg");
@@ -30,12 +30,12 @@
 }
 @font-face {
   font-family: "OakesGroteskRegular";
-  src: url("https://alibhtty.github.io/ElChangarrito/assets/fonts/OakesGroteskRegular.eot");
+  src: url("https://alibhtty.github.io/elchangarrito/assets/fonts/OakesGroteskRegular.eot");
   src: url("https://www.quay.com.au/wp-content/themes/quay/fonts/OakesGroteskRegular.eot?#iefix")
       format("embedded-opentype"),
-    url("https://alibhtty.github.io/ElChangarrito/assets/fonts/OakesGroteskRegular.woff")
+    url("https://alibhtty.github.io/elchangarrito/assets/fonts/OakesGroteskRegular.woff")
       format("woff"),
-    url("https://alibhtty.github.io/ElChangarrito/assets/fonts/OakesGroteskRegular.ttf")
+    url("https://alibhtty.github.io/elchangarrito/assets/fonts/OakesGroteskRegular.ttf")
       format("truetype"),
     url("https://www.quay.com.au/wp-content/themes/quay/fonts/OakesGroteskRegular.svg#OakesGroteskRegular")
       format("svg");
