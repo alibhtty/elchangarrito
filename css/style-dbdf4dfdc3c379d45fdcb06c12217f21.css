@@ -297,7 +297,7 @@ header .right-side {
   width: auto;
   float: right;
   padding: 5px 20px 3px;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   color: #000;
   font-size: 12px;
   text-transform: uppercase;
@@ -309,6 +309,7 @@ header .right-side {
 }
 header .right-side:hover {
   color: #fff;
+  border:2px solid #000;
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -3572,6 +3573,7 @@ a {
     font-size: 18px;
   }
 }
+
 #loader {
   width: 300px;
   height: 200px;
@@ -3580,7 +3582,7 @@ a {
   -moz-animation: spin 5s;
   -webkit-animation: spin 5s;
   -o-animation: spin 5s;
-  background: url("https://www.quay.com.au/wp-content/themes/quay/images/footer-logo.png")
+  background: url("https://alibhtty.github.io/elchangarrito/assets/img/salon-bg.jpg")
     no-repeat center center;
   margin: 0 auto;
   position: absolute;
@@ -4156,4 +4158,8 @@ html, body {overflow-x: hidden;}
 .deslis:hover::before {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+p, address, h1, h2, h3 {
+  cursor: pointer;
 }

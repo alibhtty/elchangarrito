@@ -183,6 +183,65 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body class="home page-template page-template-front-page page-template-front-page-php page page-id-4 group-blog"       oncontextmenu="return false" onkeydown="return false">
 	
+          <!-- BARRA TEXTO -->
+      <section id="section-announcement" data-section-id="announcement" data-section-type="announcement-bar">
+        <div class="AnnouncementBar">
+          <div class="AnnouncementBar__Wrapper">
+
+            <p class="AnnouncementBar__Content Heading delivery" style="cursor: pointer;"
+            class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"
+            >Pedir por Delivery</p>
+          </div>
+        </div>
+      </section>
+
+      <style>
+        #section-announcement {
+           width: 100%;
+           height: 32px;
+           background: #ff56f1;
+           color: #222;
+        }
+        .Heading {
+           font-family: DIN Neuzeit Grotesk, sans-serif;
+           font-weight: 600;
+           line-height: 32px;
+           font-style: normal;
+           color: rgb(61, 0, 66);
+           transition: color .2s ease-in-out;
+           letter-spacing: .1em;
+           text-transform: uppercase
+        }
+        .Heading:hover {
+           background-color: #FFF;
+           transition: 1.4s;
+           transition-delay: .4s;
+           /* filter: invert(100%); */
+           color: #000;
+        }
+        .delivery {
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .SidebarMenu {
+          background-color: #000000;
+          width: 100%;
+        }
+        .SidebarMenu .Heading, .supports-hover .SidebarMenu .Link--primary:hover {
+          color: whitesmoke;
+          text-align: center;
+        }
+        .SidebarMenu .Drawer__Content:before {
+          top: 0;
+          height: 25px;
+          background-image: linear-gradient(black,rgba(0,0,0,.6) 40%,rgba(0,0,0,0));
+        }
+        ul {
+          cursor: pointer;
+        }
+      </style>
+      <!-- END BARRA TEXTO -->
 	
 <!-- Google Tag Manager (noscript) ->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWF3Q86"
@@ -213,14 +272,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="hamburger_menu">
                             <div class="hamburger_close"><img src="assets/icons/cancel.png" alt="" title=""></div>
 
-                        <div class="hamburger_menu_content text-right"><ul id="menu-main-menu" class="mobile_menu-nav-list"><li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-105 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link cta makebtn " href="https://alibhtty.github.io/elchangarrito/" aria-current="page">Inicio</a></li>
-                            <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link cta makebtn " href="carta/">La Carta</a></li>
-<li id="menu-item-391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link cta makebtn " href="index.html#nosotros">Nosotros</a></li>
-<li id="menu-item-13294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13294 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link cta makebtn " href="quay-covid-safe-house-policy2/">Salud &#038; Seguridad</a></li>
-<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link cta makebtn " href="reservation-policy.html">Politicas de Reserva</a></li>
- <li class="mobile_menu-nav-list-item link-btn"><button onclick="toggleReservation()">Hacer una Reserva</button></li>
-                           </ul></div>                        </div>
-                    </div>
+                        <div class="hamburger_menu_content text-right">
+                            <ul id="menu-main-menu" class="mobile_menu-nav-list">
+                                <li id="menu-item-105"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-105 mobile_menu-nav-list-item">
+                                    <a class="mobile_menu-nav-link cta makebtn " href="https://alibhtty.github.io/elchangarrito/"
+                                        aria-current="page">Inicio</a></li>
+                                <li id="menu-item-107"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107 mobile_menu-nav-list-item"><a
+                                        class="mobile_menu-nav-link cta makebtn " href="carta/">La Carta</a></li>
+                                <li id="menu-item-391"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"><a
+                                        class="mobile_menu-nav-link cta makebtn " href="index.html#nosotros">Nosotros</a></li>
+                                <!-- <li id="menu-item-391"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"
+                                    class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
+                                    data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"><a class="mobile_menu-nav-link cta makebtn">Reservar
+                                        Mesa</a></li> -->
+                                <li id="menu-item-13294"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13294 mobile_menu-nav-list-item">
+                                    <a class="mobile_menu-nav-link cta makebtn " href="quay-covid-safe-house-policy2/">Salud &#038;
+                                        Seguridad</a></li>
+                                <li id="menu-item-190"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190 mobile_menu-nav-list-item"><a
+                                        class="mobile_menu-nav-link cta makebtn " href="reservation-policy.html">Politicas de Reserva</a></li>
+
+                                <li id="menu-item-391"
+                                    class="mobile_menu-nav-list-item link-btn"
+                                    class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
+                                    data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"><a class="mobile_menu-nav-link cta makebtn">Reservar una mesa</a></li>
+                                <!-- <li class="mobile_menu-nav-list-item link-btn"><button onclick="toggleReservation()">Hacer una Reserva</button></li> -->
+                            </ul>
+                        </div>
+                        </div>
+                        </div>
+
                     <div class="col-md-4 col-sm-6 logo-image1">
                         <!-- <a href="index.html" class="logo"><img src="wp-content/uploads/2018/07/quay-white.svg" alt="Quay Restaurant Sydney"> </a> -->
                         <a href="">
@@ -230,11 +316,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-4 pull-right col-xs-12 right-button">
                         
                         <!-- updated 11/11/20 -->
-                                                
-                            <a href="index.html#" class="right-side toggleReservation">
-                                Hacer una Reserva                            </a>
+                                <li id="menu-item-391" style="cursor: pointer;"
+                                    class="right-side toggleReservation" class="glf-button"
+                                    data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
+                                    data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"><a style="color: #fff;">Reservar una mesa</a></li>               
+                            <!-- <a href="index.html#" class="right-side toggleReservation">Hacer una Reserva</a>
                                                                                     
-                            <div class="fs_menu_overlay1"></div>
+                             <div class="fs_menu_overlay1"></div>
                             <div class="overlay reservation-widget-open">
                                 <a href="index.html#" class="closebtn toggleReservation"><img src="https://alibhtty.github.io/elchangarrito/assets/icons/cross-black.png" alt="" title=""></a>
                                 <div class="reservation-container">
@@ -263,7 +351,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </style>
 
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- close overlay -->                                            
                             
                                                     
@@ -297,16 +385,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <div class="aos-item" data-aos="fade-up">
                                     <div class="aos-item__inner">
                                         <h2 style="height:80px;">Nosotros</h2>
-                                        <p>Una cocina para quienes les gusta lo auténtico, no te vayas sin probar nuestro sabor tradicional 100% <a href="" style="color:green; text-decoration: none; pointer-events: none">ME</a><a href="" style="color: #fff; -webkit-text-stroke:.6px; -webkit-text-stroke-color:#999; text-decoration: none;pointer-events: none;">XIC</a><a href="" style="color: red; text-decoration: none;pointer-events: none;">ANA</a>, como hecho en casa, pero por los que saben, porque lo nuestro es el maíz, el frijol y el chile, ahuevo!. <br><br> Mira nuestra <a class="deslis" style="background-color: rgb(255, 166, 0, 0.3); text-decoration: none" href="carta/">Carta</a> y <a class="deslis" style="background-color: rgb(255, 166, 0, 0.3); text-decoration: none;" href="index.html#" onclick="toggleReservation()">reserva</a> tu mesa, que en El Changarrito, estamos para servirle.</p>
-                                                                                	<a href="carta/" class="read-btn">VER MAS</a>
+                                        <p>Una cocina para quienes les gusta lo auténtico, no te vayas sin probar nuestro sabor tradicional 100% <a href=""
+                                                style="color:green; text-decoration: none; pointer-events: none">ME</a><a href=""
+                                                style="color: #fff; -webkit-text-stroke:.6px; -webkit-text-stroke-color:#999; text-decoration: none;pointer-events: none;">XIC</a><a
+                                                href="" style="color: red; text-decoration: none;pointer-events: none;">ANA</a>, como hecho en casa, porque lo nuestro es el maíz, el frijol y el chile, ahuevo!. <br><br> Mira nuestra <a class="deslis"
+                                                style="background-color: rgb(255, 166, 0, 0.3); text-decoration: none" href="carta/">Carta</a> y <a
+                                                class="deslis" style="background-color: rgb(255, 166, 0, 0.3); text-decoration: none;" class="glf-button reservation" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true"
+                                                >reserva</a> tu mesa, que en El Changarrito, estamos para servirle.</p>
+                                                                                	<span href="carta/" class="read-btn" style="cursor: pointer;" class="glf-button reservation" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true">RESERVAR UNA MESA</span>
                                                                             </div>
-
-<!-- IN -->                                                                            
-                                                                            <!-- If you would like to customize the button, remove or change the "class" attribute inside the <span> tag -->
-<span class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" > Mire el MENU y ordene</span>
-<span class="glf-button reservation" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true" > Reserva de mesa</span>
-<script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
-<!-- END -->
 
                                 </div>
                             </div>
@@ -653,30 +740,21 @@ Reservas desde 20.00 a 00.00</p>
 
                                     </div>
                                 </div>
+
+
                                 <div class="col-sm-5 col-xs-12 reservation-section">
                                     <div class="resrvation">
 
                                         <h3>RESERVAS</h3>
-                                        <div class="textwidget">
+                                        <span class="makebutton toggleReservation" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true">RESERVAR UNA MESA</span>
+                                        <!-- <div class="textwidget">
                                             <p><a class="makebutton toggleReservation" href="index.html#">Hacer una reserva</a></p>
                                             <p class="foot-content" style="padding-bottom:20px;">Complete la información necesaria en nuestro sistema de reservas, al terminar recibirá un correo de confirmación.<br>La reservas solo están disponibles en El Changarrito de Carrer Calabria, 206 (Eixample)</p>
                                             <p class="tel">Tel : 602 316 994</p>
-                                            <!-- <div class="img-block"><img title=""
-                                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs="
-                                                    data-lazy-src="https://www.quay.com.au/wp-content/uploads/2018/06/footer-icon.png"
-                                                    alt="" /><noscript><img title=""
-                                                        src="https://www.quay.com.au/wp-content/uploads/2018/06/footer-icon.png" alt="" /></noscript><img
-                                                    title="" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs="
-                                                    data-lazy-src="https://www.quay.com.au/wp-content/uploads/2018/06/footer-icon.png"
-                                                    alt="" /><noscript><img title=""
-                                                        src="https://www.quay.com.au/wp-content/uploads/2018/06/footer-icon.png" alt="" /></noscript><img
-                                                    title="" src="data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs="
-                                                    data-lazy-src="https://www.quay.com.au/wp-content/uploads/2018/06/footer-icon.png"
-                                                    alt="" /><noscript><img title=""
-                                                        src="https://www.quay.com.au/wp-content/uploads/2018/06/footer-icon.png" alt="" /></noscript></div> -->
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -712,50 +790,60 @@ Reservas desde 20.00 a 00.00</p>
 
 
         <div class="make-btn-main bottom-button">
-                       <a href="index.html#" class="make-btn" onclick="toggleReservation()">Hacer una Reserva</a>
-            <div class="overlay1">
-                <a href="index.html#" class="closebtn1" onclick="toggleReservation()"><img src="https://alibhtty.github.io/elchangarrito/assets/icons/cross-black.png" alt="" title=""></a>
-                                                                
-                            <h2>Hacer una <br/>Reserva</h2>
-			
-                            <p class="smallprint">Esperamos darle la bienvenida a El Changarrito</p>
-                            <p class="smallprint">Las Reservas solo están disponibles en <br>EL             Changarrito de Calabria 206 (Eixample)</p>
-                 <p class="smallprint">Recibirá un correo electrónico de confirmación una vez que su reserva se haya realizado correctamente. Si no recibe este correo electrónico de confirmación, es posible que haya habido un error en su reserva. Póngase en contacto con nuestro equipo de reservas en <a href="tel:34602316994">(+34) 602316994</a> si tiene alguna duda.</p>							
-
-
-				
-											
-				
-                                 <div class="now-book-it-widget">
-                                <iframe data-id="nbi-widget" src="https://bookings.nowbookit.com/?accountid=8ca6ab1a-3321-4736-81ab-ec2d2624e58f&venueid=3390&theme=light&banner=hidden&bg=transparent&colors=hex,000000" height="400"></iframe>
-
-<script src="https://plugins.nowbookit.com/iframe-resizer-build/bundle.js"></script>
-<p class="smallprint">Si no se siente bien, quédese en casa y llame a nuestro equipo de reservas para posponer su reserva hasta otro momento. En El Changarrito tomamos todas las precauciones posibles para garantizar la salud y la seguridad de nuestros huéspedes, nuestro personal y proveedores. Para obtener información detallada sobre nuestros procedimientos y requisitos de salud y seguridad, visite nuestra pagina de <a href="quay-covid-safe-house-policy/index.html" target="_blank" rel="noopener">Salud &amp; Seguridad</a> </p>
-<p class="smallprint">Visite nuestras políticas de <a href="reservation-policy.html" target="_blank" rel="noopener">reservas y cancelación</a> antes de visitar El Changarrito.</p>								<style>
-iframe {
-  border: 0;
-  display: block;
-}
-.D7SXpls7J3YKt125RqH3v {
-    display: none;
-}			
-.jjOI-Y0w5k5bb74iCUdqo.jss421 {
-    background: #d4ddda;
-}									
-</style>
-                        
-                                    
-            </div>
+            <span class="make-btn" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true">RESERVAR UNA MESA</span>
+            <!-- <a href="index.html#" class="make-btn" onclick="toggleReservation()">Hacer una Reserva</a> -->
+        
+            <!-- <div class="overlay1">
+                <a href="index.html#" class="closebtn1" onclick="toggleReservation()"><img
+                        src="https://alibhtty.github.io/elchangarrito/assets/icons/cross-black.png" alt="" title=""></a>
+        
+                <h2>Hacer una <br />Reserva</h2>
+        
+                <p class="smallprint">Esperamos darle la bienvenida a El Changarrito</p>
+                <p class="smallprint">Las Reservas solo están disponibles en <br>EL Changarrito de Calabria 206 (Eixample)</p>
+                <p class="smallprint">Recibirá un correo electrónico de confirmación una vez que su reserva se haya realizado
+                    correctamente. Si no recibe este correo electrónico de confirmación, es posible que haya habido un error en
+                    su reserva. Póngase en contacto con nuestro equipo de reservas en <a href="tel:34602316994">(+34)
+                        602316994</a> si tiene alguna duda.</p>
+        
+        
+        
+        
+        
+                <div class="now-book-it-widget">
+                    <iframe data-id="nbi-widget"
+                        src="https://bookings.nowbookit.com/?accountid=8ca6ab1a-3321-4736-81ab-ec2d2624e58f&venueid=3390&theme=light&banner=hidden&bg=transparent&colors=hex,000000"
+                        height="400"></iframe>
+        
+                    <script src="https://plugins.nowbookit.com/iframe-resizer-build/bundle.js"></script>
+                    <p class="smallprint">Si no se siente bien, quédese en casa y llame a nuestro equipo de reservas para
+                        posponer su reserva hasta otro momento. En El Changarrito tomamos todas las precauciones posibles para
+                        garantizar la salud y la seguridad de nuestros huéspedes, nuestro personal y proveedores. Para obtener
+                        información detallada sobre nuestros procedimientos y requisitos de salud y seguridad, visite nuestra
+                        pagina de <a href="quay-covid-safe-house-policy/index.html" target="_blank" rel="noopener">Salud &amp;
+                            Seguridad</a> </p>
+                    <p class="smallprint">Visite nuestras políticas de <a href="reservation-policy.html" target="_blank"
+                            rel="noopener">reservas y cancelación</a> antes de visitar El Changarrito.</p>
+                    <style>
+                        iframe {
+                            border: 0;
+                            display: block;
+                        }
+        
+                        .D7SXpls7J3YKt125RqH3v {
+                            display: none;
+                        }
+        
+                        .jjOI-Y0w5k5bb74iCUdqo.jss421 {
+                            background: #d4ddda;
+                        }
+                    </style>
+        
+        
                 </div>
-
-
-<!--
-        <div class="make-btn-main bottom-button read-btn mobile-make-a-reservation" style="padding: 14px;">
-                          <a href="https://www.dimmi.com.au/make-booking/quay?mode=Widget&referrerUrl=http://www.quay.com.au" class="read-btn" style="padding: 7px 25px 7px 25px!important;   color: #000; font-family: OakesGroteskBold; border: solid 2px #000; ">MAKE A RESERVATION</a>
+            </div> -->
+        
         </div>
--->
-
-    </div>
 
 
 
@@ -1076,6 +1164,7 @@ $zoho.salesiq.ready=function(embedinfo)
 $zoho.salesiq.chat.department(["Quay Restaurant Reservations","Quay Event Enquiry"]); 
 }
 </script> -->
+<script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
 
 </body>
 </html>
