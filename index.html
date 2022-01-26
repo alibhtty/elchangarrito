@@ -95,43 +95,44 @@ img.emoji {
 <!-- <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/ec.svg">    --><!-- iPhone4 -->
 
 
-		<style type="text/css" id="wp-custom-css">
-			mobile-make-a-reservation{
-    color: #000 !important;
-    font-family: OakesGroteskBold !important;
-    border: solid 2px #000 !important; 
-    padding: 10px 25px 10px 25px !important;
-}
+<!-- <style type="text/css" id="wp-custom-css">
+    mobile-make-a-reservation {
+        color: #000 !important;
+        font-family: OakesGroteskBold !important;
+        border: solid 2px #000 !important;
+        padding: 10px 25px 10px 25px !important;
+    }
 
-.gform_wrapper span.ginput_product_price {
-    color: #000 !important;
-}		</style>
-		    <style type="text/css">
-        .no-js #loader {
-            display: none;
-        }
+    .gform_wrapper span.ginput_product_price {
+        color: #000 !important;
+    }
+</style>
+<style type="text/css">
+    .no-js #loader {
+        display: none;
+    }
 
-        .js #loader {
-            display: block;
-            position: absolute;
-            left: 100px;
-            top: 0;
-        }
+    .js #loader {
+        display: block;
+        position: absolute;
+        left: 100px;
+        top: 0;
+    }
 
-        .se-pre-con {
-            position: fixed;
-            left: 0px;
-            top: 0px;
-            width: 100%;
-            height: 100%;
-            z-index: 9999;
-            background-color: #fcfcff;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    </style>
+    .se-pre-con {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background-color: #fcfcff;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style> -->
 
-<!-- RESERVAS -->
+<!-- RESERVAS ->
     <script type="text/javascript">
         window.addEventListener("message", function(event) {
             var origin = event.origin || event.originalEvent.origin;
@@ -165,19 +166,8 @@ img.emoji {
                 //do nothing
             }
         }, false);
-    </script>  
+    </script>   -->
 
-    <!-- <meta name="google-site-verification" content="FyCtnlRBJlO13kw-BFvUTCSTXJ6TS0m9kOr7P1desks" /> -->
-	
-<!-- Google Tag Manager ->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KWF3Q86');</script>
-<!-- End Google Tag Manager -->
-	
-	<!-- <meta name="facebook-domain-verification" content="vwfbt79ek6fbxv9klrs56p2excnvus" /> -->
 	
 </head>
 
@@ -189,8 +179,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="AnnouncementBar__Wrapper">
     
                 <p class="AnnouncementBar__Content Heading delivery" style="cursor: pointer;"
-                class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"
-                >Pedir por Delivery</p>
+                data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
+                data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"
+                >Reservar una mesa</p>
               </div>
             </div>
           </section>
@@ -198,14 +189,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <style>
             #section-announcement {
                width: 100%;
-               height: 32px;
-               background: #ff56f1;
+               height: 35px;
+               background: #ff69f2;
                color: #222;
             }
             .Heading {
                font-family: DIN Neuzeit Grotesk, sans-serif;
                font-weight: 600;
-               line-height: 32px;
+               line-height: 35px;
                font-style: normal;
                color: rgb(61, 0, 66);
                transition: color .2s ease-in-out;
@@ -214,7 +205,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             }
             .Heading:hover {
                background-color: #FFF;
-               transition: 1.4s;
+               transition: .8s;
                transition-delay: .4s;
                /* filter: invert(100%); */
                color: #000;
@@ -269,7 +260,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         <div class="fs_menu_overlay"></div>
                         <div class="hamburger_menu">
-                            <div class="hamburger_close"><img src="assets/icons/cancel.png" alt="cancel" title=""></div>
+                        <div class="hamburger_close"><img src="assets/icons/cancel.png" alt="cancel" title=""></div>
 
                         <div class="hamburger_menu_content text-right">
                             <ul id="menu-main-menu" class="mobile_menu-nav-list">
@@ -283,18 +274,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li id="menu-item-391"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"><a
                                         class="mobile_menu-nav-link cta makebtn " href="index.html#nosotros">Nosotros</a></li>
-                                <!-- <li id="menu-item-391"
+                                <li id="menu-item-391"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"
                                     class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
                                     data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"><a class="mobile_menu-nav-link cta makebtn">Reservar
-                                        Mesa</a></li> -->
+                                        Mesa</a></li>
+                                <li id="menu-item-391"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"
+                                    class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131">
+                                    <a class="mobile_menu-nav-link cta makebtn">Pedir a domicilio</a></li>
                                 <li id="menu-item-13294"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13294 mobile_menu-nav-list-item">
                                     <a class="mobile_menu-nav-link cta makebtn " href="quay-covid-safe-house-policy2/">Salud &#038;
                                         Seguridad</a></li>
-                                <li id="menu-item-190"
+                                <!-- <li id="menu-item-190"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190 mobile_menu-nav-list-item"><a
-                                        class="mobile_menu-nav-link cta makebtn " href="reservation-policy.html">Politicas de Reserva</a></li>
+                                        class="mobile_menu-nav-link cta makebtn " href="reservation-policy.html">Politicas de Reserva</a></li> -->
 
                                 <li id="menu-item-391"
                                     class="mobile_menu-nav-list-item link-btn"
@@ -683,9 +678,6 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
             </div>
 
 
-
-
-
   <!-- footer part html -->
             <footer>
                 <div class="row mx-0">
@@ -757,7 +749,7 @@ Reservas desde 20.00 a 00.00</p>
                         </div>
                     </div>
                     <div class="col-md-4 p-0 col-xs-12" style="background: #d5dddb;">  <!-- #dce4e7 -->
-                       <img class="footer-right" style="user-drag: none;user-select: none;-moz-user-select: none;-webkit-user-drag: none;-webkit-user-select: none;-ms-user-select: none;" src="assets/img/arte-huichol.jpg" alt="">
+                       <img class="footer-right" src="assets/img/arte-huichol.jpg" alt="">
                         <!-- <div class="footer-right">
                            			<div class="textwidget"><h2><a href="https://finkgroup.com.au/?utm_source=Quay.com.au&utm_medium=Website&utm_content=&utm_campaign=Footer">FINK</a></h2>
 </div>
@@ -786,9 +778,110 @@ Reservas desde 20.00 a 00.00</p>
 
         <div class="clear"></div>
 
+<!-- BOTON DELIVERY -->
+        <div class="make-btn-main bottom-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131">
 
-        <div class="make-btn-main bottom-button">
-            <span class="make-btn" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true">RESERVAR UNA MESA</span>
+            <div class="carta">
+                <div class="card__icono">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.0964 16.6667C12.0964 18.5077 10.6039 20 8.76297 20C6.922 20 5.42969 18.5077 5.42969 16.6667C5.42969 14.8257 6.922 13.3333 8.76297 13.3333C10.6039 13.3333 12.0964 14.8257 12.0964 16.6667Z"
+                      fill="#22215B" />
+                    <path
+                      d="M14.603 9.93424C11.778 9.5308 9.59641 7.1016 9.59641 4.16673C9.59641 3.33329 9.77463 2.54258 10.0905 1.82496C9.66385 1.72501 9.22058 1.66673 8.76297 1.66673C5.54642 1.66673 2.92969 4.2833 2.92969 7.50001V9.82331C2.92969 11.4725 2.20718 13.0292 0.939636 14.1008C0.61554 14.3774 0.429688 14.7817 0.429688 15.2083C0.429688 16.0126 1.08383 16.6667 1.88797 16.6667H15.638C16.4423 16.6667 17.0964 16.0126 17.0964 15.2083C17.0964 14.7817 16.9106 14.3774 16.5781 14.0933C15.3481 13.0525 14.6347 11.5416 14.603 9.93424Z"
+                      fill="#22215B" />
+                    <path
+                      d="M19.5964 4.16672C19.5964 6.4679 17.7309 8.33328 15.4297 8.33328C13.1285 8.33328 11.263 6.4679 11.263 4.16672C11.263 1.86554 13.1285 0 15.4297 0C17.7309 0 19.5964 1.86554 19.5964 4.16672Z"
+                      fill="#4CE364" />
+                  </svg>
+            
+                </div>
+                <!-- <div class="card__mensaje">
+                  <h2>Reservar una mesa 🌮</h2>
+                  <p style="text-overflow: ellipsis;">Hola, estamos preparando tu mesa.</p>
+                </div> -->
+                <div class="card__mensaje">
+                    <h2>Changarrito Delivery 🌮</h2>
+                    <p>Te llevamos los taquitos a casa!. Revisa nuestra carta y ordene.</p>
+                  </div>
+              </div>
+
+              <style>
+                @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+            
+                .carta {
+                  width: 98%;
+                  height: 75px;
+                  background: #fff;
+                  padding: 14px;
+                  border-radius: 20px;
+                  display: flex;
+                  gap: 14px;
+                  cursor: pointer;
+                  margin-top: -48px;
+                  box-shadow: 0 0 20px;
+                  text-overflow:ellipsis;
+                  /* font-family: Poppins; */
+                }
+                .carta:hover {
+                  background-color: #ddf0ff;
+                  transition-duration: .4s;
+                }   
+                .card__icono {
+                  position: absolute;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  background: #fff1fe;  /* #EEF7FE  */
+                }
+                .card__mensaje {
+                    margin-left: 60px;
+                    margin-right: 0;
+                    width: auto;
+                }
+                .card__mensaje h2 {
+                  font-family: Poppins;
+                  font-size: 17px;
+                  color: #22215B;
+                  font-weight: 500;
+                  margin-top: 3px;
+                  margin-bottom: 7px;
+                  text-align: start;
+                  text-transform:none;
+                }
+                .card__mensaje p {
+                  width: 55%;
+                  font-size: 15px;
+                  text-align: start;
+                  color: rgba(34, 33, 91, 0.6);
+                  line-height: 15px;
+                  text-overflow: Ellipsis;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  margin: 0;
+                }
+                @media (min-width: 600px) {
+                   .carta {
+                    width: 70%; 
+                   }
+                   .card__mensaje p {
+                       width: 420px;
+                   }
+                }
+                @media (max-width: 400px) {
+                   .carta {
+                    width: 100%; 
+                   }
+                   .card__mensaje p {
+                       width: 246px;
+                   }
+                }
+              </style>
+
+            <!-- <span class="make-btn" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true">RESERVAR UNA MESA</span> -->
             <!-- <a href="index.html#" class="make-btn" onclick="toggleReservation()">Hacer una Reserva</a> -->
         
             <!-- <div class="overlay1">
