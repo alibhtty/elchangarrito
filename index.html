@@ -302,10 +302,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         </div>
 
-                    <div class="col-md-4 col-sm-6 logo-image1">
+                    <div class="col-md-4 col-sm-6 logo-image1" style="margin-right: 0px;">
                         <!-- <a href="index.html" class="logo"><img src="wp-content/uploads/2018/07/quay-white.svg" alt="Quay Restaurant Sydney"> </a> -->
                         <a href="">
-                            <h1 class="logo" style="color: #fff;">El Changarrito</h1>
+                            <h1 class="logo" style="color: #fff; white-space: nowrap;">El Changarrito</h1>
                         </a>
                     </div>
                     <div class="col-md-4 pull-right col-xs-12 right-button">
@@ -556,12 +556,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     $(function() {
 
         var images = [
-                    ['assets/img/tacos-bg.jpg', 'lightbuttons', 'lightlogo'], //  /* https://www.quay.com.au/wp-content/uploads/2018/07/Banner-Image-5 */
-                          ['assets/img/virgen.jpg', 'lightbuttons', 'darklogo'], //  /* https://www.quay.com.au/wp-content/uploads/2021/11/AB5I1563_NikkiTo-scaled.jpg */
-                          ['assets/img/tekila-bg.jpg', 'lightbuttons', 'lightlogo'], //   /* https://www.quay.com.au/wp-content/uploads/2019/07/Quay-view.jpg */
-                          ['assets/img/salon-bg.jpg', 'lightbuttons', 'lightlogo'], //
-                          ['assets/img/guacamole-bg.jpg', 'lightbuttons', 'lightlogo'], //  /* https://www.quay.com.au/wp-content/uploads/2021/11/AB5I1465_NikkiTo-scaled */
-                          ['assets/img/taco-al-pastor.jpg', 'lightbuttons', 'lightlogo'], //  /* https://www.quay.com.au/wp-content/uploads/2021/11/AB5I1587_NikkiTo-scaled.jpg */
+                        ['assets/img/tacos-bg.jpg', 'lightbuttons', 'lightlogo'],
+                        ['assets/img/virgen.jpg', 'lightbuttons', 'darklogo'],
+                        ['assets/img/tekila-bg.jpg', 'lightbuttons', 'lightlogo'],
+                        ['assets/img/salon-bg.jpg', 'lightbuttons', 'lightlogo'],
+                        ['assets/img/guacamole-bg.jpg', 'lightbuttons', 'lightlogo'],
+                        ['assets/img/taco-al-pastor.jpg', 'lightbuttons', 'lightlogo'],
                       ];
 
         // get a random number
@@ -661,17 +661,26 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
         <section class="footer-block" data-section-name="footer-block">
 
 
-<!-- SIGN IN -->
+<!-- COLABORADORES -->
             <div class="club-block cf" style="background: #d5dddb">  <!-- #ebe9e6; --> <!-- background-color: #d5dddb; -->
                 <div class="row mx-0">
                     <div class="col-md-6 col-xs-12">
                         <div class="left-club" style="text-align: center">
                             <h2>Colaboradores</h2>
                         </div>
-                        <div style="display:inline-block;">
-                            <img src="assets/icons/jose-cuervo.png" style="width: 160px; opacity: 45%; margin-left: 15px; vertical-align:top;" alt="Jose Cuervo - El Changarrito">
-                            <!-- <img src="assets/icons/estela.png" style="width: 130px; opacity: 50%;" alt="Estela Artois - El Changarrito"> -->
-                            <img src="assets/icons/sabrosita.png" style="width: 160px; opacity: 50%;" alt="Sabrosita 590 - El Changarrito">
+                        <div class="colaboradores-logo">
+                            <div class="colaboraitem">
+                                <img src="assets/icons/jose-cuervo.png" alt="Jose Cuervo - El Changarrito">
+                            </div>
+                            <div class="colaboraitem">
+                                <img src="assets/icons/estela.png" alt="Estela Artois - El Changarrito">
+                            </div>
+                            <div class="colaboraitem">
+                                <img src="assets/icons/sabrosita.png" alt="Sabrosita 590 - El Changarrito">
+                            </div>
+                            <!-- <img src="assets/icons/jose-cuervo.png" style="width: 160px; opacity: 45%; margin-left: 15px; vertical-align:top;" alt="Jose Cuervo - El Changarrito">
+                            <img src="assets/icons/estela.png" style="width: 130px; opacity: 50%;" alt="Estela Artois - El Changarrito">
+                            <img src="assets/icons/sabrosita.png" style="width: 160px; opacity: 50%;" alt="Sabrosita 590 - El Changarrito"> -->
                         </div>
                     </div>
                 </div>
@@ -732,7 +741,7 @@ Reservas desde 20.00 a 00.00</p>
                                 </div>
 
 
-                                <div class="col-sm-5 col-xs-12 reservation-section">
+                                <div style="cursor:pointer" class="col-sm-5 col-xs-12 reservation-section">
                                     <div class="resrvation">
 
                                         <h3>RESERVAS</h3>
@@ -818,8 +827,7 @@ Reservas desde 20.00 a 00.00</p>
                   margin-top: -48px;
                   box-shadow: 0 0 20px;
                   text-overflow:ellipsis;
-                  /* border: 2px solid whitesmoke; */
-                  /* font-family: Poppins; */
+                  font-family: Poppins;
                 }
                 .carta:hover {
                   background-color: #ffd900;
@@ -833,10 +841,9 @@ Reservas desde 20.00 a 00.00</p>
                   justify-content: center;
                   width: 50px;
                   height: 50px;
-                  outline: 4px solid rgba(0,0,0,.03);
+                  /* outline: 4px solid rgba(0,0,0,.03); */
                   border-radius: 50%;
                   background: #fff1fe;  /* #EEF7FE  */
-                  /* border: 4px solid rgb(250, 250, 250); */
                 }
                 .card__icono {
                  	animation: BGcolorChanging-4colors 1.4s linear infinite alternate both;
@@ -858,12 +865,8 @@ Reservas desde 20.00 a 00.00</p>
                  	100% {
                  	  background: #ebd900;
                  	}
-                   } /* 33.3333% {
-                 	  background: #ffcb3c;
-                 	}
-                 	66.666% {
-                 	  background: #ffe5ae;
-                 	} */
+                   }
+
                 .card__mensaje {
                     margin-left: 60px;
                     margin-right: 0;
@@ -880,7 +883,7 @@ Reservas desde 20.00 a 00.00</p>
                   text-transform:none;
                 }
                 .card__mensaje p {
-                  width: 100%;
+                  width: 56%;
                   font-size: 15px;
                   text-align: start;
                   color: rgba(34, 33, 91, 0.6);
@@ -895,7 +898,7 @@ Reservas desde 20.00 a 00.00</p>
                     width: 70%; 
                    }
                    .card__mensaje p {
-                       width: 420px;
+                       width: 400px;
                    }
                 }
                 @media (max-width: 400px) {
