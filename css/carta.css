@@ -115,15 +115,15 @@ ul li{
     color: #222;
 }
 .nav-tabs .nav-link:hover {
-    background-color: rgb(250, 250, 250,);
+    /* background-color: rgb(250, 250, 250,); */
     /* background: rgb(250, 250, 250, .5); */
     color: #fff;
     /* border: 1.5px solid #000; */
     border-radius: 25px;
 }
 
-.nav-item .nav-link:hover{
-    background-color: rgb(250, 250, 250, 0.3);
+.nav-link:hover {
+    background: rgb(250, 250, 250, .5);
 }
 
 .single_menu {

@@ -821,10 +821,11 @@ Reservas desde 20.00 a 00.00</p>
                   margin-top: -48px;
                   box-shadow: 0 0 20px;
                   text-overflow:ellipsis;
+                  /* border: 2px solid whitesmoke; */
                   /* font-family: Poppins; */
                 }
                 .carta:hover {
-                  background-color: #ddf0ff;
+                  background-color: #ffd900; /* #ddf0ff */
                   transition-duration: .4s;
                 }   
                 .card__icono {
@@ -836,7 +837,37 @@ Reservas desde 20.00 a 00.00</p>
                   height: 50px;
                   border-radius: 50%;
                   background: #fff1fe;  /* #EEF7FE  */
+                  /* border: 4px solid rgb(250, 250, 250); */
+                  outline: 4px solid rgba(0,0,0,.03);
                 }
+                .card__icono {
+                 	animation: BGcolorChanging-4colors 1s linear infinite alternate both;
+                 }
+                 
+                 @keyframes BGcolorChanging-4colors {
+                 	0% {
+                 	  background: #ffd900;
+                 	}
+                     15% {
+                 	  background: #ffd900;
+                 	}
+                     25% {
+                 	  background: #ffd900;
+                 	}
+                    70% {
+                         background: rgb(235, 192, 0);
+                     }
+                     
+                    
+                 	100% {
+                 	  background: #ebd900;
+                 	}
+                   } /* 33.3333% {
+                 	  background: #ffcb3c;
+                 	}
+                 	66.666% {
+                 	  background: #ffe5ae;
+                 	} */
                 .card__mensaje {
                     margin-left: 60px;
                     margin-right: 0;
