@@ -1,2 +1,4 @@
-# ElChangarrito
-Mexican Food
+# elchangarrito
+Mexican Food - BCN
+
+Design @alibhtty

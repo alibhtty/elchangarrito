@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900,400italic,700italic,900italic%7CMontserrat:400,700%7CInconsolata:400%7COpen+Sans:300,400,600,600i,700,800&subset=latin,latin-ext" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="theme-color" content="#000000" />
@@ -190,7 +191,7 @@ img.emoji {
             #section-announcement {
                width: 100%;
                height: 35px;
-               background: #ff69f2;
+               background: rgb(255, 0, 255); /* #ff69f2 */
                color: #222;
             }
             .Heading {
@@ -198,14 +199,14 @@ img.emoji {
                font-weight: 600;
                line-height: 35px;
                font-style: normal;
-               color: rgb(61, 0, 66);
+               color: whitesmoke;
                transition: color .2s ease-in-out;
                letter-spacing: .1em;
                text-transform: uppercase
             }
             .Heading:hover {
                background-color: #FFF;
-               transition: .8s;
+               transition: 1.6s;
                transition-delay: .4s;
                /* filter: invert(100%); */
                color: #000;
@@ -276,12 +277,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         class="mobile_menu-nav-link cta makebtn " href="index.html#nosotros">Nosotros</a></li>
                                 <li id="menu-item-391"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"
-                                    class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
-                                    data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"><a class="mobile_menu-nav-link cta makebtn">Reservar
+                                    data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
+                                    data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true"><a class="mobile_menu-nav-link cta makebtn">Reservar
                                         Mesa</a></li>
                                 <li id="menu-item-391"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"
-                                    class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131">
+                                    data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131">
                                     <a class="mobile_menu-nav-link cta makebtn">Pedir a domicilio</a></li>
                                 <li id="menu-item-13294"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13294 mobile_menu-nav-list-item">
@@ -293,8 +294,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                                 <li id="menu-item-391"
                                     class="mobile_menu-nav-list-item link-btn"
-                                    class="glf-button" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
-                                    data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"><a class="mobile_menu-nav-link cta makebtn">Reservar una mesa</a></li>
+                                    data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
+                                    data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true"><a class="mobile_menu-nav-link cta makebtn">Reservar una mesa</a></li>
                                 <!-- <li class="mobile_menu-nav-list-item link-btn"><button onclick="toggleReservation()">Hacer una Reserva</button></li> -->
                             </ul>
                         </div>
@@ -311,9 +312,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         
                         <!-- updated 11/11/20 -->
                                 <li id="menu-item-391" style="cursor: pointer;"
-                                    class="right-side toggleReservation" class="glf-button"
-                                    data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
-                                    data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131"><a style="color: #fff;">Reservar una mesa</a></li>               
+                                    data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true">
+                                    <a class="right-side toggleReservation light">Reservar una mesa</a></li>               
                             <!-- <a href="index.html#" class="right-side toggleReservation">Hacer una Reserva</a>
                                                                                     
                              <div class="fs_menu_overlay1"></div>
@@ -412,7 +412,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <div class="aos-item__inner">
                                         <h2 style="height:80px;">La Carta</h2>
                                         <p>Desde unas botanas para compartir, unos taquitos calientes o una michelada bien fresca, en nuestra carta encontrarás algo que vaya contigo. Las <a class="deslis" style="text-decoration: none;" href="index.html">salsas</a> vienen por separado, porque aquí cada quien se enchila como quiere.</p>
-                                                                                	<a href="carta/" class="read-btn">VER MAS</a>
+                                                                                	<a href="carta/" class="read-btn">Ver la carta</a>
                                                                             </div>
                                 </div>
                             </div>
@@ -761,7 +761,7 @@ Reservas desde 20.00 a 00.00</p>
 <li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-90"><a class="mobile_menu-nav-link cta makebtn " href="index.html" aria-current="page"><u>Quay</u></a></li>
 </ul></div>                        </div> -->
                     </div>
-                    <div style="font-size: 7px;" class="copy-block">All rights reserved | design by <a class="alibhtty" href="http://ali-bhtty.web.app/" style="color: #fff;" target="blank">4B</a>
+                    <div style="font-size: 7px; cursor: default;" class="copy-block">All rights reserved | design by <a class="alibhtty" href="http://ali-bhtty.web.app/" style="color: #fff;" target="blank">4B</a>
 
                         <!-- <style>
                             .alibhtty:hover{
@@ -796,10 +796,7 @@ Reservas desde 20.00 a 00.00</p>
                   </svg>
             
                 </div>
-                <!-- <div class="card__mensaje">
-                  <h2>Reservar una mesa 🌮</h2>
-                  <p style="text-overflow: ellipsis;">Hola, estamos preparando tu mesa.</p>
-                </div> -->
+                <!-- Reservar una mesa 🌮  --  Hola, estamos preparando tu mesa -->
                 <div class="card__mensaje">
                     <h2>Changarrito Delivery 🌮</h2>
                     <p>Te llevamos los taquitos a casa!. Revisa nuestra carta y ordene.</p>
@@ -807,7 +804,7 @@ Reservas desde 20.00 a 00.00</p>
               </div>
 
               <style>
-                @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+                /* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
             
                 .carta {
                   width: 98%;
@@ -825,9 +822,10 @@ Reservas desde 20.00 a 00.00</p>
                   /* font-family: Poppins; */
                 }
                 .carta:hover {
-                  background-color: #ffd900; /* #ddf0ff */
+                  background-color: #ffd900;
                   transition-duration: .4s;
-                }   
+                  transition: 1.4s;
+                }  
                 .card__icono {
                   position: absolute;
                   display: flex;
@@ -835,13 +833,13 @@ Reservas desde 20.00 a 00.00</p>
                   justify-content: center;
                   width: 50px;
                   height: 50px;
+                  outline: 4px solid rgba(0,0,0,.03);
                   border-radius: 50%;
                   background: #fff1fe;  /* #EEF7FE  */
                   /* border: 4px solid rgb(250, 250, 250); */
-                  outline: 4px solid rgba(0,0,0,.03);
                 }
                 .card__icono {
-                 	animation: BGcolorChanging-4colors 1s linear infinite alternate both;
+                 	animation: BGcolorChanging-4colors 1.4s linear infinite alternate both;
                  }
                  
                  @keyframes BGcolorChanging-4colors {
@@ -855,10 +853,8 @@ Reservas desde 20.00 a 00.00</p>
                  	  background: #ffd900;
                  	}
                     70% {
-                         background: rgb(235, 192, 0);
+                         background: rgb(219, 179, 0);
                      }
-                     
-                    
                  	100% {
                  	  background: #ebd900;
                  	}
@@ -884,7 +880,7 @@ Reservas desde 20.00 a 00.00</p>
                   text-transform:none;
                 }
                 .card__mensaje p {
-                  width: 55%;
+                  width: 100%;
                   font-size: 15px;
                   text-align: start;
                   color: rgba(34, 33, 91, 0.6);

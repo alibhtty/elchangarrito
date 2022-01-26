@@ -14,14 +14,14 @@
 } */
 
 ul li{
-    line-height: 12px;
+    line-height: 14px;
     font-size: 13px;
     text-transform: uppercase;
     color: #373d48;
     font-family: "OakesGroteskBold", Arial, Helvetica, sans-serif;
     /* font-family: dinot;  */
     font-weight: 600;
-    padding: 0 0 5px 0;
+    padding: 0 0 8px 0;
     /* list-style: outside circle; */
 }
 
@@ -113,6 +113,7 @@ ul li{
 }
 .nav-link {
     color: #222;
+    padding: .8em 1em  .5em 1em;
 }
 .nav-tabs .nav-link:hover {
     /* background-color: rgb(250, 250, 250,); */
@@ -151,14 +152,14 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     padding-left: 150px;   /* 200px */
 }
 .menu_content h4 {
-    font-size: 24px;
+    font-size: 23px;
     color: #111;
     font-family: OakesGroteskBold;
     /* font-family: dinot; */
     font-weight: 600;
     border-bottom: .8px dashed #ff7b00; /* 1px dashed #c0392b */
     line-height: 30px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .menu_content h4 span {
     font-size: 18px;
