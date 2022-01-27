@@ -3981,6 +3981,10 @@ input#quantity {
 .home header .hamburger_menu_content {
   padding-top: 105px;
 }
+.AnnouncementBar {
+  background: url('../assets/icons/geometri.svg');
+  /* opacity: 50%; */
+}
 .announcement-bar-wrapper {
   width: 100%;
   padding: 8px 15px;

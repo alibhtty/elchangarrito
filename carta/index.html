@@ -210,10 +210,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <li class="mobile_menu-nav-list-item link-btn" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true"><button>Hacer una Reserva</button></li>
                            </ul></div>                        </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 logo-image1">
+                    <div class="col-md-4 col-sm-6 logo-image1" style="margin-right: 0px;">
                         <!-- <a href="index.html" class="logo"><img src="wp-content/uploads/2018/07/quay-white.svg" alt="Quay Restaurant Sydney"> </a> -->
                         <a href="https://alibhtty.github.io/elchangarrito/">
-                            <h1 class="logo" style="color: #fff;">El Changarrito</h1>
+                            <h1 class="logo" style="color: #fff; white-space: nowrap;">El Changarrito</h1>
                         </a>
                     </div>
                     <div class="col-md-4 pull-right col-xs-12 right-button">
@@ -707,42 +707,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
         <div class="clear"></div>
 
-<!-- IMG BG ->
-<script type="text/javascript">
-     /// RANDOMISE HOMEPAGE IMAGERY & BUTTONS ///
-     $=jQuery;
-    $(function() {
-
-        var images = [
-                    ['/assets/img/tacos-bg.jpg', 'lightbuttons', 'lightlogo'], //  /* https://www.quay.com.au/wp-content/uploads/2018/07/Banner-Image-5 */
-                          ['/assets/img/virgen.jpg', 'lightbuttons', 'darklogo'], //  /* https://www.quay.com.au/wp-content/uploads/2021/11/AB5I1563_NikkiTo-scaled.jpg */
-                          ['/assets/img/tekila-bg.jpg', 'lightbuttons', 'lightlogo'], //   /* https://www.quay.com.au/wp-content/uploads/2019/07/Quay-view.jpg */
-                          ['/assets/img/salon-bg.jpg', 'lightbuttons', 'lightlogo'], //
-                          ['/assets/img/guacamole-bg.jpg', 'lightbuttons', 'lightlogo'], //  /* https://www.quay.com.au/wp-content/uploads/2021/11/AB5I1465_NikkiTo-scaled */
-                          ['/assets/img/taco-al-pastor.jpg', 'lightbuttons', 'lightlogo'], //  /* https://www.quay.com.au/wp-content/uploads/2021/11/AB5I1587_NikkiTo-scaled.jpg */
-                      ];
-
-        // get a random number
-        var random = Math.floor(Math.random() * images.length);
-
-        // change the background
-        $('#background').css({
-            'background': 'url(' + images[random][0] + ')  no-repeat center center '
-        });
-
-        // change the button to white if 'light' is selected
-        if (images[random][1] === 'lightbuttons') {
-            $("a.right-side").addClass("light");
-            $(".menuSeven").addClass("light");
-        }
-        /* if (images[random][2] === 'lightlogo') {
-            $(".banner-description").html("<img src='https://www.quay.com.au/wp-content/uploads/2018/07/quay-white.svg?v=3' alt='Restaurante El Changarrito' style='width: 800px;'>");
-        } */
-
-    });
-</script>. -->
-
-
  <script type="text/javascript">
 // creates a animation loop
 function doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTime){
@@ -757,7 +721,6 @@ function doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTim
 function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
   return $(element).animate( {opacity:1}, fadeIn ).delay( visible ).animate( {opacity:0}, fadeOut, onComplete);
 }
-
 
 </script>
 
