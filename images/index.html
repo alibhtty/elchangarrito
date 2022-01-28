@@ -23,10 +23,11 @@
 	<meta property="article:modified_time" content="2022-01-04T04:10:14+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.elchangarrito.es/#website","url":"https://www.elchangarrito.es/","name":"Restaurante El Changarrito","description":"","potentialAction":[{"@type":"SearchAction","target":"https://www.elchangarrito.es/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.elchangarrito.es/#webpage","url":"https://www.elchangarrito.es/","name":"Restaurante El Changarrito","isPartOf":{"@id":"https://www.elchangarrito.es/#website"},"datePublished":"2018-06-25T12:43:15+00:00","dateModified":"2021-11-01T03:59:14+00:00","description":"El Changarrito - Mexican Food","breadcrumb":{"@id":"https://www.elchangarrito.es/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.elchangarrito.es/"]}]},{"@type":"BreadcrumbList","@id":"https://www.elchangarrito.es/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.elchangarrito.es/","url":"https://www.elchangarrito.es/","name":"Home"}}]}]}</script>
-
+    
     <script type="module" crossorigin src="assets/index.9fd8b195.js"></script>
     <link rel="modulepreload" href="assets/vendor.9894b481.js">
     <link rel="stylesheet" href="assets/index.30e8279c.css">
+
 <style type="text/css">
 img.wp-smiley,
 img.emoji {
@@ -84,7 +85,11 @@ img.emoji {
 <meta name="msapplication-TileColor" content="#ffc40d">
 <meta name="theme-color" content="#ffffff">
 
-<!-- <link rel="stylesheet" href="touch.css"> -->
+<link rel="stylesheet" href="touch.css">
+<!-- <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="assets/icons/ec.svg"> -->
+<!-- <link rel="apple-touch-icon" href="assets/icons/chan.svg"> -->    <!-- iPhone -->
+<!-- <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/ec.svg"> -->  <!-- iPad -->
+<!-- <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/ec.svg">    --><!-- iPhone4 -->
 
 <!-- <style type="text/css" id="wp-custom-css">
     mobile-make-a-reservation {
@@ -123,8 +128,6 @@ img.emoji {
     }
 </style> -->
 	
-
-
 </head>
 
 <body class="home page-template page-template-front-page page-template-front-page-php page page-id-4 group-blog"       oncontextmenu="return false" onkeydown="return false">
@@ -303,7 +306,7 @@ img.emoji {
             
 
             <!-- ROLL -->
-            <div id="app" style="height: 100vh;">
+            <div id="app">
                 <!-- Travel slider -->
                 <div class="travel-slider">
                   <!-- Rotating Planet -->
@@ -323,15 +326,14 @@ img.emoji {
                   <!-- Swiper -->
                   <div class="swiper">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131">
+                      <div class="swiper-slide">
                         <img src="images/delivery.jpg" class="travel-slider-bg-image">
                         <div class="travel-slider-content">
                           <div class="travel-slider-title">Delivery</div>
                           <div class="travel-slider-subtitle">Te lo llevamos a casa.</div>
                         </div>
                       </div>
-                      <div class="swiper-slide" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
-                      data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true">
+                      <div class="swiper-slide">
                         <img src="images/reservas.jpg" class="travel-slider-bg-image">
                         <div class="travel-slider-content">
                           <div class="travel-slider-title">Reserva una mesa</div>
@@ -342,7 +344,7 @@ img.emoji {
                         <img src="images/la-carta.jpg" class="travel-slider-bg-image">
                         <div class="travel-slider-content">
                           <div class="travel-slider-title">Nuestra carta</div>
-                          <a class="travel-slider-subtitle" style="color: white;" href="carta">Escanea nuestra carta.</a>
+                          <div class="travel-slider-subtitle">Escanea nuestra carta.</div>
                         </div>
                       </div>
                       <div class="swiper-slide">
@@ -411,7 +413,7 @@ img.emoji {
         </div>
     </div> -->
 
-    <!--  ->
+    <!--  -->
 <div id="slider">
     <figure>
     <img src="assets/img/salon-bg.jpg" alt="">
@@ -420,24 +422,26 @@ img.emoji {
     <img src="assets/img/virgen.jpg" alt="">
     <img src="assets/img/tekila-bg.jpg" alt="">
     </figure>
-    </div> -->
+    </div>
 
     <style>
         /* body { margin: 0; }  */
-        div #slider { overflow: hidden; height: 95vh; }
+        div #slider { overflow: hidden; height: 95vh; } /* las imágenes no van a salir del márgen de la pantalla*/
         div #slider figure img { width: 20%; float: left;}
         
         div #slider figure { 
-            height: 100vh;
+            height: 100vh; /* add */
           position: relative;
           width: 500%;
           margin: 0;
           left: 0;
           text-align: left;
           font-size: 0;
-          animation: 20s slidy infinite;
+          animation: 20s slidy infinite; /* 30s el movimiento se va a mantener de forma indefinida -infinito-*/
         }
         
+        
+        /*esta parte del código define el movimiento de las imágenes a la izquierda*/
         @keyframes slidy {
         0% { left: 0%; }
         20% { left: 0%; }
@@ -462,12 +466,6 @@ img.emoji {
                 position: absolute;
                 top: 0;
                 bottom: 0;
-            }
-            .swiper{
-                overflow:unset;
-            }
-            .swiper-wrapper{
-                height: 40vh;
             }
         }
     </style>
