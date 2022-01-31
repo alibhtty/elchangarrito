@@ -6,7 +6,13 @@
 }
 
 :root {
-    --swiper-theme-color: #007aff
+    --magenta: #FF00FF;
+    --amarillo: #FFBB00;
+    --naranja: #FF7B47;
+    --rojo: #FF5C5C;
+    --morado: #8838FF;
+    --negro: #000000;
+    --swiper-theme-color: #007AFF;
 }
 
 .swiper {

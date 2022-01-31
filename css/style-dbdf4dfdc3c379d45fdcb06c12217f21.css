@@ -424,7 +424,7 @@ header.active .showmenu span {
   left: 0;
   width: 450px;
   height: 100vh;
-  background: #fff;
+  background: var(--morado);
   z-index: 10;
   overflow: auto;
   -webkit-transition: all 300ms ease;
@@ -730,7 +730,7 @@ h1 {
   margin: 0;
   display: block;
   color: #000;
-  font-family: "OakesGroteskBold";
+  font-family: "bebal"; /* OakesGroteskBold */
   font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
@@ -749,7 +749,7 @@ h1 {
   pointer-events: auto;
   font-size: 28px;
   line-height: 32px;
-  padding: 0.75rem 0;
+  padding: 0.85rem 0;
   display: block;
   width: 100%;
   text-align: left;
@@ -954,8 +954,8 @@ h1 {
   text-align: center;
 }
 .our-banner .banner-description:after {
-  background: url("https://www.quay.com.au/wp-content/themes/quay/images/bd-image.png")
-    no-repeat left;
+  /* background: url("https://alibhtty.github.io/elchangarrito/assets/img/salon-bg.jpg")
+    no-repeat left; */
   position: absolute;
   content: "";
   bottom: 107px;
@@ -1039,14 +1039,14 @@ h1 {
   padding-top: 0px !important;
 }
 .left-content .block1-left:after {
-  /* background: url("https://www.quay.com.au/wp-content/themes/quay/images/bd-image.png")
-    no-repeat left; */
+  background: url("../assets/icons/planta.png")
+    no-repeat left;
   position: absolute;
   content: "";
-  bottom: -109px;
-  height: 20px;
+  bottom: -100px;
+  height: 50px;
   display: block;
-  width: 200px;
+  width: 450px;
 }
 .content-area .block1 .block1-left {
   width: 70%;
@@ -1983,7 +1983,7 @@ p.quote-author {
   }
   .mobile_menu-nav-list {
     margin-bottom: 60px;
-    margin-top: 20px;
+    margin-top: 80px;
   }
   .functions-image {
     min-height: 50vh;
@@ -2010,7 +2010,7 @@ p.quote-author {
   margin-bottom: 40px;
 }
 .news-block .news-titile:after {
-  background: url("https://www.quay.com.au/wp-content/themes/quay/images/news-border.jpg")
+  background: url("../news-border.jpg")
     no-repeat bottom center;
   position: absolute;
   content: "";
