@@ -57,7 +57,7 @@ img.emoji {
 <link rel='stylesheet' id='quay-ie7-css'  href='wp-content/themes/quay/css/ie7-ver=20160816.css' type='text/css' media='all' />
 <![endif]-->
 <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> -->
-<!-- <link rel="stylesheet" href="wp-content/themes/quay/css/swiper-bundle.min.css"/> -->
+<link rel="stylesheet" href="wp-content/themes/quay/css/swiper-bundle.min.css"/>
 
 <!-- SLIDE-TEXT -->
 <link rel="stylesheet" href="css/slide-text.css">
@@ -91,6 +91,7 @@ img.emoji {
         border: solid 2px #000 !important;
         padding: 10px 25px 10px 25px !important;
     }
+
     .gform_wrapper span.ginput_product_price {
         color: #000 !important;
     }
@@ -99,12 +100,14 @@ img.emoji {
     .no-js #loader {
         display: none;
     }
+
     .js #loader {
         display: block;
         position: absolute;
         left: 100px;
         top: 0;
     }
+
     .se-pre-con {
         position: fixed;
         left: 0px;
@@ -302,8 +305,7 @@ img.emoji {
             </picture>
             <div class="content">
                 <div class="container">
-                    <h2>Ahora te<br>guardamos <br>la mesa 🗒️</h2><a data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
-                    data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true" class="btn">Reservar ahora!</a>
+                    <h2>Ahora te<br>guardamos <br>la mesa 🗒️</h2><a href="index.html" class="btn">Reservar ahora!</a>
                 </div>
             </div>
         </div>
@@ -543,11 +545,13 @@ function doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTim
     },pauseTime);
   });
 }
+
 // shorthand for in- and out-fading
 function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
   return $(element).animate( {opacity:1}, fadeIn ).delay( visible ).animate( {opacity:0}, fadeOut, onComplete);
 }
 </script>
+
 <script type="text/javascript">
     var duration = 20; // duration in seconds
     var fadeAmount = 0.1; // fade duration amount relative to the time the image is visible
@@ -562,17 +566,23 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
       var timeout = "";
       var timeout2 = "";
       
+
       jQuery(".navigator_dot").click(function(){
+
           var data_index = $(this).attr("data-slide-number");
           var this_id = $(this).attr("id");
           var data_max_rows = $(this).attr("data-max-slides");
           var data_slide_sub_index = $(this).attr("data-slide-sub-index");
+
           var active_element_id = jQuery(".slide"+data_index+"_active_img").attr("id");
           $("#"+active_element_id).removeClass("slide"+data_index+"_active_img");
           $("#"+active_element_id).animate( {opacity:0}, 1500 );
+
           $("#"+this_id+"_img").animate( {opacity:1}, 1000 );
           $("#"+this_id+"_img").addClass("slide"+data_index+"_active_img");
+
           jQuery(".dotnav"+data_index).removeClass('current');
+
           setTimeout(function(){
                   jQuery("#"+this_id).addClass('current');
           },100);
@@ -585,6 +595,7 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
     function customautoslider(val){ // auto slide function in every 5 min
        var loop=1; // image slide start from second for first loop
       var rows = jQuery("#slideshow"+val+" img").size();
+
       setInterval(function(){  
         if (rows == loop) {
           loop=0; // slider image start from first
@@ -996,6 +1007,7 @@ window.addEventListener('LazyLoad::Initialized', function (e) {
 	if (url.match('#')) {
 		$('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
 	} 
+
 	// Change hash for page-reload
 	$('.nav-tabs a').on('shown.bs.tab', function (e) {
 		window.location.hash = e.target.hash;
