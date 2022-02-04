@@ -78,7 +78,7 @@ html{box-sizing:border-box;-ms-overflow-style:scrollbar;}
 .home-main-carousel .home-main-carousel-nav .swiper-pagination-bullet{display:block;width:12px;height:12px;margin-bottom:20px;margin-right:15px;background-color:#FFF;opacity:1;}
 .home-main-carousel .home-main-carousel-nav .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color:var(--naranja);}
 @media (max-width:370px) {
-    .home-main-carousel .slide h2{max-width: 70px;}
+    .home-main-carousel .slide h2{max-width: 100%;}
 }
 @media(min-width:768px){
 .home-main-carousel{height:calc(100vh - 60px);}

@@ -1,4 +1,16 @@
 @charset "utf-8";
+
+:root {
+  --magenta: #FF00FF;
+  --amarillo: #FFBB00;
+  --naranja: #FF7B47;
+  --rojo: #FF5C5C;
+  --morado: #8838FF;
+  --negro: #000000;
+  --blanco: #FFFFFF;
+  --swiper-theme-color: #007AFF;
+}
+
 html,
 body,
 div,
@@ -333,8 +345,6 @@ a.right-side.light:hover {
 }
 .menu span {
   width: 45px;
-  height: 2px;
-  background-color: black;
   margin: 0 0 10px 0;
   display: block;
 }
@@ -422,7 +432,6 @@ header.active .showmenu span {
   position: fixed;
   top: 0;
   left: 0;
-  width: 450px;
   height: 100vh;
   background: var(--morado);
   z-index: 10;
@@ -745,10 +754,10 @@ h1 {
   padding-bottom: 0;
 }
 .mobile_menu-nav-link {
-  color: #000;
+  color: var(--blanco);
   pointer-events: auto;
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 34px;
+  line-height: 30px;
   padding: 0.85rem 0;
   display: block;
   width: 100%;
@@ -761,15 +770,15 @@ h1 {
   content: none;
 }
 .mobile_menu-nav-link:hover {
-  color: #000;
+  color: var(--magenta);
   text-decoration: none;
 }
 .mobile_menu-nav-link.active {
-  color: #000;
+  color: var(--magenta);
 }
 .mobile_menu-nav-link:hover,
 .mobile_menu-nav-link.active {
-  color: #000;
+  color: var(--magenta);
 }
 @media screen and (max-width: 78.75em) {
   .mobile_menu-main {
@@ -3296,7 +3305,7 @@ footer .social-icon a.googleplus-icon:hover {
   .menu {
     width: 100%;
     float: none;
-    margin: 12px 0 0 5px;
+    /* margin: 12px 0 0 5px; */
   }
   .logo {
     /* width: 50%; */
