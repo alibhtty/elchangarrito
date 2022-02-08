@@ -417,13 +417,13 @@ header.active .logo img {
   display: block;
 }
 header.active .menu span {
-  background-color: white;
+  background-color: #FFF;
 }
 header.active .showmenu span {
-  background-color: #000;
+  background-color: #FFF;
 }
 .inner-page .showmenu span {
-  background-color: #000 !important;
+  background-color: #FFF !important;
 }
 .hamburger_container {
   display: block;

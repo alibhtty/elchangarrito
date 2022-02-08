@@ -60,8 +60,8 @@ Swal.fire({
 	cancelButtonAriaLabel: 'Cancelar',
 
     imageUrl: 'https://alibhtty.github.io/elchangarrito/favicon/android-chrome-192x192.png',
-    imageWidth: 200,
-    imageHeight: 200,
+    imageWidth: 160,
+    imageHeight: 160,
     imageAlt: 'Logo',
     /* footer: '<span>Hey!</span>', */
   })
