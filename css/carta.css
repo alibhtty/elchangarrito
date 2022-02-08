@@ -54,7 +54,8 @@ ul li{
 /* LA CARTA CSS */
 #our_menu{
      /* background-color: #ffc934; */
-        background: #ffc037; background: -moz-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%);
+     background: #ff00ff; background: -moz-linear-gradient(to bottom,  #ff00ff 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ff00ff 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ff00ff 0%,#d5dddb 100%);
+        /* background: #ffc037; background: -moz-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); */
      /* background-color: #ffbf34; */
      /* background: #ffc934; background: -moz-linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); */
 }
@@ -142,9 +143,9 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     width: auto;   /* 33% */
     position: absolute;
     height: 120px;   /* 140px */
-    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    /* -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    transition: .3s;
+    transition: .3s; */
     /* border: 1px solid #ddd; */
     border-radius: 4px;
 }

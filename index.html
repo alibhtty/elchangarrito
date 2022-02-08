@@ -120,11 +120,18 @@ img.emoji {
 
 <style>
     :root {
+    --magenta-logo:#e6037e;
     --magenta: #FF00FF;
-    --amarillo: #FFBB00;
+    --amarillo: #ffff00; /* FFBB00 */
+    --azul: #0000ff;
+    --bg-light: #FFF0F8;
+    --light-amarillo: #FFFFE0;
+    --blanco:#FFFFFF;
+
+
     --naranja: #FF7B47;
     --rojo: #FF5C5C;
-    --morado: #8838FF;
+    --morado: #8838FF; /* 8838FF */
     --negro: #000000;
     --swiper-theme-color: #007AFF;
 }
@@ -135,19 +142,61 @@ img.emoji {
 <body class="home page-template page-template-front-page page-template-front-page-php page page-id-4 group-blog"       oncontextmenu="return false" onkeydown="return false">
 	
 <!-- BARRA TEXTO -->
-<section id="section-announcement" data-section-id="announcement" data-section-type="announcement-bar">
-    <div class="AnnouncementBar">
-        <div class="AnnouncementBar__Wrapper">
-            <p class="AnnouncementBar__Content Heading delivery" style="cursor: pointer;"
-            data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
-            data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131">Reservar una mesa</p>
+<section class="top-logo">
+    <div> <!-- class="AnnouncementBar" -->
+        <div> <!-- class="AnnouncementBar__Wrapper" -->
+            <a class="AnnouncementBar__Content Heading delivery" style="cursor: pointer;">
+        <img class="logo-top" src="assets/icons/logo.jpg" alt=""></a>
         </div>
     </div>
-    <style>
+</section>
+<style>
+    .top-logo {
+        width: 100%;
+        height: 60px;
+        background-color: var(--magenta-logo) ;
+        overflow: hidden;
+    }
+    .top-logo img {
+        height: 70px;
+        justify-content: center;
+        margin-top: -7px;
+        margin-right: 45%;
+        margin-left: 37.5%;
+    }
+    .logo-top {
+        width: auto;
+        height: 70px;
+        /* float: right; */
+        /* display: flex;
+        margin-right: 40vh;
+        margin-left: 50%; */
+    }
+
+</style>
+
+<!-- <section id="section-announcement" data-section-id="announcement" data-section-type="announcement-bar">
+    <div class="AnnouncementBar">
+        <div class="AnnouncementBar__Wrapper">
+            <a class="AnnouncementBar__Content Heading delivery" style="cursor: pointer;"
+            data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a"
+            data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131">
+        <img class="logo-top" src="assets/icons/logo.jpg" alt=""></a>
+        </div>
+    </div>
+    <!-- <style>
+        .AnnouncementBar__Wrapper{
+            width: 100%;
+        }
+        .logo-top {
+            width: 300px;
+            margin-left: 50%;
+            margin-right: 50%;
+        }
         #section-announcement {
            width: 100%;
            height: 60px;
-           background: var(--morado); /* #ff69f2 */
+           background: var(--magenta-logo); /* #ff69f2 */
            color: #222;
         }
         .Heading {
@@ -187,7 +236,7 @@ img.emoji {
         ul {
           cursor: pointer;
         }
-    </style>
+    </style> ->
 </section>
 <!-- END BARRA TEXTO -->
             
@@ -210,10 +259,10 @@ img.emoji {
                         <ul id="menu-main-menu" class="mobile_menu-nav-list">
                             <li id="menu-item-105"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-105 mobile_menu-nav-list-item">
-                                <a class="mobile_menu-nav-link cta makebtn" style="color:var(--negro);" href="https://alibhtty.github.io/elchangarrito/" aria-current="page">Inicio</a></li>
+                                <a class="mobile_menu-nav-link cta makebtn" style="color:var(--bg-light)" href="https://alibhtty.github.io/elchangarrito/" aria-current="page">Inicio</a></li>
                             <li id="menu-item-107"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107 mobile_menu-nav-list-item">
-                                <a class="mobile_menu-nav-link cta makebtn" style="color: var(--negro);" href="carta/">La Carta</a></li>
+                                <a class="mobile_menu-nav-link cta makebtn" style="color:var(--bg-light);" href="carta/">La Carta</a></li>
                             <li id="menu-item-391"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item">
                                 <a class="mobile_menu-nav-link cta makebtn" href="index.html#nosotros">Nosotros</a></li>
@@ -523,7 +572,7 @@ img.emoji {
                                                    
 
                         
-                        <div class="col-md-4 p-0 col-xs-12 readmore-box" style="background: #d5dddb">
+                        <div class="col-md-4 p-0 col-xs-12 readmore-box" style="background: var(--light-amarillo)"> <!-- #d5dddb -->
                             <div class="box-bg"> <a href="news2/index.html" class="our-news">CONTINÚA<br>VIENDO <u>AQUÍ</u></a> </div>
                         </div>
                     </div>
@@ -598,7 +647,7 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
 
 <section class="footer-block" data-section-name="footer-block">
 <!-- COLABORADORES -->
-<div class="club-block cf" style="background: #d5dddb">  <!-- #ebe9e6; --> <!-- background-color: #d5dddb; -->
+<div class="club-block cf" style="background: var(--light-amarillo)">  <!-- #ebe9e6; --> <!-- background-color: #d5dddb; -->
     <div class="row mx-0">
         <div class="col-md-6 col-xs-12">
             <div class="left-club" style="text-align: center">
@@ -692,7 +741,7 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
                 </div>
             </div>
         </div>
-        <div class="col-md-4 p-0 col-xs-12" style="background: #d5dddb;">
+        <div class="col-md-4 p-0 col-xs-12" style="background: var(--light-amarillo);">
            <img class="footer-right" src="assets/img/arte-huichol.jpg" alt="">
            <!-- EXTRA -->
             <!-- <div class="footer-right">
@@ -914,6 +963,7 @@ var wpcf7_recaptcha = {"sitekey":"6LdB8MMZAAAAANzsdMZmTb-HhKEEe-5mDPchio0x","act
 /* ]]> */
 </script> -->
 <!-- <script type='text/javascript' src='https://www.quay.com.au/wp-content/cache/min/1/wp-content/plugins/contact-form-7/modules/recaptcha/index-247e7696b496f856d514d199fcc90ab3.js' id='wpcf7-recaptcha-js' data-minify="1"></script> -->
+
 <script>(function(w, d){
 	var b = d.getElementsByTagName("body")[0];
 	var s = d.createElement("script"); s.async = true;
@@ -1096,6 +1146,24 @@ window.addEventListener('LazyLoad::Initialized', function (e) {
 <!-- SLIDE-TEXT -->
 <script type="text/javascript" src="js/slide-text.js"></script>
 <script type="text/javascript" src="js/slide-text-2.js"></script>
-
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/sweetAlert.js"></script>
+<style>
+    .swal2-styled.swal2-confirm{
+        padding: .6em 2em;
+        border-radius: 25px;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform:uppercase;
+        font-family: Helvetica;
+    }
+    .swal2-popup {
+        background-color: red;
+    }
+    .swal2-container.swal2-center>.swal2-popup{
+        background-color: var(--bg-light);
+        border-radius: 15px;
+    }
+</style>
 </body>
 </html>
