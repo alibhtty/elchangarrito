@@ -3,7 +3,7 @@
     --magenta: #FF00FF;
     --amarillo: #ffff00; /* FFBB00 */
     --azul: #0000ff;
-    --bg-light: #FFF0F8;
+    --bg-light: #FFF0F8; /* FFF0F8 */
     --light-amarillo: #FFFFE0;
     --blanco:#FFFFFF;
 
@@ -33,19 +33,16 @@
     font-family:  dinot;
     font-size: 100px;
 } */
-
 ul li{
-    line-height: 14px;
-    font-size: 13px;
+    line-height: 13px;
+    font-size: 14px;
     text-transform: uppercase;
     color: var(--bg-light);  /* #373d48 */
     font-family: colby; /* "OakesGroteskBold" */
     font-weight: 400;
-    padding: 0 0 8px 0;
+    padding: 0 0 4px 0;
     /* list-style: outside circle; */
 }
-
-
 
 
 
@@ -112,7 +109,7 @@ ul li{
 }
 /*Menu starts*/
 .menu_tab {
-    margin: 0 auto;
+    margin: 0;
     justify-content: center;
 }
 .nav-item {
@@ -133,7 +130,7 @@ ul li{
     border-radius: 25px;
 }
 .nav-link {
-    color: #222;
+    color: #FFF;
     padding: .8em 1em  .5em 1em;
 }
 .nav-tabs .nav-link:hover {
@@ -152,8 +149,8 @@ ul li{
     overflow: hidden;
     padding: 3 3 3 3;
     /* overflow: hidden; */
-    border-radius: 10px;
-    margin-bottom: 2vh;
+    border-radius: 14px;
+    margin-bottom: 1.8vh;
 }
 
 .single_menu {
@@ -173,7 +170,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 .single_menu img {
     width: auto;   /* 33% */
     position: absolute;
-    height: 120px;   /* 140px */
+    height: 110px;   /* 140px */
     /* -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     transition: .3s; */
@@ -182,7 +179,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     background-size: cover;
 }
 .menu_content {
-    height: 120px;
+    height: 110px;
     padding-left: 150px;   /* 200px */
     padding-top: 10px;
     padding-right: 10px;
@@ -191,12 +188,12 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 }
 
 .menu_content h4 {
-    font-size: 23px;
+    font-size: 21px;
     color: #111;
     font-family: colby;  /* OakesGroteskBold */
     /* font-family: dinot; */
     font-weight: 600;
-    border-bottom: .8px dashed #ff7b00; /* 1px dashed #c0392b */
+    border-bottom: .9px dashed var(--magenta-logo); /* 1px dashed #c0392b */
     line-height: 30px;
     /* text-transform: capitalize; */
 }
@@ -212,8 +209,8 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 .menu_content p {
     font-family: colby-light;
     font-weight: 400;
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 16px;
+    letter-spacing: 0.3px;
 }
 .menu_btn.btn.btn-danger {
     margin: 0 auto;
@@ -257,7 +254,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     width: 95%;
 }
 .nav{
-    width: 95%;
+    width: 100%;
 }
 
 
@@ -268,21 +265,25 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 
     .mb-4, .my-4 {
         margin-bottom: .6rem!important;
+        margin-left: -8px;
     }
     .single_menu{
         height: 120px;
-        margin-bottom: 30px;
-    }
-    .single_menu img{
-        height: 140px;
+        margin-bottom: 20px;
     }
     .menu_content {
-        height: 140px;
+        height: 130px;
+    }
+    .single_menu img{
+        height: 130px;
+    }
+    .menu_content h4 {
+        line-height: 22px;
     }
     .menu_content p {
         font-weight: 200;
         font-size: 12px;
-        line-height: 16px;
-        letter-spacing: .8px;
+        line-height: 14px;
+        letter-spacing: 0.3px;
     }
 }

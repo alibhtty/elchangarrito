@@ -3,8 +3,8 @@ Swal.fire({
     text: 'También puedes reserva tu mesa, adelanta tu orden o recoger en  el local.',
     color: '#222',
     confirmButtonText: 'Adelante',
-    width: '70%',
-    heigth: '20%',
+    width: '80%',
+    heigth: '50%',
     /* padding: '1rem', */
     /* position: 'center', */
     /* background: '#FFFFFF', */
