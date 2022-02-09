@@ -12,7 +12,7 @@ Swal.fire({
 
     backdrop: `
       rgba(0,0,0,0.95)
-      url("https://sweetalert2.github.io/images/nyan-cat.gif")
+      url("../taco.gif")
       left top
       no-repeat
     `,
@@ -60,7 +60,7 @@ Swal.fire({
 	cancelButtonColor: '#FF0066',
 	cancelButtonAriaLabel: 'Cancelar', */
 
-    imageUrl: 'https://alibhtty.github.io/elchangarrito/assets/img/amarillo.jpg',
+    imageUrl: '../assets/img/bg-init.png',
     imageWidth: 'auto',
     imageHeight: '100% + 5px', /* 160px */
     imageAlt: 'Logo',
