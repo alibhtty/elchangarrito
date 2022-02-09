@@ -180,7 +180,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 }
 .menu_content {
     height: 110px;
-    padding-left: 150px;   /* 200px */
+    padding-left: 120px;   /* 200px */
     padding-top: 10px;
     padding-right: 10px;
     background-color: var(--bg-light);
@@ -273,15 +273,18 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     }
     .menu_content {
         height: 130px;
+        padding-left: 150px;
     }
     .single_menu img{
         height: 130px;
     }
     .menu_content h4 {
         line-height: 22px;
+        margin-left: -10px;
     }
     .menu_content p {
         font-weight: 600;
+        margin-left: -10px;
         font-size: 13px;
         line-height: 16px;
         letter-spacing: 0.1px;
