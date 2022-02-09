@@ -12,6 +12,8 @@
 }
 
 :root {
+
+    --logocolor: rgb(255, 0, 179);
     --magenta: #FF00FF;
     --amarillo: #FFBB00;
     --naranja: #FF7B47;
