@@ -345,7 +345,7 @@ a.right-side.light:hover {
 .menu span {
   width: 45px;
   height: 2px;
-  background-color: black;
+  background-color: #fff;
   margin: 0 0 10px 0;
   display: block;
 }
@@ -397,7 +397,7 @@ header.active .right-side {
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
-  font-family: "OakesGroteskBold";
+  font-family: "colby"; /* OakesGroteskBold */
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 25px;
@@ -610,7 +610,7 @@ p.small-print {
   cursor: pointer;
 }
 h1 {
-  font-family: "OakesGroteskBold";
+  font-family: "colby"; /* OakesGroteskBold */
 }
 .menuOne {
   width: 30px;
@@ -741,8 +741,8 @@ h1 {
   margin: 0;
   display: block;
   color: #000;
-  font-family: "bebal"; /* OakesGroteskBold */
-  font-size: 20px;
+  font-family: "colby"; /* OakesGroteskBold */
+  font-size: 24px;
   line-height: 36px;
   text-transform: uppercase;
   -webkit-transition: all ease-out 0.2s;
@@ -809,8 +809,8 @@ h1 {
 .link-btn a {
   width: auto;
   padding: 4px 20px;
-  border: 2px solid #000;
-  color: #000;
+  border: 2px solid #FFF;
+  color: #FFF;
   font-size: 13px;
   text-transform: uppercase;
   font-family: "OakesGroteskBold";
@@ -827,7 +827,7 @@ h1 {
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  background-color: #000;
+  background-color: #fff;
   position: relative;
 }
 .link-btn button {
@@ -3307,8 +3307,8 @@ footer .social-icon a.googleplus-icon:hover {
   .menu {
     width: 100%;
     float: none;
-    margin-top: 12px;
-    margin-left: 5px;
+    margin-top: 18px;
+    /* margin-left: 5px; */
     /* margin: 12px 0 0 5px; */
   }
   .logo {
@@ -3379,7 +3379,7 @@ footer .social-icon a.googleplus-icon:hover {
     width: 80%;
   }
   header.active .menu span {
-    background-color: #999;
+    background-color: #FFF;
   }
   header {
     height: 59px;
@@ -4064,7 +4064,7 @@ a.experienceVoucherButton:hover {
     color: #fff !important;
   }
   .home header .hamburger_menu_content {
-    padding-top: 90px;
+    padding-top: 60px;
   }
 }
 @media (min-width: 500px) {

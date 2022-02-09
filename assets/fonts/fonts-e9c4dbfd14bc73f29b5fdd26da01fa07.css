@@ -44,3 +44,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+  font-family: "colby";
+  src: url(../assets/fonts/Colby-StBld.ttf);
+}

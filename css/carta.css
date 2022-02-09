@@ -1,11 +1,28 @@
+:root {
+    --magenta-logo:#e6037e;
+    --magenta: #FF00FF;
+    --amarillo: #ffff00; /* FFBB00 */
+    --azul: #0000ff;
+    --bg-light: #FFF0F8;
+    --light-amarillo: #FFFFE0;
+    --blanco:#FFFFFF;
+
+
+    --naranja: #FF7B47;
+    --rojo: #FF5C5C;
+    --morado: #8838FF; /* 8838FF */
+    --negro: #000000;
+    --swiper-theme-color: #007AFF;
+}
+
 /* BOOTSTRAP RESET */
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 @font-face {
-    font-family: dinot;
-    src: url(https://ali-bhtty.web.app/assets/fonts/dinot.ttf);
+    font-family: "colby";
+    src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StBld.ttf);
 }
 
 /* .nav-link a{
@@ -54,8 +71,8 @@ ul li{
 /* LA CARTA CSS */
 #our_menu{
      /* background-color: #ffc934; */
-     background: #ff00ff; background: -moz-linear-gradient(to bottom,  #ff00ff 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ff00ff 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ff00ff 0%,#d5dddb 100%);
-        /* background: #ffc037; background: -moz-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); */
+     background: var(--magenta-logo); background: -moz-linear-gradient(to bottom,  #e6037e 0%,#FFFFE0 100%); background: -webkit-linear-gradient(to bottom,  #e6037e 0%,#FFFFE0 100%); background: linear-gradient(to bottom,  #e6037e 0%,#FFFFE0 100%);
+     /* background: #ffc037; background: -moz-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); */
      /* background-color: #ffbf34; */
      /* background: #ffc934; background: -moz-linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); */
 }

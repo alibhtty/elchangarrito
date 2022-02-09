@@ -575,7 +575,7 @@ pre code {
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    /* padding-left: 15px */
 }
 
 .col {
@@ -3820,7 +3820,7 @@ tbody.collapse.show {
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
+    color: #0b7ff3;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff
 }
