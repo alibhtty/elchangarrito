@@ -210,7 +210,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     font-family: colby-light;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
 }
 .menu_btn.btn.btn-danger {
     margin: 0 auto;
@@ -281,9 +281,15 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
         line-height: 22px;
     }
     .menu_content p {
-        font-weight: 200;
-        font-size: 12px;
-        line-height: 14px;
-        letter-spacing: 0.3px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+    }
+    .menu {
+        width: 100%;
+        float: none;
+        margin-top: 14px;
+        margin-left: 5px;
     }
 }

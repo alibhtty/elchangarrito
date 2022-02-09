@@ -800,10 +800,10 @@ h1 {
     padding-left: 5.5rem;
   }
   .mobile_menu-nav-link {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.5rem;
-    color: var(--blanco);
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+    font-size: 1.9rem;
+    color: var(--bg-light);
   }
 }
 .link-btn a {
@@ -4200,4 +4200,20 @@ p, address, h1, h2, h3 {
 }
 .colaboraitem {
   width: 100%;
+}
+
+/* SWEET ALERT */
+.swal2-title {
+  font-size: 3.2em;
+  font-family: colby;
+  line-height: 1em;
+}
+.swal2-popup {
+  font-size: .7rem !important;
+  font-family: colby;
+  font-weight: 300;
+}
+.swal-button--confirm {
+  font-size: 2em;
+  font-family: colby;
 }

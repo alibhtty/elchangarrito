@@ -1,8 +1,8 @@
 Swal.fire({
     title: 'Nuevo Servicio a domicilio!',
-    text: 'También puedes reserva tu mesa, adelanta tu orden o recoger en  el local.',
+    text: 'Ahora también reserva tu mesa, adelanta tu orden o recoger en  el local.',
     color: '#222',
-    confirmButtonText: 'Adelante',
+    
     width: '80%',
     heigth: '50%',
     /* padding: '1rem', */
@@ -34,7 +34,7 @@ Swal.fire({
     /* timer: 6000, */
     /* timerProgressBar: true, */
 
-    customClass: {
+    /* customClass: {
         container: 'alerta-container',
 	// 	popup:
 	// 	header:
@@ -48,20 +48,21 @@ Swal.fire({
 	    confirmButton: 'alerta-button',
 	// 	cancelButton:
 	// 	footer:	
-    },
+    }, */
 
 	showConfirmButton: 'true',
 	confirmButtonColor: '#e6037e',
+    confirmButtonText: 'Adelante',
 	confirmButtonAriaLabel: 'Adelante',
 
-    showCancelButton: false,
+    /* showCancelButton: false,
 	cancelButtonText: 'Cancelar',
 	cancelButtonColor: '#FF0066',
-	cancelButtonAriaLabel: 'Cancelar',
+	cancelButtonAriaLabel: 'Cancelar', */
 
-    imageUrl: 'https://alibhtty.github.io/elchangarrito/favicon/android-chrome-192x192.png',
-    imageWidth: 160,
-    imageHeight: 160,
+    imageUrl: 'https://alibhtty.github.io/elchangarrito/assets/icons/logo.jpg',
+    imageWidth: 'auto',
+    imageHeight: '100% + 5px', /* 160px */
     imageAlt: 'Logo',
     /* footer: '<span>Hey!</span>', */
   })
