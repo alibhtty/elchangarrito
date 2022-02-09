@@ -60,7 +60,7 @@ Swal.fire({
 	cancelButtonColor: '#FF0066',
 	cancelButtonAriaLabel: 'Cancelar', */
 
-    imageUrl: '../assets/img/bg-init.png',
+    imageUrl: 'https://alibhtty.github.io/elchangarrito/assets/img/bg-init.png',
     imageWidth: 'auto',
     imageHeight: '100% + 5px', /* 160px */
     imageAlt: 'Logo',
