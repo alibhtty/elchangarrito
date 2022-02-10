@@ -86,7 +86,7 @@ html{box-sizing:border-box;-ms-overflow-style:scrollbar;}
     .home-main-carousel .slide h2{max-width: 100%;}
 }
 @media(min-width:768px){
-.home-main-carousel{height:calc(100vh - 60px);}
+.home-main-carousel{height:calc(100vh - 70px);}
 .home-main-carousel .slide h2{font-size:50px;max-width:770px;} /* 70px */
 .home-main-carousel .slide .btn{transform:scale(1);}
 }

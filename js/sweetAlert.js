@@ -11,8 +11,8 @@ Swal.fire({
     /* grow: 'fullscreen', */
 
     backdrop: `
-      rgba(0,0,0,0.95)
-      url("../taco.gif")
+      rgba(0,0,0,0.99)
+      url("")
       left top
       no-repeat
     `,
@@ -31,8 +31,8 @@ Swal.fire({
     }, */
 
     /* backdrop: true, */
-    /* timer: 6000, */
-    /* timerProgressBar: true, */
+    timer: 6000,
+    timerProgressBar: true,
 
     /* customClass: {
         container: 'alerta-container',
