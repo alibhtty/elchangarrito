@@ -235,9 +235,19 @@ img.emoji {
     <!-- BARRA TEXTO -->
 <section style="width: 100%; height: 70px;background-color: var(--magenta-logo)"> <!-- class="top-logo" -->
     <div style="text-align: center"> <!-- class="col-md-4 col-sm-6 logo-image1" -->
-        <a href="">
-            <h1 style="padding-top: 19px;padding-left: 15px; font-size: 35px; color: #fff; white-space: nowrap; margin-bottom: 0px;">el changarrito</h1>
+        <a class="logo-icon" href="">
+            <img style="position: absolute; width: 24px; align-items: center; margin-left: -133px;margin-top: 19px;" src="assets/icons/nacho.png" alt="nacho con guacamole">
+            <!-- <img style="position: absolute; width: 42px; align-items: center; margin-left: 128px;margin-top: 21.5px;" src="assets/icons/guaca.png" alt="guacamole"> -->
+            <h1 class="logo-top" style="padding-top: 19px;padding-left: -13px; font-size: 35px; color: #fff; white-space: nowrap; margin-bottom: 0px">el changarrito</h1>
         </a>
+        <style>
+            @media (max-width: 765px) {
+                .logo-icon {
+                    float: right;
+                    margin-right: 10px;
+                }
+            }
+        </style>
     </div>
 </section>
 
@@ -290,7 +300,7 @@ img.emoji {
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 logo-image1" style="margin-right: 0px;">
-                    <!-- <a href="index.html" class="logo"><img src="wp-content/uploads/2018/07/quay-white.svg" alt="Quay Restaurant Sydney"> </a> -->
+                    <!-- <a href="index.html" class="logo"><img src="wp-content/uploads/2018/07/quay-white.svg" alt="El Changarrito Restaurant"> </a> -->
                     <a href="">
                         <h1 class="logo" style="color: #fff;font-size: 35px; white-space: nowrap;">el changarrito</h1>
                     </a>
@@ -333,7 +343,7 @@ img.emoji {
                 <source
                     srcset="assets/img/amarillo.jpg"
                     media="(max-width: 767px)"><img
-                    src="assets/img/amarillo.jpg" alt="tacos y quesadillas">  <!-- wp-content/uploads/2021/12/Carrusel_Desktop_1200x800_LaSmash.jpg -->
+                    src="https://alibhtty.github.io/elchangarrito/assets/img/amarillo.jpg" alt="tacos y quesadillas">  <!-- wp-content/uploads/2021/12/Carrusel_Desktop_1200x800_LaSmash.jpg -->
             </picture>
             <div class="content">
                 <div class="container">
@@ -346,7 +356,7 @@ img.emoji {
             <picture>
                 <source srcset="assets/img/salon-bg.jpg"
                     media="(max-width: 767px)"><img
-                    src="assets/img/salon-bg.jpg" alt="Restaurante Mexicano El Changarrito">
+                    src="https://alibhtty.github.io/elchangarrito/assets/img/salon-bg.jpg" alt="Restaurante Mexicano El Changarrito">
             </picture>
             <div class="content">
                 <div class="container">
@@ -358,7 +368,7 @@ img.emoji {
 
         <div class="slide swiper-slide">
             <picture>
-                <img src="assets/img/michelada.jpg" alt="La Michelada">
+                <img src="https://alibhtty.github.io/elchangarrito/assets/img/michelada.jpg" alt="La Michelada">
             </picture>
             <div class="content">
                 <div class="container">
@@ -369,12 +379,12 @@ img.emoji {
 
         <div class="slide swiper-slide">
             <picture>
-                <img src="assets/img/quesadillas.jpg"
+                <img src="https://alibhtty.github.io/elchangarrito/assets/img/quesadillas.jpg"
                     alt="Extra ricas">
             </picture>
             <div class="content">
                 <div class="container">
-                    <h2>Te llevamos<br>los tacos a<br>donde estés</h2><a href="index.html" class="btn">Pedir Delivery</a>
+                    <h2>Te llevamos<br>los tacos hasta<br>donde estés</h2><a href="index.html" class="btn">Pedir Delivery</a>
                 </div>
             </div>
         </div>
@@ -391,7 +401,7 @@ img.emoji {
 
         <div class="slide swiper-slide">
             <picture>
-                <img src="assets/img/perejil.jpg" alt="">
+                <img src="https://alibhtty.github.io/elchangarrito/assets/img/perejil.jpg" alt="">
             </picture>
             <div class="content">
                 <div class="container">
@@ -797,7 +807,7 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
         .carta {
           width: 98%;
           height: 75px;
-          background: #ffd900;
+          /* background: #ffd900; */
           padding: 14px;
           border-radius: 20px;
           display: flex;
@@ -815,6 +825,7 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
         }  
         .card__icono {
           position: absolute;
+          background: #ffd900;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -822,9 +833,31 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
           height: 50px;
           /* outline: 4px solid rgba(0,0,0,.03); */
           border-radius: 50%;
-          background: #fff1fe;  /* #EEF7FE  */
+          /* background: #fff1fe;  */ /* #EEF7FE  */
         }
-        .card__icono {
+        .carta {
+         	animation: BGcolorChanging-4colores 1.4s linear infinite alternate both;
+         }
+         
+         @keyframes BGcolorChanging-4colores {
+         	0% {
+         	  background: #ffd900;
+         	}
+             15% {
+         	  background: #ffd900;
+         	}
+             25% {
+         	  background: #ffd900;
+         	}
+            70% {
+                 background: rgb(197, 161, 0);
+             }
+         	100% {
+         	  background: #ebd900;
+         	}
+           }
+
+        .card_icono {
          	animation: BGcolorChanging-4colors 1.4s linear infinite alternate both;
          }
          
@@ -852,7 +885,7 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
             overflow: hidden;
         }
         .card__mensaje h2 {
-          font-family: Poppins;
+          font-family: colby; /* Poppins */
           font-size: 17px;
           color: #22215B;
           font-weight: 500;
@@ -862,6 +895,9 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
           text-transform:none;
         }
         .card__mensaje p {
+          font-family: colby-light;
+          font-weight: 400;
+          letter-spacing: 0px;
           width: 100%;
           font-size: 15px;
           text-align: start;

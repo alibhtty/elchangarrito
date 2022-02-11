@@ -52,3 +52,7 @@
   font-family: "colby-light";
   src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StLt.ttf);
 }
+@font-face {
+  font-family: "colby-black";
+  src: url(../assets/fonts/Colby-StBlk.ttf);
+}

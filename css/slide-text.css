@@ -9,6 +9,14 @@
     font-family: "colby";
     src: url(../assets/fonts/Colby-StBld.ttf);
 }
+@font-face {
+    font-family: "colby-light";
+    src: url(../assets/fonts/Colby-StLt.ttf);
+}
+@font-face {
+    font-family: "colby-black";
+    src: url(../assets/fonts/Colby-StBlk.ttf);
+}
 
 :root {
     --magenta-logo:#E6037E;
@@ -68,14 +76,14 @@ html{box-sizing:border-box;-ms-overflow-style:scrollbar;}
 #home-submenu{display:block;}
 } 
 
-.home-main-carousel h2{font-family: bebal;}
+.home-main-carousel h2{font-family: colby-black;}
 .home-main-carousel{width:100%;height:calc(100vh - 60px);position:relative;}
 .home-main-carousel svg.continue-arrow{position:absolute;bottom:20px;left:50%;margin-left:-30px;z-index:20;width:60px;-webkit-animation:bounce 2s infinite;animation:bounce 2s infinite;}
 .home-main-carousel .slide{position:relative;}
 .home-main-carousel .slide picture img{width:100%;height:100%;object-fit:cover;}
 .home-main-carousel .slide .content{position:absolute;top:0;left:0;right:0;bottom:0;}
-.home-main-carousel .slide h2{margin:50px 0px 30px;font-size:30px;line-height:0.9;letter-spacing:1px;text-align:left;color:#FFF;max-width:80%;text-shadow:0 3px 6px rgba(0, 0, 0, 0.16);}
-.home-main-carousel .slide .btn{margin-left:0px;background-color: var(--naranja);color:#FFF;background-image:url("../assets/icons/right.svg");transform:scale(0.8);transform-origin:top left;transition:all .3s ease;padding:10px 40px 8px 25px;margin-top:7vh;}
+.home-main-carousel .slide h2{margin:50px 0px 30px;font-size:32px;line-height:1;letter-spacing:1px;text-align:left;color:#FFF;max-width:80%;text-shadow:0 3px 6px rgba(0, 0, 0, 0.16);}
+.home-main-carousel .slide .btn{margin-left:0px;background-color: var(--naranja);font-family: colby; color:#FFF;background-image:url("../assets/icons/right.svg");transform:scale(0.8);transform-origin:top left;transition:all .3s ease;padding:10px 40px 8px 25px;margin-top:7vh;}
 .home-main-carousel .slide .btn:hover{background-color:var(--rojo);border-color:var(--rojo);}
 .home-main-carousel .slide .btn.centered{position:absolute;width:120px;left:calc(50% - 93px);bottom:13vh;margin:0;transform:scale(1);}
 .home-main-carousel .slide h2 + .btn{margin-top:-20px;}
