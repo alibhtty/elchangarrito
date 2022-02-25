@@ -3382,11 +3382,11 @@ footer .social-icon a.googleplus-icon:hover {
     background-color: #FFF;
   }
   header {
-    height: 59px;
+    height: 70px; /* 59px */
     padding: 4px 10px;
   }
-  header .logo-image1 {
-    width: 80%;  /* 165px */
+  /* header .logo-image1 {
+    width: 80%;
     float: right;
     -webkit-box-flex: 0;
     -ms-flex: none;
@@ -3394,9 +3394,20 @@ footer .social-icon a.googleplus-icon:hover {
     padding-top: 11px;
     padding-left: 0px;
     padding-right: 15px;
-    /* margin-right: -20px; */
-    /* max-width: 60%; */
-    /* box-sizing: border-box; */
+  } */
+  @media (max-width: 765px) {
+    .logo-icon {
+        float: right;
+        margin-right: 8.5rem;
+    }
+  }
+  @media (max-width: 765px) {
+    .logo-icon2 {
+        float: right;
+        margin-top: -2.25rem;
+        margin-right: 21.7rem;
+        display: none;
+    }
   }
   .block1 .left-image {
     -webkit-box-flex: 0;
