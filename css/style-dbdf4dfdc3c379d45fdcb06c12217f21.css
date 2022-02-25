@@ -301,9 +301,9 @@ header .logo {
 header .logo2 {
   display: none;
 }
-header .logo-image1 img {
+/* header .logo-image1 img {
   width: 125px;
-}
+} */
 header .right-side {
   width: auto;
   float: right;
@@ -358,7 +358,7 @@ a.right-side.light:hover {
 header {
   width: 100%;
   position: fixed;
-  z-index: 999;
+  z-index: 990;
   padding: 20px 40px;
   height: 70px;
   background-color: transparent;
@@ -3404,6 +3404,8 @@ footer .social-icon a.googleplus-icon:hover {
   @media (max-width: 765px) {
     .logo-icon2 {
         float: right;
+        margin-right: 241px;
+        /* margin-top: -2.25rem; */
         margin-top: -2.25rem;
         margin-right: 21.7rem;
     }
