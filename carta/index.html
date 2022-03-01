@@ -22,7 +22,7 @@
 	<meta property="og:site_name" content="Restaurante El Changarrito" />
 	<meta property="article:modified_time" content="2022-01-04T04:10:14+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.elchangarrito.es/#website","url":"https://www.elchangarrito.es/","name":"Restaurante El Changarrito","description":"","potentialAction":[{"@type":"SearchAction","target":"https://www.elchangarrito.es/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.elchangarrito.es/#webpage","url":"https://www.elchangarrito.es/","name":"Restaurante El Changarrito","isPartOf":{"@id":"https://www.elchangarrito.es/#website"},"datePublished":"2018-06-25T12:43:15+00:00","dateModified":"2021-11-01T03:59:14+00:00","description":"El Changarrito - Mexican Food","breadcrumb":{"@id":"https://www.elchangarrito.es/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.elchangarrito.es/"]}]},{"@type":"BreadcrumbList","@id":"https://www.elchangarrito.es/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.elchangarrito.es/","url":"https://www.elchangarrito.es/","name":"Home"}}]}]}</script>
+	<!-- <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.elchangarrito.es/#website","url":"https://www.elchangarrito.es/","name":"Restaurante El Changarrito","description":"","potentialAction":[{"@type":"SearchAction","target":"https://www.elchangarrito.es/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.elchangarrito.es/#webpage","url":"https://www.elchangarrito.es/","name":"Restaurante El Changarrito","isPartOf":{"@id":"https://www.elchangarrito.es/#website"},"datePublished":"2018-06-25T12:43:15+00:00","dateModified":"2021-11-01T03:59:14+00:00","description":"El Changarrito - Mexican Food","breadcrumb":{"@id":"https://www.elchangarrito.es/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.elchangarrito.es/"]}]},{"@type":"BreadcrumbList","@id":"https://www.elchangarrito.es/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.elchangarrito.es/","url":"https://www.elchangarrito.es/","name":"Home"}}]}]}</script> -->
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -93,86 +93,42 @@ img.emoji {
 
 
 		<style type="text/css" id="wp-custom-css">
-			mobile-make-a-reservation{
+		mobile-make-a-reservation{
     color: #000 !important;
     font-family: OakesGroteskBold !important;
     border: solid 2px #000 !important; 
     padding: 10px 25px 10px 25px !important;
-}
-
-.gform_wrapper span.ginput_product_price {
-    color: #000 !important;
-}		</style>
-		    <style type="text/css">
-        .no-js #loader {
-            display: none;
-        }
-
-        .js #loader {
-            display: block;
-            position: absolute;
-            left: 100px;
-            top: 0;
-        }
-
-        .se-pre-con {
-            position: fixed;
-            left: 0px;
-            top: 0px;
-            width: 100%;
-            height: 100%;
-            z-index: 9999;
-            background-color: #fcfcff;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
+    }
+    
+    .gform_wrapper span.ginput_product_price {
+        color: #000 !important;
+    }		
     </style>
 
-<!-- RESERVAS ->
-    <script type="text/javascript">
-        window.addEventListener("message", function(event) {
-            var origin = event.origin || event.originalEvent.origin;
-            if (/\.thefork\.com\.es$/.test(origin)) {
-                // event is from thefork
+    <style type="text/css">
+    .no-js #loader {
+        display: none;
+    }
 
-                if (event.data.BookingReference) {
+    .js #loader {
+        display: block;
+        position: absolute;
+        left: 100px;
+        top: 0;
+    }
 
-                    $(".widgetfeedback").html("Booking made! Reference:");
-                    $(".widgetfeedback").html(event.data.BookingReference);
-
-                    /*            
-                    	"BookingReference": "BFL9RQV",
-                    	"Date": "2016-09-06T17:15:00",
-                    	"ServiceName": null,
-                    	"Covers": 3,
-                    	"DealName": "",
-                    	"Name": "Test McTest",
-                    	"PhoneNumber": "0422222222",
-                    	"EmailAddress": "test@example.org",
-                    	"CompanyName": null,
-                    	"SpecialRequests": null            
-                      */
-                    // Booking is complete - trigger your booking complete tag
-                    // For example, to trigger an event in Google Tag Manager:
-                    event.data.event = 'bookingComplete';
-                    dataLayer.push(event.data)
-                }
-
-            } else {
-                //do nothing
-            }
-        }, false);
-    </script>   -->
-
-    <!-- <meta name="google-site-verification" content="FyCtnlRBJlO13kw-BFvUTCSTXJ6TS0m9kOr7P1desks" /> -->
-	
-<!-- Google Tag Manager ->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KWF3Q86');</script>
-<!-- End Google Tag Manager -->
+    .se-pre-con {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background-color: #fcfcff;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    </style>
 	
 	<!-- <meta name="facebook-domain-verification" content="vwfbt79ek6fbxv9klrs56p2excnvus" /> -->
 	
@@ -213,8 +169,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div class="col-md-4 col-sm-6 logo-image1" style="margin-right: 0px;">
                         <!-- <a href="index.html" class="logo"><img src="wp-content/uploads/2018/07/quay-white.svg" alt="Quay Restaurant Sydney"> </a> -->
-                        <a href="https://alibhtty.github.io/elchangarrito/">
-                            <h1 class="logo" style="color: #fff; white-space: nowrap;">el changarrito</h1>
+                        <a class="logo-icon2" href="https://alibhtty.github.io/elchangarrito/">
+                            <!-- <h1 class="logo" style="color: #fff; white-space: nowrap;">el changarrito</h1> -->
+                            <img style="position: absolute; width: 260px; align-items: center; margin-left: 91px; margin-top: -1px;" src="../assets/icons/vector.svg" alt="el changarrito">
                         </a>
                     </div>
                     <div class="col-md-4 pull-right col-xs-12 right-button">
@@ -222,37 +179,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <!-- updated 11/11/20 -->
                                                 
                             <a data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true" href="index.html#" class="right-side toggleReservation light">
-                                Reservar una mesa                            </a>
-                                                                                    
-                            <!-- <div class="fs_menu_overlay1"></div>
-                            <div class="overlay reservation-widget-open">
-                                <a href="index.html#" class="closebtn toggleReservation"><img src="https://alibhtty.github.io/elchangarrito/assets/icons/cross-black.png" alt="" title=""></a>
-                                <div class="reservation-container">
-                                    <h2>Hacer una Reserva</h2>
-                                    <div class="header-reservation-text">
-                                        <p class="smallprint">Esperamos darle la bienvenida a El Changarrito</p>
-                                        <p class="smallprint">Las Reservas solo están disponibles en <br>EL Changarrito de Calabria 206 (Eixample)</p>
-<p class="smallprint">Recibirá un correo electrónico de confirmación una vez que su reserva se haya realizado correctamente. Si no recibe este correo electrónico de confirmación, es posible que haya habido un error en su reserva. Póngase en contacto con nuestro equipo de reservas en <a href="tel:34602316994">(+34) 602316994</a> si tiene alguna duda.</p>
-<p class="smallprint">Si no se siente bien, quédese en casa y llame a nuestro equipo de reservas para posponer su reserva hasta otro momento. En El Changarrito tomamos todas las precauciones posibles para garantizar la salud y la seguridad de nuestros huéspedes, nuestro personal y proveedores. Para obtener información detallada sobre nuestros procedimientos y requisitos de salud y seguridad, visite nuestra pagina de <a href="quay-covid-safe-house-policy/index.html" target="_blank" rel="noopener">Salud &amp; Seguridad</a> </p>
-<p class="smallprint">Visite nuestras políticas de <a href="https://alibhtty.github.io/elchangarrito/reservation-policy" target="_blank" rel="noopener">reservas y cancelación</a> antes de visitar El Changarrito.</p>
-&nbsp;
+                                Reservar una mesa 
+                            </a>
 
-&nbsp;                                    </div>
-                                </div>
-                                  
-                            </div> -->
-                                                                
-                            
-                                                    
-                        
                         </div>
                     </div>
             </header>   
-            
-        <!--banner part html -->
-<!-- <section class="banner" id="background">  <!-- style="-webkit-animation: fadein 4s; -moz-animation: fadein 4s; -ms-animation: fadein 4s; -o-animation: fadein 4s; animation: fadein 4s; background: #ccc;" ->
         
-    </section> -->
+    </section>
 </section>
 
 <div >
@@ -792,6 +726,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </div>
   </section>
+</div>
 
         </div>
         <div class="clear"></div>
@@ -869,23 +804,6 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
 
 <!-- FOOTER -->
         <section class="footer-block" data-section-name="footer-block">
-
-
-<!-- SIGN IN ->
-            <div class="club-block cf" style="background: #d5dddb">  <!-- #ebe9e6; --> <!-- background-color: #d5dddb; ->
-                <div class="row mx-0">
-                    <div class="col-md-6 col-xs-12">
-                        <div class="left-club" style="text-align: center">
-                            <h2>Colaboradores</h2>
-                        </div>
-                        <div style="display:inline-block;">
-                            <img src="/assets/icons/jose-cuervo.png" style="width: 160px; opacity: 45%; margin-left: 15px; vertical-align:top;" alt="Jose Cuervo - El Changarrito">
-                            <img src="/assets/icons/sabrosita.png" style="width: 160px; opacity: 50%;" alt="Sabrosita 590 - El Changarrito">
-                        </div>
-                    </div>
-                </div>
-            </div>. -->
-
 
   <!-- footer part html -->
             <footer>
