@@ -741,7 +741,7 @@ h1 {
   margin: 0;
   display: block;
   color: #000;
-  font-family: "colby"; /* OakesGroteskBold */
+  font-family: "days"; /* Colby / OakesGroteskBold */
   font-size: 24px;
   line-height: 36px;
   text-transform: uppercase;
@@ -3311,10 +3311,10 @@ footer .social-icon a.googleplus-icon:hover {
     margin-left: 5px;
     /* margin: 12px 0 0 5px; */
   }
-  .logo {
-    /* width: 50%; */
+  /* .logo {
+    margin-top: -3.20rem;
     float: right;
-  }
+  } */
 /*   header.active .logo {
     /* width: 100%; /
   } */
@@ -3398,16 +3398,25 @@ footer .social-icon a.googleplus-icon:hover {
   @media (max-width: 765px) {
     .logo-icon {
         float: right;
-        margin-right: 8.5rem;
+        margin-right: .5rem;
     }
   }
   @media (max-width: 765px) {
-    .logo-icon2 {
+    .logo {
         float: right;
-        margin-right: 241px;
-        /* margin-top: -2.25rem; */
-        margin-top: -2.25rem;
-        margin-right: 21.7rem;
+        margin-top: -3.25rem;
+        margin-right: 0rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .logo{
+      margin-top: -2.2rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .logo{
+      margin-top: 0;
+      margin-left: 2rem;
     }
   }
   .block1 .left-image {
@@ -4205,7 +4214,7 @@ p, address, h1, h2, h3 {
   justify-content: center;
 }
 .colaboraitem img{
-  min-width: 130px;
+  min-width: 150px;
   width: 100%;
   /* width: 190px; */
   padding: 10px 15px 20px 15px;

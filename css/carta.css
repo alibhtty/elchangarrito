@@ -11,6 +11,8 @@
     --naranja: #FF7B47;
     --rojo: #FF5C5C;
     --morado: #8838FF; /* 8838FF */
+    --morado-vino: #7a1c5e;
+    --magenta-oscuro: #E6037E;
     --negro: #000000;
     --swiper-theme-color: #007AFF;
 }
@@ -120,8 +122,8 @@ ul li{
     transition: .2s;
 }
 .nav-tabs .nav-link.active {
-    background: #fff;
-    color: #222;
+    background: #fff; /* fff */
+    color:var(--magenta-logo);
     text-align: center;
     font-weight: 700;
     /* border: 1px solid #fff; */
@@ -189,7 +191,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 
 .menu_content h4 {
     font-size: 21px;
-    color: #111;
+    color: var(--morado-vino); /* 111 */
     font-family: colby;  /* OakesGroteskBold */
     /* font-family: dinot; */
     font-weight: 600;
@@ -204,9 +206,10 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     font-weight: 800;
     float: right;
     /* font-style: italic; */
-    color: #222;
+    color: #222; /* 222 */
 }
 .menu_content p {
+    color: var(--magenta-oscuro);
     font-family: colby-light;
     font-weight: 400;
     font-size: 16px;

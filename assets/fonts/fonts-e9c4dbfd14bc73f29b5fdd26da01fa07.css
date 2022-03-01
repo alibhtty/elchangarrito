@@ -56,3 +56,9 @@
   font-family: "colby-black";
   src: url(../assets/fonts/Colby-StBlk.ttf);
 }
+
+
+@font-face {
+  font-family: "days";
+  src: url(../fonts/Days.otf);
+}
