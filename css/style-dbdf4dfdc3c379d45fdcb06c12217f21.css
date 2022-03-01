@@ -3395,6 +3395,15 @@ footer .social-icon a.googleplus-icon:hover {
     padding-left: 0px;
     padding-right: 15px;
   } */
+
+  /* .logo-top, .logo h1{
+    font-size: 45px;
+  } */
+
+  .top-logo{
+    font-size: 55px;
+  }
+
   @media (max-width: 765px) {
     .logo-icon {
         float: right;
@@ -3419,6 +3428,8 @@ footer .social-icon a.googleplus-icon:hover {
       margin-left: 2rem;
     }
   }
+
+
   .block1 .left-image {
     -webkit-box-flex: 0;
     -ms-flex: none;
