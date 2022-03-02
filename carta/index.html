@@ -129,19 +129,45 @@ img.emoji {
         background-repeat: no-repeat;
     }
     </style>
-	
-	<!-- <meta name="facebook-domain-verification" content="vwfbt79ek6fbxv9klrs56p2excnvus" /> -->
-	
+
+
+<style>  
+  .alergenos{
+    width: 10rem;
+  }
+  .alergenos img{
+    padding: 0 .1rem;
+    border-radius: 0;
+    float: right;
+    position: inherit;
+    margin-top: 0px;
+    /* background-color: aqua; */
+    width: 25px;
+    height: auto;
+  }
+  </style>
+
 </head>
 
 <body class="home page-template page-template-front-page page-template-front-page-php page page-id-4 group-blog" oncontextmenu="return false" onkeydown="return false>
 	
             
-    <div id="wrapper">
+<div id="wrapper">
         
         <!-- header part html -->
         <section class='panel home' data-section-name="home">
 
+    <!-- BARRA TEXTO -->
+    <section style="width: 100%; height: 70px;background-color: var(--magenta-logo)">
+      <div style="text-align: center">
+          <a class="logo-icon" href="">
+              <!-- <img style="position: absolute; width: 24px; align-items: center; margin-left: -136px;margin-top: 17px;z-index: 1000;" src="assets/icons/nacho.png" alt="nacho con guacamole"> -->
+              <h1 class="logo-top" style="font-family: days; font-size: 40px; padding-top: 8px;padding-left: -13px; color: #fff; white-space: nowrap; margin-bottom: 0px">el changarrito</h1>
+          </a>
+      </div>
+  </section>
+
+  <!-- HEADER -->
             <header >
                 <div class="row">
                     <div class="col-md-4 logo-image">
@@ -169,10 +195,9 @@ img.emoji {
                     </div>
                     <div class="col-md-4 col-sm-6 logo-image1" style="margin-right: 0px;">
                         <!-- <a href="index.html" class="logo"><img src="wp-content/uploads/2018/07/quay-white.svg" alt="Quay Restaurant Sydney"> </a> -->
-                        <a class="logo-icon2" href="https://alibhtty.github.io/elchangarrito/">
-                            <!-- <h1 class="logo" style="color: #fff; white-space: nowrap;">el changarrito</h1> -->
-                            <img style="position: absolute; width: 260px; align-items: center; margin-left: 91px; margin-top: -1px;" src="../assets/icons/vector.svg" alt="el changarrito">
-                        </a>
+                        <a class="logo" href="">
+                          <h1 class="top-logo" style="font-family: days; color: #fff; font-size: 40px; margin-top: -.7rem; white-space: nowrap;">el changarrito</h1>
+                      </a>
                     </div>
                     <div class="col-md-4 pull-right col-xs-12 right-button">
                         
@@ -184,23 +209,12 @@ img.emoji {
 
                         </div>
                     </div>
-            </header>   
-        
-    </section>
-</section>
+            </header>        
+        </section>
 
-<div >
 <!--- Restaurant Menu -->
-<section id="our_menu" class="pt-5 pb-5">
+<section id="our_menu" class="pb-5"> <!-- pt-5 -->
     <div class="contenedor"><br>
-      <!-- <div class="row">
-        <div class="col-lg-12">
-          <div class="page_title text-center mb-4">
-            <h1>La Carta</h1>
-            <div class="single_line"></div>
-          </div>
-        </div>
-      </div> -->
       <div class="row">
         <ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist">
           <li class="nav-item">
@@ -238,7 +252,11 @@ img.emoji {
                   <div class="single_menu">
                     <img src="../assets/img/carta/nachos.png" alt="nachos con guacamole"> <!-- https://i.imgur.com/kbpceNv.jpg -->
                     <div class="menu_content">
-                      <h4>Nachos con Guacamole<span>€10.00</span></h4>
+                      <h4>Nachos con Guacamole
+                        <a class="alergenos" href="">
+                        <img src="../assets/icons/alergenos/lacteos.svg" alt="">
+                      </a>
+                    </h4>
                       <p>Crujientes totopos de maíz con frijoles negros, queso fundido, pico de gallo y guacamole por encima.</p>
                     </div>
                   </div>
@@ -247,7 +265,7 @@ img.emoji {
                   <div class="single_menu">
                     <img src="../assets/img/carta/guacamole.png" alt="guacamole">
                     <div class="menu_content">
-                      <h4>Guacamole<span>€6.90</span></h4>
+                      <h4>Guacamole</h4> <!-- <span>€6.90</span> -->
                       <p>Aguacate martajado al momento con jitomate, cebolla, cilantro, queso fresco y aceite de oliva.</p>
                     </div>
                   </div>
@@ -256,7 +274,11 @@ img.emoji {
                   <div class="single_menu">
                     <img src="../assets/img/carta/ensalada-de-nopales.png" alt="ensalada de nopales">
                     <div class="menu_content">
-                      <h4>Ensalada de Nopales<span>€7.95</span></h4>
+                      <h4>Ensalada de Nopales
+                        <a class="alergenos" href="">
+                          <img src="../assets/icons/alergenos/lacteos.svg" alt="">
+                        </a>
+                      </h4>
                       <p>Nopalitos frescos con cebolla, jitomate, cilantro, queso fresco y aceite de oliva.</p>
                     </div>
                   </div>
@@ -268,7 +290,12 @@ img.emoji {
                   <div class="single_menu">
                     <img src="../assets/img/carta/sincronizada.png" alt="sincronizada">
                     <div class="menu_content">
-                      <h4>Sincronizada<span>€5.00</span></h4>
+                      <h4>Sincronizada
+                        <a class="alergenos" href="">
+                          <img src="../assets/icons/alergenos/gluten.svg" alt="">
+                          <img src="../assets/icons/alergenos/lacteos.svg" alt="">
+                        </a>
+                      </h4>
                       <p>Tortillas de trigo con jamón York, queso fundido y pico de gallo.</p>
                     </div>
                   </div>
@@ -277,7 +304,11 @@ img.emoji {
                   <div class="single_menu">
                     <img src="../assets/img/carta/frijoles-de-la-olla.png" alt="frijoles de la olla">
                     <div class="menu_content">
-                      <h4>Frijoles de la Olla<span>€5.80</span></h4>
+                      <h4>Frijoles de la Olla
+                        <a class="alergenos" href="">
+                          <img src="../assets/icons/alergenos/lacteos.svg" alt="">
+                        </a>
+                      </h4>
                       <p>Frijoles negros de la olla con cebolla, cilantro, queso fresco, y acompañados con totopos.</p>
                     </div>
                   </div>
@@ -726,12 +757,11 @@ img.emoji {
       </div>
     </div>
   </section>
-</div>
 
         </div>
         <div class="clear"></div>
 
- <script type="text/javascript">
+<!--  <script type="text/javascript">
 // creates a animation loop
 function doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTime){
   fadeInOut(element,fadeInTime, visibleTime, fadeOutTime ,function(){
@@ -800,7 +830,7 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
           loop++;
       }, 5000);
     }
-</script>
+</script> -->
 
 <!-- FOOTER -->
         <section class="footer-block" data-section-name="footer-block">
@@ -811,7 +841,6 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
                     <div class="col-md-8 p-0 col-xs-12">
                         <div class="footer-left">
 
-                            <!-- <div class="footer-logo"><img src="https://www.quay.com.au/wp-content/uploads/2018/07/quay-black.svg" alt="Quay Restaurant Sydney"></div> -->
                             <!-- <div class="footer-logo"><h3>CHANGARRITO</h3></div> -->
                             <div class="row">
                                 <div class="col-sm-3 col-xs-12 sitemap-section">
@@ -905,6 +934,7 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
         </section>
 
         <div class="clear"></div>
+        
 
 
 <!-- BOTON DELIVERY -->
@@ -1038,12 +1068,11 @@ function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
     </style>
 </div>
 
-
-<script type='text/javascript' src='https://www.quay.com.au/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
-<script type='text/javascript' id='wp-polyfill-js-after'>
+<!-- <script type='text/javascript' src='https://www.quay.com.au/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script> -->
+<!-- <script type='text/javascript' id='wp-polyfill-js-after'>
 ( 'fetch' in window ) || document.write( '<script src="https://www.quay.com.au/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://www.quay.com.au/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://www.quay.com.au/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://www.quay.com.au/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://www.quay.com.au/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://www.quay.com.au/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
-</script>
-<script type='text/javascript' src='https://www.quay.com.au/wp-includes/js/dist/i18n.min.js?ver=9e36b5da09c96c657b0297fd6f7cb1fd' id='wp-i18n-js'></script>
+</script> -->
+<!-- <script type='text/javascript' src='https://www.quay.com.au/wp-includes/js/dist/i18n.min.js?ver=9e36b5da09c96c657b0297fd6f7cb1fd' id='wp-i18n-js'></script>
 <script type='text/javascript' src='https://www.quay.com.au/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.21' id='lodash-js'></script>
 <script type='text/javascript' id='lodash-js-after'>
 window.lodash = _.noConflict();
@@ -1069,9 +1098,9 @@ wp.apiFetch.nonceEndpoint = "https://www.quay.com.au/wp-admin/admin-ajax.php?act
 /* <![CDATA[ */
 var wpcf7 = {"cached":"1"};
 /* ]]> */
-</script>
+</script> -->
 
-<script type='text/javascript' src='https://www.quay.com.au/wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/index-c52a1bdcf6d66397749d19fcf62067d8.js' id='contact-form-7-js' data-minify="1"></script>
+<!-- <script type='text/javascript' src='https://www.quay.com.au/wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/index-c52a1bdcf6d66397749d19fcf62067d8.js' id='contact-form-7-js' data-minify="1"></script>
 <script type='text/javascript' src='https://www.quay.com.au/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
 <script type='text/javascript' src='https://www.quay.com.au/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.12.1' id='jquery-ui-datepicker-js'></script>
 <script type='text/javascript' id='jquery-ui-datepicker-js-after'>
@@ -1088,16 +1117,16 @@ jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeTex
 /* <![CDATA[ */
 var wpcf7r = {"ajax_url":"https:\/\/www.quay.com.au\/wp-admin\/admin-ajax.php"};
 /* ]]> */
-</script>
+</script> -->
 
 
-<script type='text/javascript' src='https://www.quay.com.au/wp-content/cache/min/1/wp-content/plugins/wpcf7-redirect/build/js/wpcf7-redirect-frontend-script-89a75125c4cb4c5c9177daabb67ac0a3.js' id='wpcf7-redirect-script-js' data-minify="1"></script>
+<!-- <script type='text/javascript' src='https://www.quay.com.au/wp-content/cache/min/1/wp-content/plugins/wpcf7-redirect/build/js/wpcf7-redirect-frontend-script-89a75125c4cb4c5c9177daabb67ac0a3.js' id='wpcf7-redirect-script-js' data-minify="1"></script>
 <script type='text/javascript' src='https://www.quay.com.au/wp-content/cache/min/1/wp-content/themes/quay/js/skip-link-focus-fix-1a9d1d96314bb885c7869202079c6359.js' id='quay-skip-link-focus-fix-js' data-minify="1"></script>
 <script type='text/javascript' id='quay-script-js-extra'>
 /* <![CDATA[ */
 var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
 /* ]]> */
-</script>
+</script> -->
 <script type='text/javascript' src='https://www.quay.com.au/wp-content/cache/min/1/wp-content/themes/quay/js/functions-546599853812b0e0ee0d542c7f2ef883.js' id='quay-script-js' data-minify="1"></script>
 <script type='text/javascript' src='https://www.quay.com.au/wp-content/cache/min/1/wp-content/themes/quay/js/browser-selector-80bf079d63f4a896b5dda935e669e2f2.js' id='quay-browser-selector-js' data-minify="1"></script>
 <script type='text/javascript' src='https://www.quay.com.au/wp-content/cache/min/1/wp-content/themes/quay/js/bootstrap-5bc9c123489f41ec7e3f4d262bc078c1.js' id='quay-bootstrap-script-js' data-minify="1"></script>

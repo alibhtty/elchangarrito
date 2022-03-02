@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" id="icons-display-boards" xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 230 230"
+                              enable-background="new 0 0 230 230" xml:space="preserve">
+                              <circle fill="#FFCD04" id="circle2" cx="115" cy="115" r="115" />
+                              <g id="egg" transform="translate(0 0)" opacity="1">
+                                  <path fill="#FFFFFF" d="M158.6,80.5C151.4,65,134.1,42.4,115,42.4c-9.9,0-19.9,5.4-29.2,15.5c-7.6,8.4-12.7,17.7-14.7,23.2
+                        c-1.1,2.5-11.2,27-11.2,53.3c0,28.4,25.7,53.4,55.1,53.4c29.4,0,55.1-24.9,55.1-53.4C170.1,100.6,160.5,83.5,158.6,80.5z M115,162.8
+                        c-16.6,0-30.1-13.5-30.1-30.1s13.5-30.1,30.1-30.1s30.1,13.5,30.1,30.1S131.6,162.8,115,162.8z" />
+                              </g>
+                          </svg>
