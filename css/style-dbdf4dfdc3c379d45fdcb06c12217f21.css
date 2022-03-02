@@ -4225,7 +4225,8 @@ p, address, h1, h2, h3 {
   justify-content: center;
 }
 .colaboraitem img{
-  min-width: 150px;
+  min-width: 130px;
+  margin-left: 1rem;
   width: 100%;
   /* width: 190px; */
   padding: 10px 15px 20px 15px;
@@ -4236,16 +4237,16 @@ p, address, h1, h2, h3 {
 
 /* SWEET ALERT */
 .swal2-title {
-  font-size: 3.2em;
-  font-family: colby;
+  font-size: 3.8em;
+  font-family: days;
   line-height: 1em;
 }
 .swal2-popup {
-  font-size: .7rem !important;
+  font-size: .75rem !important;
   font-family: colby;
   font-weight: 300;
 }
 .swal-button--confirm {
   font-size: 2em;
-  font-family: colby;
+  font-family: days;
 }

@@ -17,15 +17,20 @@
     <meta name="theme-color" content="#ffffff">
 
     <style>
-        body {
+        /* body {
             background-color: var(--magenta-logo);
-        }
+        } */
 
+        body{
+            background-color: aqua;
+        }
         .svg-container {
+            background-color: aqua;
             position: absolute;
             display: inline-block;
-            width: 30%;
-            height: 33px;
+            width: 100%;
+            padding-left: 30%;
+            height: auto;
             margin: auto;
             margin-top: 25vh;
             top: 0;
@@ -33,10 +38,11 @@
             bottom: 0;
             left: 0;
             transition: all .4s ease-in-out;
+            z-index: 1;
         }
 
         svg {
-            width: 182px;
+            width: 240px;
             padding: 1rem;
             top: 0;
             right: 0;
@@ -55,6 +61,11 @@
             transition: all .4s ease-out;
             filter: brightness(110%)contrast(110%);
         }
+        
+        h1{
+            font-family: days;
+            text-align: center;
+        }
     </style>
 
 </head>
@@ -62,6 +73,7 @@
 <body translate="no">
 
     <div class="svg-container">
+
         <svg version="1.1" id="icons-display-boards" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 230 230"
             enable-background="new 0 0 230 230" xml:space="preserve">
@@ -82,14 +94,11 @@
                 <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 115 115"
                     to="720 115 115" dur="1s" calcMode="spline" keyTimes="0;1" keySplines="0.1 0.2 .22 1" fill="freeze"
                     additive="sum" />
-
             </g>
             <animate xlink:href="#circle" attributeName="r" from="0 " to="115 " dur="1s" calcMode="spline"
                 keyTimes="0;1" keySplines="0.1 0.2 .22 1" fill="freeze" />
             <animate xlink:href="#bottle" attributeName="opacity" from="0 " to="1 " dur="1s" calcMode="spline"
                 keyTimes="0;1" keySplines="0.1 0.2 .22 1" fill="freeze" />
-
-
         </svg>
 
         <svg version="1.1" id="icons-display-boards" xmlns="http://www.w3.org/2000/svg"

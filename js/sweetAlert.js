@@ -1,6 +1,6 @@
 Swal.fire({
-    title: 'Nuevo Servicio a domicilio!',
-    text: 'Ahora también reserva tu mesa, adelanta tu orden o recoger en  el local.',
+    title: 'PRUEBA NUESTRO SERVICIO A DOMICILIO!',
+    text: 'Ahora reserva reserva tu mesa, adelanta tu orden o recoger en  el local.',
     color: '#222',
     
     width: '80%',
