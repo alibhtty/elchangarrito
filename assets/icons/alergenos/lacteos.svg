@@ -3,7 +3,7 @@
                               xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 230 230"
                               enable-background="new 0 0 230 230" xml:space="preserve">
                       
-                              <circle fill="#00B4FF" id="circle" cx="115" cy="115" r="115" /> <!-- 004CBA / 00B4FF -->
+                              <circle fill="#0069FF" id="circle" cx="115" cy="115" r="115" /> <!-- 004CBA / 00B4FF -->
                       
                               <g id="bottle" transform="translate(0 0)" opacity="1">
                                   <path fill="#FFFFFF" d="M137.2,53.7c0.3-6.5,0.4-15.9-8.8-15.9h-27.1c-9.2,0-9.2,9.4-8.9,15.9H137.2z" />

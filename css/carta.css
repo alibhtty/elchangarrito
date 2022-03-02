@@ -299,3 +299,23 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
         margin-left: 5px;
     }
 }
+
+
+
+/* alergenos */
+.alergenos img{
+    padding: 0 .1rem;
+    border-radius: 0;
+    float: right;
+    position: inherit;
+    margin-top: -7px;
+    /* background-color: aqua; */
+    width: 23px;
+    height: 30px;
+  }
+
+  @media (min-width: 992px) {
+      .alergenos img{
+          margin-top: -2px;
+      }
+  }
