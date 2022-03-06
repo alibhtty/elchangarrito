@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root {
-  --magenta-logo:#FF0066; /* #E6037E */
+  --magenta-logo:#E6037E; /* #E6037E #FF0066 */
   --magenta: #FF00FF;
   --amarillo: #FFFF00; /* FFBB00 */
   --azul: #0000FF;
