@@ -1,5 +1,5 @@
 :root {
-    --magenta-logo:#E6037E;
+    --magenta-logo:#FF0066; /* #E6037E */
     --magenta: #FF00FF;
     --amarillo: #FFFF00; /* FFBB00 */
     --azul: #0000FF;
@@ -22,6 +22,10 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "colby-blk";
+    src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StBlk.ttf);
+}
 @font-face {
     font-family: "colby";
     src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StBld.ttf);

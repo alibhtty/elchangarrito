@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root {
-  --magenta-logo:#E6037E;
+  --magenta-logo:#FF0066; /* #E6037E */
   --magenta: #FF00FF;
   --amarillo: #FFFF00; /* FFBB00 */
   --azul: #0000FF;
@@ -741,7 +741,7 @@ h1 {
   margin: 0;
   display: block;
   color: #000;
-  font-family: "days"; /* Colby / OakesGroteskBold */
+  font-family: "colby"; /* Colby / OakesGroteskBold */
   font-size: 24px;
   line-height: 36px;
   text-transform: uppercase;
