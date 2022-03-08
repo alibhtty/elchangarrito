@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../favicon/favicon-16x16.png">
+        <link rel="manifest" href="../../favicon/site.webmanifest">
+        <link rel="mask-icon" href="../../favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#2d89ef">
+        <meta name="theme-color" content="#ffffff">
+        <!-- <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"> -->
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <!-- <link rel="stylesheet" href="../assets/css/styles.css"> -->
+        <link rel="stylesheet" href="../restaurantes/restaurantes.css">
+        <!-- <link rel="stylesheet" href="../assets/css/fancybox.min.css"> -->
+        <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'> -->
+
+        <title>Tarifas</title>
+
+        <!-- SESION STYLE's -->
+        <style>
+          body{background-color: #222;}
+
+          .w-container{
+            top: 15rem;
+          }
+
+          .card{height: 100%;}
+          .card-image{height: 100%;}
+          .mains .card-image img {
+            position: inherit;
+            width: 100%;
+            height: 100%;
+            min-height: 100%;
+            object-fit: cover;
+          }
+          .mains .card-image {
+            padding-top: 0;
+          }
+        </style>
+
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <!-- <header class="header" id="header">
+            <nav class="nav container">
+                <a href="../../index.html" class="nav__logo">Inicio</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="../../index.html#home" class="nav__link">  <-- active-link ->
+                                <i class='bx bx-home-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../../index.html#about" class="nav__link">
+                                <i class='bx bx-user'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../../index.html#galery" class="nav__link">
+                                <i class='bx bx-photo-album'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../../index.html#work" class="nav__link">
+                                <i class='bx bx-briefcase-alt-2'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../../index.html#contact" class="nav__link">
+                                <i class='bx bx-message-square-detail'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <-- Theme change button ->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header> -->
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <div hidden class="work__container"></div> <!-- activa light-mode -->
+
+            <!--=============== PRECIOS ===============-->
+            <div id="feature"> <!-- class="section" -->
+              <div class="w-table">
+                <div class="w-table-cell">
+                  <div class="w-container">
+
+                  <div class="w-card color-violet">
+                    <div class="card-header">
+                    <div class="w-title">
+                      Sesión Fotográfica
+                    </div>
+                    <div class="w-price">€9.00</div>
+                    <div class="container-button">
+                      <a href="https://api.whatsapp.com/send?phone=34602316998&text=Hola, quiero más información :D" target="_blank" class="w-button">
+                        Contratar
+                      </a>
+                    </div>
+                    </div>
+                    <div class="card-content">
+                    <div class="w-item">
+                      <span>30 </span>Eventos Especiales 
+                    </div>
+                    <div class="w-item">
+                      <span>30 </span>Fotografía de Retrato
+                    </div>
+                    <div class="w-item">
+                      <span>30 </span>Fotografía de Producto
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="w-card color-green">
+                    <div class="card-header">
+                    <div class="w-title">
+                      Composición de video
+                    </div>
+                    <div class="w-price">
+                      €19.00
+                    </div>
+                    <div class="container-button">
+                      <a class="w-button" href="https://alibhtty.github.io/soulmate" target="_blank">Contratar </a>
+                    </div>
+                    </div>
+                    <div class="card-content">
+                    <div class="w-item">
+                      <span>1 </span>Clip con fondo musical 
+                    </div>
+                    <div class="w-item">
+                      <span>1 </span>Sonorizar video 
+                    </div>
+                    <div class="w-item">
+                      <span>1 </span>Spot Publicitario 
+                    </div>
+                    </div>
+                  </div>
+
+                  <!-- <div class="w-card color-blue">
+                    <div class="card-header">
+                    <div class="w-title">
+                      Contenido para empresas
+                    </div>
+                    <div class="w-price">
+                      €29.00
+                    </div>
+                    <div class="container-button">
+                      <a class="w-button" href="https://alibhtty.github.io/soulmate" target="_blank">Contratar </a>
+                    </div>
+                    </div>
+                    <div class="card-content">
+                    <div class="w-item">
+                      <span> </span>Contenido para RRSS 
+                    </div>
+                    <div class="w-item">
+                      <span> </span>Campaña Fotográfica
+                    </div>
+                    <div class="w-item">
+                      <span> </span>Página Web 
+                    </div>
+                    </div>
+                  </div> -->
+                  
+                  </div>
+                </div>
+                </div>
+            </div>
+
+        </main>
+
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="../../assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="../../assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="../../assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="../../assets/js/main.js"></script>
+        
+    </body>
+</html>
