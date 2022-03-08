@@ -1878,10 +1878,17 @@ button:focus {
 
 .ce__PlanPickerScreen__plansContainerClassName {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 0
+}
+
+@media screen and (min-width:992px) {
+    .ce__PlanPickerScreen__plansContainerClassName {
+        flex-direction:row;
+    }
 }
 
 .ce__PlanPickerScreen__planClassName {
@@ -3249,12 +3256,20 @@ li {
 
 
 
-/* SCREEN */
 
 
+/* .calabria{
+    background: url(../assets/img/calabria.jpg);
+    background-size: cover;
+} */
 
-.calabria{
-    background: url(https://www.hbomax.com/static/wef/img/bg-gradient.jpg);
+
+.calabria-img {
+    opacity: 0.9;
+    background-size: cover;
+    position: absolute;
+    width: 400px;
+    z-index: 1;
 }
 
 .poble-sec{

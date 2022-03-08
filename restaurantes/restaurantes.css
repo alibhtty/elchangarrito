@@ -88,14 +88,14 @@ body {
 .w-container .w-card {
   cursor: pointer;
   /* background-color: rgba(255, 255, 255, 0.9); */
-  background-color: var(--container-color); /* var(--container-color) */
+  background-color: #f83e9e ; /* var(--container-color) */
   display: inline-block;
   vertical-align: top;
-  width: 30rem; /* 300px */
+  width: 300px; /* 300px */
   color: #eee;
   font-size: 30px;
   font-weight: 300;
-  margin: 0 10px 30px;
+  margin: 0 15px 30px;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
