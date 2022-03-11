@@ -1,15 +1,4 @@
 @charset "utf-8";
-
-:root {
-  --magenta-logo:#E6037E; /* #E6037E #FF0066 */
-  --magenta: #FF00FF;
-  --amarillo: #FFFF00; /* FFBB00 */
-  --azul: #0000FF;
-  /* --bg-light: #FFF0F8; */
-  --blanco:#FFFFFF;
-  --light-amarillo: ##FFFFE0;
-}
-
 html,
 body,
 div,
@@ -91,13 +80,12 @@ video {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: #373d48; */
+  color: #373d48;
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
-  background-color: #000;  /* #e1e1e1 */
-  font-family: "OakesGroteskRegular" !important;
+  background-color: #e1e1e1;
+  font-family: "OakesGroteskRegular";
   -webkit-text-size-adjust: none;
 }
 article,
@@ -165,7 +153,7 @@ h6 {
   font-family: "OakesGroteskBold";
 }
 h1 {
-  font-size: 32px;
+  font-size: 34px;
 }
 h2 {
   font-size: 50px;
@@ -198,7 +186,6 @@ h6 {
   line-height: 60px;
   margin-bottom: 15px;
 }
-
 input[type="text"],
 input[type="submit"],
 input[type="button"],
@@ -216,8 +203,7 @@ textarea {
 p {
   font-size: 13px;
   color: #1a1a11;
-  line-height: 20px;
-  letter-spacing: 1px;
+  line-height: 25px;
 }
 p a {
   color: #4777ac;
@@ -301,9 +287,9 @@ header .logo {
 header .logo2 {
   display: none;
 }
-/* header .logo-image1 img {
+header .logo-image1 img {
   width: 125px;
-} */
+}
 header .right-side {
   width: auto;
   float: right;
@@ -313,14 +299,12 @@ header .right-side {
   font-size: 12px;
   text-transform: uppercase;
   font-family: "OakesGroteskBold";
-  border-radius: 25px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   letter-spacing: 2px;
 }
 header .right-side:hover {
   color: #fff;
-  border:2px solid #000;
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -345,7 +329,7 @@ a.right-side.light:hover {
 .menu span {
   width: 45px;
   height: 2px;
-  background-color: #fff;
+  background-color: black;
   margin: 0 0 10px 0;
   display: block;
 }
@@ -358,7 +342,7 @@ a.right-side.light:hover {
 header {
   width: 100%;
   position: fixed;
-  z-index: 990;
+  z-index: 999;
   padding: 20px 40px;
   height: 70px;
   background-color: transparent;
@@ -378,7 +362,7 @@ make-btn-main bottom-button read-btn mobile-make-a-reservation {
   margin: 10px 0 !important;
 }
 header.active {
-  background: var(--magenta-logo);
+  background: #000;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   opacity: 1;
@@ -397,7 +381,7 @@ header.active .right-side {
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
-  font-family: "colby"; /* OakesGroteskBold */
+  font-family: "OakesGroteskBold";
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 25px;
@@ -417,13 +401,13 @@ header.active .logo img {
   display: block;
 }
 header.active .menu span {
-  background-color: #FFF;
+  background-color: white;
 }
 header.active .showmenu span {
-  background-color: #FFF;
+  background-color: #000;
 }
 .inner-page .showmenu span {
-  background-color: #FFF !important;
+  background-color: #000 !important;
 }
 .hamburger_container {
   display: block;
@@ -435,7 +419,7 @@ header.active .showmenu span {
   left: 0;
   width: 450px;
   height: 100vh;
-  background: var(--magenta-logo);
+  background: #fff;
   z-index: 10;
   overflow: auto;
   -webkit-transition: all 300ms ease;
@@ -610,7 +594,7 @@ p.small-print {
   cursor: pointer;
 }
 h1 {
-  font-family: "colby"; /* OakesGroteskBold */
+  font-family: "OakesGroteskBold";
 }
 .menuOne {
   width: 30px;
@@ -741,8 +725,8 @@ h1 {
   margin: 0;
   display: block;
   color: #000;
-  font-family: "colby"; /* Colby / OakesGroteskBold */
-  font-size: 24px;
+  font-family: "OakesGroteskBold";
+  font-size: 20px;
   line-height: 36px;
   text-transform: uppercase;
   -webkit-transition: all ease-out 0.2s;
@@ -756,11 +740,11 @@ h1 {
   padding-bottom: 0;
 }
 .mobile_menu-nav-link {
-  color: var(--bg-light);
+  color: #000;
   pointer-events: auto;
   font-size: 28px;
   line-height: 32px;
-  padding: 0.85rem 0;
+  padding: 0.75rem 0;
   display: block;
   width: 100%;
   text-align: left;
@@ -800,17 +784,17 @@ h1 {
     padding-left: 5.5rem;
   }
   .mobile_menu-nav-link {
-    padding-top: 0.4rem;
-    padding-bottom: 0.6rem;
-    font-size: 1.9rem;
-    color: var(--bg-light);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #000;
   }
 }
 .link-btn a {
   width: auto;
   padding: 4px 20px;
-  border: 2px solid #FFF;
-  color: #FFF;
+  border: 2px solid #000;
+  color: #000;
   font-size: 13px;
   text-transform: uppercase;
   font-family: "OakesGroteskBold";
@@ -827,7 +811,7 @@ h1 {
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  background-color: #fff;
+  background-color: #000;
   position: relative;
 }
 .link-btn button {
@@ -870,7 +854,7 @@ h1 {
   width: 100%;
   display: block;
   position: relative;
-  background: url("/assets/img/tacos-bg.jpg")
+  background: url("https://www.quay.com.au/wp-content/themes/quay/images/banner-image.jpg")
     no-repeat center center;
   background-size: cover !important;
   height: 100vh;
@@ -965,8 +949,8 @@ h1 {
   text-align: center;
 }
 .our-banner .banner-description:after {
-  /* background: url("https://alibhtty.github.io/elchangarrito/assets/img/salon-bg.jpg")
-    no-repeat left; */
+  background: url("https://www.quay.com.au/wp-content/themes/quay/images/bd-image.png")
+    no-repeat left;
   position: absolute;
   content: "";
   bottom: 107px;
@@ -1024,7 +1008,7 @@ h1 {
 .content-area .block1 {
   width: 100%;
   display: block;
-  background-color: var(--bg-light);  /* #ebe9e6 */ /* #fffaee */
+  background-color: #ebe9e6;
   position: relative;
   height: 100vh;
 }
@@ -1050,14 +1034,14 @@ h1 {
   padding-top: 0px !important;
 }
 .left-content .block1-left:after {
-  /* background: url("https://alibhtty.github.io/elchangarrito/assets/icons/planta.png")
-    no-repeat left; */
+  background: url("https://www.quay.com.au/wp-content/themes/quay/images/bd-image.png")
+    no-repeat left;
   position: absolute;
   content: "";
-  bottom: -100px;
-  height: 50px;
+  bottom: -109px;
+  height: 20px;
   display: block;
-  width: 450px;
+  width: 200px;
 }
 .content-area .block1 .block1-left {
   width: 70%;
@@ -1090,7 +1074,7 @@ h1 {
   color: #1a1a11;
   line-height: 25px;
   margin-bottom: 35px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .content-area .block1 .block1-left .read-btn {
   border: 2px solid #000;
@@ -1127,8 +1111,8 @@ h1 {
   position: relative;
 }
 .content-area .latest-block:after {
-  /* background: url("https://alibhtty.github.io/elchangarrito/assets/icons/planta.png")
-    no-repeat left; */
+  background: url("https://www.quay.com.au/wp-content/themes/quay/images/bd-image.png")
+    no-repeat left;
   position: absolute;
   content: "";
   bottom: 107px;
@@ -1703,7 +1687,7 @@ section.panel p a {
   filter: none;
 }
 .content-area .gallery-block .image6 {
-  background: url("assets/imag/tacos-bg.jpg")
+  background: url("https://www.quay.com.au/wp-content/themes/quay/images/gallery-image2.jpg")
     no-repeat left top;
   background-size: cover;
   width: 100%;
@@ -1741,11 +1725,11 @@ section.panel p a {
   display: block;
 }
 .content-details h4 {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 8px;
   margin-bottom: 10px;
   position: relative;
   border-bottom: solid 2px rgba(255, 255, 255, 0.5);
@@ -1769,12 +1753,12 @@ section.panel p a {
   color: #fff;
   line-height: 20px;
   margin-bottom: 20px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .content-area .gallery-block .box-bg {
   width: 100%;
   display: block;
-  background: var(light-amarillo); /* #d5dddb */
+  background: #d5dddb;
   height: 100%;
   position: relative;
 }
@@ -1782,7 +1766,7 @@ section.panel p a {
   color: #000;
   padding: 0 150px 0 70px;
   font-size: 42px !important;
-  line-height: 75px !important;
+  line-height: 55px !important;
   text-transform: uppercase;
   font-family: "OakesGroteskBold";
   display: inline-block;
@@ -1994,7 +1978,6 @@ p.quote-author {
   }
   .mobile_menu-nav-list {
     margin-bottom: 60px;
-    margin-top: 80px;
   }
   .functions-image {
     min-height: 50vh;
@@ -2021,7 +2004,7 @@ p.quote-author {
   margin-bottom: 40px;
 }
 .news-block .news-titile:after {
-  background: url("../news-border.jpg")
+  background: url("https://www.quay.com.au/wp-content/themes/quay/images/news-border.jpg")
     no-repeat bottom center;
   position: absolute;
   content: "";
@@ -2033,7 +2016,7 @@ p.quote-author {
   transform: translate(-50%, -50%);
 }
 .footer-block {
-  background: #d5dddb;
+  background: #1a1a1a;
 }
 .footer-block .club-block {
   width: 100%;
@@ -2090,7 +2073,7 @@ footer {
 footer .footer-left {
   width: 100%;
   display: block;
-  background-color: var(--light-amarillo); /* d5dddb */
+  background-color: #d5dddb;
   padding: 40px 50px;
 }
 footer .footer-left .footer-logo {
@@ -2457,8 +2440,8 @@ footer .social-icon a.googleplus-icon:hover {
   text-align: center;
   height: 50px;
   z-index: 999;
-/*   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); */
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 .make-btn {
   width: auto;
@@ -2471,7 +2454,7 @@ footer .social-icon a.googleplus-icon:hover {
   text-transform: uppercase;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  margin: 0px 0 8px;
+  margin: 8px 0 8px;
   display: inline-block;
   letter-spacing: 2px;
   font-weight: 700;
@@ -2521,7 +2504,7 @@ footer .social-icon a.googleplus-icon:hover {
   color: #000;
   line-height: 25px;
   margin-bottom: 20px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .overlay1 p a {
   color: #1a1a11;
@@ -2788,12 +2771,11 @@ footer .social-icon a.googleplus-icon:hover {
     padding: 0 20px 0 20px;
   }
   .content-area .gallery-block .box-bg {
-    height: 100%;
-    /* height: 240px; */
+    height: 240px;
   }
   .content-area .block1 .block1-left p {
-    font-size: 12.5px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 20px;
   }
   .content-area .club-block .right-club {
     width: 100%;
@@ -2818,7 +2800,7 @@ footer .social-icon a.googleplus-icon:hover {
     line-height: 60px;
   }
   .content-details .read-btn {
-    padding: 5px 30px 3px;
+    padding: 5px 70px 3px;
   }
   .content-details h3 {
     font-size: 15px;
@@ -3053,7 +3035,7 @@ footer .social-icon a.googleplus-icon:hover {
     font-size: 11px;
   }
   .mobile_menu-nav-link {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 28px;
   }
   .content-details .read-btn {
@@ -3307,22 +3289,20 @@ footer .social-icon a.googleplus-icon:hover {
   .menu {
     width: 100%;
     float: none;
-    margin-top: 18px;
-    margin-left: 5px;
-    /* margin: 12px 0 0 5px; */
+    margin: 12px 0 0 5px;
   }
-  /* .logo {
-    margin-top: -3.20rem;
+  .logo {
+    width: 50%;
     float: right;
-  } */
-/*   header.active .logo {
-    /* width: 100%; /
-  } */
+  }
+  header.active .logo {
+    width: 100%;
+  }
   .menu span {
     width: 30px;
   }
   header.active .logo-image {
-    width: 20%;   /* 50% */
+    width: 50%;
   }
   .club-block .main-club {
     max-width: 100% !important;
@@ -3367,7 +3347,7 @@ footer .social-icon a.googleplus-icon:hover {
     float: left;
   }
   header.active {
-    background-color: var(--magenta-logo);
+    background-color: #000;
     -webkit-box-shadow: none;
     box-shadow: none;
   }
@@ -3379,57 +3359,20 @@ footer .social-icon a.googleplus-icon:hover {
     width: 80%;
   }
   header.active .menu span {
-    background-color: #FFF;
+    background-color: #fff;
   }
   header {
-    height: 70px; /* 59px */
+    height: 59px;
     padding: 4px 10px;
   }
-  /* header .logo-image1 {
-    width: 80%;
+  header .logo-image1 {
+    width: 165px;
     float: right;
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
     padding-top: 11px;
-    padding-left: 0px;
-    padding-right: 15px;
-  } */
-
-  /* .logo-top, .logo h1{
-    font-size: 45px;
-  } */
-
-  .top-logo{
-    font-size: 55px;
   }
-
-  @media (max-width: 765px) {
-    .logo-icon {
-        float: right;
-        margin-right: .5rem;
-    }
-  }
-  @media (max-width: 765px) {
-    .logo {
-        float: right;
-        margin-top: -3.25rem;
-        margin-right: 0rem;
-    }
-  }
-  @media (max-width: 576px) {
-    .logo{
-      margin-top: -2.2rem;
-    }
-  }
-  @media (min-width: 992px) {
-    .logo{
-      margin-top: 0;
-      margin-left: 2rem;
-    }
-  }
-
-
   .block1 .left-image {
     -webkit-box-flex: 0;
     -ms-flex: none;
@@ -3620,7 +3563,6 @@ a {
     font-size: 18px;
   }
 }
-
 #loader {
   width: 300px;
   height: 200px;
@@ -3629,7 +3571,7 @@ a {
   -moz-animation: spin 5s;
   -webkit-animation: spin 5s;
   -o-animation: spin 5s;
-  background: url("https://alibhtty.github.io/elchangarrito/assets/img/salon-bg.jpg")
+  background: url("https://www.quay.com.au/wp-content/themes/quay/images/footer-logo.png")
     no-repeat center center;
   margin: 0 auto;
   position: absolute;
@@ -4026,9 +3968,6 @@ input#quantity {
 .home header .hamburger_menu_content {
   padding-top: 105px;
 }
-/* .AnnouncementBar {
-  background: url('../assets/icons/geometri.svg');
-} */
 .announcement-bar-wrapper {
   width: 100%;
   padding: 8px 15px;
@@ -4096,7 +4035,7 @@ a.experienceVoucherButton:hover {
     color: #fff !important;
   }
   .home header .hamburger_menu_content {
-    padding-top: 60px;
+    padding-top: 45px;
   }
 }
 @media (min-width: 500px) {
@@ -4173,80 +4112,4 @@ a.menubtn {
     width: 100%;
     margin-top: 10px;
   }
-}
-
-
-html, body {overflow-x: hidden;}
-
-
-
-
-/* HOVER DESLIZAR */
-.deslis {
-  color: #000;
-  position: relative;
-  text-decoration: none;
-  background-color: rgb(255, 166, 0, 0.3);
-  background-blend-mode: luminosity;
-}
-
-.deslis::before {
-  /* background: hsl(45 100% 70%); */
-  /* background: #d8ff7e; background: -moz-linear-gradient(to right,  #d8ff7e 0%,#97e7a2 100%); background: -webkit-linear-gradient(to right,  #d8ff7e 0%,#97e7a2 100%); background: linear-gradient(to right,  #d8ff7e 0%,#97e7a2 100%); */
-  background: #ffcc5e; background: -moz-linear-gradient(to right,  #ffcc5e 0%,#ffeabb 100%); background: -webkit-linear-gradient(to right,  #ffcc5e 0%,#ffeabb 100%); background: linear-gradient(to right,  #ffcc5e 0%,#ffeabb 100%);
-  content: "";
-  inset: 0;
-  position: absolute;
-  transform: scaleX(0);
-  transform-origin: right;
-  height: 120%;
-  margin-top: -2%;
-  transition: transform 0.5s ease-in-out;
-  z-index: -1;
-}
-
-.deslis:hover::before {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-
-p, address, h1, h2, h3 {
-  cursor: pointer;
-}
-.colaboradores-logo {
-  width: 80%;
-  opacity: 40%;
-  margin: 0 auto;
-  /* width: 80%;
-  margin-left: 0px; */
-  align-items: center;
-  display: flex;
-  white-space: nowrap;
-  justify-content: center;
-}
-.colaboraitem img{
-  min-width: 130px;
-  margin-left: 1rem;
-  width: 100%;
-  /* width: 190px; */
-  padding: 10px 15px 20px 15px;
-}
-.colaboraitem {
-  width: 100%;
-}
-
-/* SWEET ALERT */
-.swal2-title {
-  font-size: 4em;
-  font-family: colby;
-  line-height: 1em;
-}
-.swal2-popup {
-  font-size: .95rem;
-  font-family: colby;
-  font-weight: 300;
-}
-.swal-button--confirm {
-  font-size: 2em;
-  font-family: days;
 }
