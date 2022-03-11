@@ -104,8 +104,8 @@ body {
 }
 .w-container .w-card .card-header {
   overflow: hidden;
-  padding: 20px 0 0;
-  border-radius: 4px 4px 0 0;
+  padding: 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 .w-container .w-card .card-header .w-title, .w-container .w-card .card-header .w-price {
   position: relative;
@@ -114,15 +114,15 @@ body {
 .w-container .w-card .card-header .w-price {
   font-size: 28px;
   font-weight: 500;
-  padding: 10px 20px 20px;
+  padding: 20px 20px 20px;
 }
 .w-container .w-card .card-content {
   padding: .5rem 1rem;
 }
 .w-container .w-card .card-content .w-item {
   font-size: 18px;
-  padding: .5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  padding: .6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 .w-container .w-card .card-content .w-item:last-child {
   border-bottom: none;
@@ -173,14 +173,14 @@ body {
 .w-container .w-card .container-button:hover:before {
   top: -200px;
   left: -50px;
-  width: 400px;
-  height: 400px;
+  width: 500px; /* 400px */
+  height: 500px; /* 400px */
 }
 .w-container .w-card .container-button:hover:after {
   top: -200px;
   left: -50px;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
 }
 .w-container .w-card:hover {
   z-index: 2;
@@ -202,4 +202,38 @@ body {
 }
 .img-icon{
   font-size: 14px;
+}
+
+.texto {
+  padding-top: 3rem;
+}
+
+.section-rest{
+  height: 100vh;
+}
+
+@media screen and (min-width:992px) {
+  .w-container .w-card {
+    width: 400px;
+    /* height: 280px; */
+  }
+  .texto{
+    padding-top: 8rem;
+  }
+  .w-table{
+    padding-top: 2rem;
+  }
+  .section-rest{
+    height: 91.5vh;
+  }
+}
+
+a.reserva {
+  color: #eee;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: 25px;
+  text-transform: uppercase;
+  transition: all .4s ease-in-out;
 }
