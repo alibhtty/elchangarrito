@@ -204,6 +204,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     /* text-transform: capitalize; */
 }
 .menu_content h4 span {
+    padding-left: 4px;
     font-size: 18px;
     font-family: colby;  /* OakesGroteskBold */
     /* font-family: dinot;  */
