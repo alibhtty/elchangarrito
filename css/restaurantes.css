@@ -1,10 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+@font-face {
+  font-family: "colby";
+  src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StBld.ttf);
+}
+@font-face {
+  font-family: "colby-light";
+  src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StLt.ttf);
+}
+@font-face {
+  font-family: "colby-black";
+  src: url(../assets/fonts/Colby-StBlk.ttf);
+}
+
 .color-violet .container-button {
-  background: #fbc2eb; background: -moz-linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); background: -webkit-linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); background: linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%);
+  /* background: #fbc2eb; background: -moz-linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); background: -webkit-linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); background: linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); */
+  background: #E6037E; background: -moz-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: -webkit-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: linear-gradient(to right,  #E6037E 0%,#fed6e3 100%);
   /* background-color: #98f; */
 }
 .color-violet .container-button:before {
-  background: #fbc2eb; background: -moz-linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); background: -webkit-linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); background: linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%);
+  background: #E6037E; background: -moz-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: -webkit-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: linear-gradient(to right,  #E6037E 0%,#fed6e3 100%);
   /* background-color: #98f; */
 }
 .color-violet .w-item span {
@@ -14,11 +29,12 @@
 }
 
 .color-green .container-button {
-  background: #ace28d; background: -moz-linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); background: -webkit-linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); background: linear-gradient(to right,  #ace28d 0%,#12c6c5 100%);
+  /* background: #ace28d; background: -moz-linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); background: -webkit-linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); background: linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); */
+  background: #ffc500; background: -moz-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: -webkit-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%);
   /* background-color: #1bbc9d; */
 }
 .color-green .container-button:before {
-  background: #ace28d; background: -moz-linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); background: -webkit-linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); background: linear-gradient(to right,  #ace28d 0%,#12c6c5 100%);
+  background: #ffc500; background: -moz-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: -webkit-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%);
   /* background-color: #1bbc9d; */
 }
 .color-green .w-item span {
@@ -87,8 +103,9 @@ body {
 }
 .w-container .w-card {
   cursor: pointer;
-  /* background-color: rgba(255, 255, 255, 0.9); */
-  background-color: #f83e9e ; /* var(--container-color) */
+  background-color: rgba(216, 10, 100, .6);
+  /* background-color: rgba(255, 255, 255, .3); */
+  /* background-color: #f83e9e ;  */
   display: inline-block;
   vertical-align: top;
   width: 300px; /* 300px */
@@ -113,6 +130,8 @@ body {
 }
 .w-container .w-card .card-header .w-price {
   font-size: 28px;
+  font-family: colby;
+  text-transform: uppercase;
   font-weight: 500;
   padding: 20px 20px 20px;
 }
@@ -212,6 +231,11 @@ body {
   height: 100vh;
 }
 
+.bg-city {
+  height: 100%;
+  opacity: .25;
+}
+
 @media screen and (min-width:992px) {
   .w-container .w-card {
     width: 400px;
@@ -225,6 +249,11 @@ body {
   }
   .section-rest{
     height: 91.5vh;
+  }
+
+  .bg-city {
+    width: 100%;
+    opacity: .25;
   }
 }
 
