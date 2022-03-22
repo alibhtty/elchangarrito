@@ -1,29 +1,6 @@
 @charset "utf-8";
-
 @font-face {
-  font-family: "Open-Sans-Bold";
-  src: url(../fonts/OpenSans-Bold.ttf);
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "OakesGroteskBold";
-  src: url(../fonts/OakesGroteskBold.ttf);
-  font-weight: 400;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-@font-face {
-  font-family: "OakesGroteskRegular";
-  src: url(../fonts/OakesGroteskRegular.ttf);
-  font-weight: 400;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-/* @font-face {
-  font-family: "Open-Sans-Bold";
+  font-family: "Open Sans Bold";
   src: url("https://www.quay.com.au/wp-content/themes/quay/fonts/OpenSans-Bold.eot?")
       format("eot"),
     url("https://www.quay.com.au/wp-content/themes/quay/fonts/OpenSans-Bold.woff")
@@ -34,8 +11,8 @@
       format("svg");
   font-weight: 400;
   font-style: normal;
-} */
-/* @font-face {
+}
+@font-face {
   font-family: "OakesGroteskBold";
   src: url("https://alibhtty.github.io/elchangarrito/assets/fonts/OakesGroteskBold.eot");
   src: url("https://www.quay.com.au/wp-content/themes/quay/fonts/OakesGroteskBold.eot?#iefix")
@@ -50,8 +27,8 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
-/* @font-face {
+}
+@font-face {
   font-family: "OakesGroteskRegular";
   src: url("https://alibhtty.github.io/elchangarrito/assets/fonts/OakesGroteskRegular.eot");
   src: url("https://www.quay.com.au/wp-content/themes/quay/fonts/OakesGroteskRegular.eot?#iefix")
@@ -66,7 +43,7 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
+}
 @font-face {
   font-family: "colby";
   src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StBld.ttf);
@@ -79,6 +56,7 @@
   font-family: "colby-black";
   src: url(../assets/fonts/Colby-StBlk.ttf);
 }
+
 
 @font-face {
   font-family: "days";
