@@ -211,7 +211,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     font-weight: 800;
     float: right;
     /* font-style: italic; */
-    color: #222; /* 222 */
+    color: #7a1c5e; /* 222 */
 }
 .menu_content p {
     color: var(--magenta-oscuro);

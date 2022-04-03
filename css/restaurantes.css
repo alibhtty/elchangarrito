@@ -15,11 +15,11 @@
 
 .color-violet .container-button {
   /* background: #fbc2eb; background: -moz-linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); background: -webkit-linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); background: linear-gradient(45deg,  #fbc2eb 0%,#a18cd1 100%); */
-  background: #E6037E; background: -moz-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: -webkit-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: linear-gradient(to right,  #E6037E 0%,#fed6e3 100%);
+  background: #E6037E; background: -moz-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: -webkit-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: linear-gradient(to right,  #FFC800 0%,#ffd437 100%);
   /* background-color: #98f; */
 }
 .color-violet .container-button:before {
-  background: #E6037E; background: -moz-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: -webkit-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: linear-gradient(to right,  #E6037E 0%,#fed6e3 100%);
+  background: #E6037E; background: -moz-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: -webkit-linear-gradient(to right,  #E6037E 0%,#fed6e3 100%); background: linear-gradient(to right,  #FFC800 0%,#ffd437 100%);
   /* background-color: #98f; */
 }
 .color-violet .w-item span {
@@ -29,17 +29,12 @@
 }
 
 .color-green .container-button {
-  /* background: #ace28d; background: -moz-linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); background: -webkit-linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); background: linear-gradient(to right,  #ace28d 0%,#12c6c5 100%); */
-  background: #ffc500; background: -moz-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: -webkit-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%);
-  /* background-color: #1bbc9d; */
+  background: #00ffff; background: -moz-linear-gradient(45deg,  #00ffff 0%,#e7e75a 100%); background: -webkit-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: linear-gradient(45deg,  #00CFFF 0%,#00ffff 100%);
 }
 .color-green .container-button:before {
-  background: #ffc500; background: -moz-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: -webkit-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%);
-  /* background-color: #1bbc9d; */
+  background: #00ffff; background: -moz-linear-gradient(45deg,  #00ffff 0%,#e7e75a 100%); background: -webkit-linear-gradient(45deg,  #ffc500 0%,#e7e75a 100%); background: linear-gradient(45deg,  #00CFFF 0%,#00ffff 100%);
 }
 .color-green .w-item span {
-  /* color: #bfffcd; color: -moz-linear-gradient(to top,  #bfffcd 0%,#93efdd 100%); color: -webkit-linear-gradient(to top,  #bfffcd 0%,#93efdd 100%); color: linear-gradient(to top,  #bfffcd 0%,#93efdd 100%); */
-  /* color: #1bbc9d; */
   color: #12c6c5;
 }
 
@@ -103,7 +98,7 @@ body {
 }
 .w-container .w-card {
   cursor: pointer;
-  background-color: rgba(216, 10, 100, .6);
+  background-color: rgba(216, 10, 100, 1);
   /* background-color: rgba(255, 255, 255, .3); */
   /* background-color: #f83e9e ;  */
   display: inline-block;
@@ -263,6 +258,6 @@ a.reserva {
   font-family: Roboto;
   font-weight: 800;
   line-height: 25px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   transition: all .4s ease-in-out;
 }
