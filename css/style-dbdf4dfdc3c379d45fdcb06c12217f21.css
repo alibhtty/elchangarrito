@@ -230,8 +230,12 @@ p a:hover {
 a {
   color: #000;
 }
+.menubar:hover {
+  color: #ffff00 !important;
+  text-decoration: none !important;
+}
 a:hover {
-  color: #000 !important;
+  color: #000000 !important;
   text-decoration: none !important;
 }
 ul {
@@ -1505,8 +1509,8 @@ p.menu-price-ind {
   display: block;
 }
 .content-area .gallery-block .image1 {
-  background: url("https://www.quay.com.au/wp-content/themes/quay/images/gallery-image6.jpg")
-    no-repeat left top;
+  /* background: url("https://www.quay.com.au/wp-content/themes/quay/images/gallery-image6.jpg")
+    no-repeat left top; */
   background-size: cover !important;
   width: 100%;
   min-height: 50vh;
