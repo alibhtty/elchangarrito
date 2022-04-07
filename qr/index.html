@@ -178,7 +178,8 @@ img.emoji {
 
 <!--- Restaurant Menu -->
 <section id="our_menu" class="pb-5"> <!-- pt-5 -->
-    <div class="contenedor"><br>
+    <div class="contenedor">
+      <br>
       <div class="row">
         <ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist">
           <li class="nav-item">
@@ -191,19 +192,25 @@ img.emoji {
             <a class="nav-link" id="quesadillas-tab" data-toggle="tab" href="#quesadillas" role="tab">Quesadillas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="bebidas-tab" data-toggle="tab" href="#bebidas" role="tab">Chelas</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" id="especialidades-tab" data-toggle="tab" href="#especialidades" role="tab">Especialidades</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="postres-tab" data-toggle="tab" href="#postres" role="tab">Postres</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="cocteles-tab" data-toggle="tab" href="#cocteles" role="tab">Cocteles</a>
+            <a class="nav-link" id="bebidas-tab" data-toggle="tab" href="#bebidas" role="tab">Bebidas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="chelas-tab" data-toggle="tab" href="#chelas" role="tab">Chelas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="cocteles-tab" data-toggle="tab" href="#cocteles" role="tab">Cócteles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="mezcaless-tab" data-toggle="tab" href="#mezcales" role="tab">Mezcales</a>
           </li>
         </ul>
-          </div>
+      </div>
 
       <div class="row">
         <div class="tab-content col-lg-12" id="myTabContent">
@@ -571,82 +578,218 @@ img.emoji {
             </div>
           </div>
 
-<!-- CHELAS -->
+<!-- BEBIDAS -->
           <div class="tab-pane fade" id="bebidas" role="tabpanel" aria-labelledby="bebidas-tab">
             <div class="row">
               <div class="col-md-6">
                 <div class="box">
                   <div class="single_menu">
-                    <img src="../assets/img/huevo-con-trufa.jpg" alt="coronita">
+                    <img loading="lazy" src="../assets/img/carta/aguas-frescas.png" alt="aguas frescas">
                     <div class="menu_content">
-                      <h4>Corona<span>€3.50</span></h4>
+                      <h4>Aguas de frutos naturales
+                        <span>€4.50</span>
+                      </h4>
+                      <p>Aguas de frutas como fresa, papaya, mango, melón, lima, jamaica o tamarindo.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="single_menu">
+                    <img loading="lazy" src="../assets/img/carta/agua.png" alt="agua">
+                    <div class="menu_content">
+                      <h4>Agua
+                        <span>€2.50</span>
+                      </h4>
+                      <p>Agua</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="single_menu">
+                    <img loading="lazy" src="../assets/img/carta/coca-cola.png" alt="modelo especial">
+                    <div class="menu_content">
+                      <h4>Coca-Cola
+                        <span>€2.50</span>
+                      </h4>
+                      <p>Coca-Cola</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="single_menu">
+                    <img loading="lazy" src="../assets/img/carta/coca-cola-zero.png" alt="coca-cola zero">
+                    <div class="menu_content">
+                      <h4>Coca-Cola Zero
+                        <span>€2.50</span>
+                      </h4>
+                      <p>Coca-Cola Zero</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-6">
+                <div class="box">
+                  <div class="single_menu">
+                    <img loading="lazy" src="../assets/img/carta/coca-cola-light.png" alt="ocho reales">
+                    <div class="menu_content">
+                      <h4>Coca-Cola Light
+                        <span>€2.50</span>
+                      </h4>
+                      <p>Coca-Cola Light</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="single_menu">
+                    <img loading="lazy" src="../assets/img/carta/nestea.png" alt="stela artois">
+                    <div class="menu_content">
+                      <h4>Nestea
+                        <span>€2.50</span>
+                      </h4>
+                      <p>Nestea</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="single_menu">
+                    <img loading="lazy" src="../assets/img/carta/aquarius.png" alt="aquarius">
+                    <div class="menu_content">
+                      <h4>Aquarius
+                        <span>€2.50</span>
+                      </h4>
+                      <p>Aquarius</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="single_menu">
+                    <img loading="lazy" src="../assets/img/carta/fanta-naranja.png" alt="fanta naranja">
+                    <div class="menu_content">
+                      <h4>Fanta Naranja
+                        <span>€2.50</span>
+                      </h4> <!-- <span>€2.50</span> -->
+                      <p>Fanta Naranja</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+
+<!-- CHELAS -->
+          <div class="tab-pane fade" id="chelas" role="tabpanel" aria-labelledby="chelas-tab">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="box">
+                  <div class="single_menu">
+                    <img loading="lazy" src="../assets/img/carta/corona.png" alt="corona">
+                    <div class="menu_content">
+                      <h4>Corona
+                        <span>€4.50</span>
+                        <a class="alergenos" href="">
+                          <img loading="lazy" src="../assets/icons/alergenos/alcohol.svg" alt="">
+                        </a>
+                      </h4>
                       <p>Coronita en España.</p>
                     </div>
                   </div>
                 </div>
                 <div class="box">
                   <div class="single_menu">
-                    <img src="../assets/img/huevo-con-trufa.jpg" alt="negra modelo">
+                    <img loading="lazy" src="../assets/img/carta/negra-modelo.png" alt="negra modelo">
                     <div class="menu_content">
-                      <h4>Negra Modelo<span>€3.50</span></h4>
+                      <h4>Negra Modelo
+                        <span>€4.50</span>
+                        <a class="alergenos" href="">
+                          <img loading="lazy" src="../assets/icons/alergenos/alcohol.svg" alt="">
+                        </a>
+                      </h4>
                       <p>La crema de la cerveza.</p>
                     </div>
                   </div>
                 </div>
                 <div class="box">
                   <div class="single_menu">
-                    <img src="../assets/img/huevo-con-trufa.jpg" alt="modelo especial">
+                    <img loading="lazy" src="../assets/img/carta/modelo-especial.png" alt="modelo especial">
                     <div class="menu_content">
-                      <h4>Modelo Especial<span>€3.50</span></h4>
+                      <h4>Modelo Especial
+                        <span>€4.50</span>
+                        <a class="alergenos" href="">
+                          <img loading="lazy" src="../assets/icons/alergenos/alcohol.svg" alt="">
+                        </a>
+                      </h4>
                       <p>La especial.</p>
                     </div>
                   </div>
                 </div>
                 <div class="box">
                   <div class="single_menu">
-                    <img src="../assets/img/huevo-con-trufa.jpg" alt="pacífico">
+                    <img loading="lazy" src="../assets/img/carta/pacifico.png" alt="pacífico">
                     <div class="menu_content">
-                      <h4>Pacífico<span>€3.50</span></h4>
+                      <h4>Pacífico
+                        <span>€4.50</span>
+                        <a class="alergenos" href="">
+                          <img loading="lazy" src="../assets/icons/alergenos/alcohol.svg" alt="">
+                        </a>
+                      </h4>
                       <p>La norteña.</p>
                     </div>
                   </div>
                 </div>
               </div>
-
+          
               <div class="col-md-6">
                 <div class="box">
                   <div class="single_menu">
-                    <img src="../assets/img/huevo-con-trufa.jpg" alt="ocho reales">
+                    <img loading="lazy" src="../assets/img/carta/ocho-reales.png" alt="ocho reales">
                     <div class="menu_content">
-                      <h4>Ocho Reales<span>€4.70</span></h4>
+                      <h4>Ocho Reales
+                        <span>€4.50</span>
+                        <a class="alergenos" href="">
+                          <img loading="lazy" src="../assets/icons/alergenos/alcohol.svg" alt="">
+                        </a>
+                      </h4>
                       <p>La artesana mexicana sin gluten.</p>
                     </div>
                   </div>
                 </div>
                 <div class="box">
                   <div class="single_menu">
-                    <img src="../assets/img/huevo-con-trufa.jpg" alt="estela artois">
+                    <img loading="lazy" src="../assets/img/carta/stela-artois.png" alt="stela artois">
                     <div class="menu_content">
-                      <h4>Estela Artois<span>€2.50</span></h4>
+                      <h4>Estela Artois
+                        <span>€2.50</span>
+                        <a class="alergenos" href="">
+                          <img loading="lazy" src="../assets/icons/alergenos/alcohol.svg" alt="">
+                        </a>
+                      </h4>
                       <p>Fría y directa del barril.</p>
                     </div>
                   </div>
                 </div>
                 <div class="box">
                   <div class="single_menu">
-                    <img src="../assets/img/huevo-con-trufa.jpg" alt="agua">
+                    <img loading="lazy" src="../assets/img/carta/sol.png" alt="sol">
                     <div class="menu_content">
-                      <h4>Agua<span>€2.00</span></h4>
-                      <p>Agua mineral.</p>
+                      <h4>Sol
+                        <span>€4.50</span>
+                        <a class="alergenos" href="">
+                          <img loading="lazy" src="../assets/icons/alergenos/alcohol.svg" alt="">
+                        </a>
+                      </h4>
+                      <p>Sol.</p>
                     </div>
                   </div>
                 </div>
                 <div class="box">
                   <div class="single_menu">
-                    <img src="../assets/img/huevo-con-trufa.jpg" alt="coca cola">
+                    <img loading="lazy" src="../assets/img/carta/free-damm.png" alt="free damm">
                     <div class="menu_content">
-                      <h4>Coca-Cola<span>€2.50</span></h4>
-                      <p>Clásica y Zero azúcar.</p>
+                      <h4>Cerveza sin Alcohol
+                        <span>€4.50</span>
+                      </h4>
+                      <p>Free Damm</p>
                     </div>
                   </div>
                 </div>
