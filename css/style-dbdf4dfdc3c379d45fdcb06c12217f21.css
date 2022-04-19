@@ -2,10 +2,10 @@
 
 :root {
   --magenta-logo:#E6037E; /* #E6037E #FF0066 */
-  --magenta: #FF00FF;
+  /* --magenta: #FF00FF; */
   --amarillo: #FFFF00; /* FFBB00 */
   --azul: #0000FF;
-  /* --bg-light: #FFF0F8; */
+  --bg-light: #FFF0F8;
   --blanco:#FFFFFF;
   --light-amarillo: ##FFFFE0;
 }

@@ -135,6 +135,7 @@ img.emoji {
                           <div class="hamburger_close"><img src="../assets/icons/cancel.png" alt="" title=""></div>
                       <div class="hamburger_menu_content text-right">
                         <ul id="menu-main-menu" class="mobile_menu-nav-list">
+                          <div style="padding-left: 40px;" id="google_translate_element" class="google"></div> <br> <br>
                           <li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-105 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link menubar cta makebtn " href="../index.html" aria-current="page">Inicio</a></li>
                           <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link menubar cta makebtn " href="index.html">La Carta</a></li>
                           <li id="menu-item-391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link menubar cta makebtn " href="../index.html#nosotros">Nosotros</a></li>
@@ -1716,5 +1717,13 @@ window.addEventListener('LazyLoad::Initialized', function (e) {
 <!-- CARTA SELECION ITEMS -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+
+<!-- G.TRADUCTOR -->
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,en,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+          }
+  </script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
