@@ -4239,6 +4239,14 @@ p, address, h1, h2, h3 {
   width: 100%;
 }
 
+.lang-switch:hover{
+  color: #E6037E;
+  transition: ease-in-out .4s;
+}
+strong{
+  cursor: pointer;
+}
+
 /* SWEET ALERT */
 .swal2-title {
   font-size: 4em;
