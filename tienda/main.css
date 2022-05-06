@@ -543,14 +543,14 @@ text-decoration: none;
 }
 
 .shop-template  i {
-    border: 3px solid #c80000;
+    border: 3px solid #E6037E; /* #c80000 */
     border-radius: 50%;
     clear: both;
     font-size: 40px;
     height: 70px;
     line-height: 70px;
     width: 70px;
-    color: #c80000;
+    color: #E6037E;
     margin-bottom: 3rem;
 
 }
@@ -6110,8 +6110,8 @@ th {
 
 @font-face {
     font-family: Glyphicons Halflings;
-    src: url("../fonts/glyphicons-halflings-regular.eot");
-    src: url("../fonts/glyphicons-halflings-regular-.eot#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg")
+    src: url("https://alibhtty.github.io/elchangarrito/assets/font/glyphicons-halflings-regular.eot");
+    src: url("https://alibhtty.github.io/elchangarrito/assets/font/glyphicons-halflings-regular-.eot#iefix") format("embedded-opentype"), url("https://alibhtty.github.io/elchangarrito/assets/font/glyphicons-halflings-regular.woff2") format("woff2"), url("https://alibhtty.github.io/elchangarrito/assets/font/glyphicons-halflings-regular.woff") format("woff"), url("https://alibhtty.github.io/elchangarrito/assets/font/glyphicons-halflings-regular.ttf") format("truetype"), url("https://alibhtty.github.io/elchangarrito/assets/font/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg")
 }
 
 .glyphicon {
@@ -14613,8 +14613,8 @@ button.close {
 
 @font-face {
     font-family: FontAwesome;
-    src: url("../fonts/fontawesome-webfont-v=4.7.0.eot");
-    src: url("../fonts/fontawesome-webfont-.eot#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont-v=4.7.0.woff2") format("woff2"), url("../fonts/fontawesome-webfont-v=4.7.0.woff") format("woff"), url("../fonts/fontawesome-webfont-v=4.7.0.ttf") format("truetype"), url("../fonts/fontawesome-webfont-v=4.7.0.svg#fontawesomeregular") format("svg");
+    src: url("https://alibhtty.github.io/elchangarrito/assets/font/fontawesome-webfont-v=4.7.0.eot");
+    src: url("https://alibhtty.github.io/elchangarrito/assets/font/fontawesome-webfont-.eot#iefix&v=4.7.0") format("embedded-opentype"), url("https://alibhtty.github.io/elchangarrito/assets/font/fontawesome-webfont-v=4.7.0.woff2") format("woff2"), url("https://alibhtty.github.io/elchangarrito/assets/font/fontawesome-webfont-v=4.7.0.woff") format("woff"), url("https://alibhtty.github.io/elchangarrito/assets/font/fontawesome-webfont-v=4.7.0.ttf") format("truetype"), url("https://alibhtty.github.io/elchangarrito/assets/font/fontawesome-webfont-v=4.7.0.svg#fontawesomeregular") format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -17728,20 +17728,20 @@ button.close {
 
 @font-face {
     font-family: Panton;
-    src: url("../fonts/pantonregular.woff2") format("woff2"), url("../fonts/pantonregular.woff") format("woff");
+    src: url("https://alibhtty.github.io/elchangarrito/assets/font/pantonregular.woff2") format("woff2"), url("../fonts/pantonregular.woff") format("woff");
     font-weight: 500;
 }
 
 @font-face {
     font-family: Panton;
-    src: url("../fonts/pantonblack.woff2") format("woff2"), url("../fonts/pantonblack.woff") format("woff");
+    src: url("https://alibhtty.github.io/elchangarrito/assets/font/pantonblack.woff2") format("woff2"), url("../fonts/pantonblack.woff") format("woff");
     font-weight: 600;
 }
 
 
 @font-face {
     font-family: Panton;
-    src: url("../fonts/pantonbold.woff2") format("woff2"), url("../fonts/pantonbold.woff") format("woff");
+    src: url("https://alibhtty.github.io/elchangarrito/assets/font/pantonbold.woff2") format("woff2"), url("../fonts/pantonbold.woff") format("woff");
     font-weight: 700;
 }
 
@@ -17789,7 +17789,7 @@ a:hover {
 .intro.sintemplate h1 {
     font-family: Panton;
     font-size: 50px;
-    color: #c80000;
+    color: #E6037E;  /* #E6037E     #7a1c5e */
     text-transform: uppercase;
     width: 100%;
     font-weight: 600;
@@ -17827,7 +17827,7 @@ a:hover {
 }
 
 .intro.sintemplate a {
-    color: #c80000;
+    color: #E6037E;
     font-size: 16px;
     font-family: Panton;
     text-transform: uppercase;
@@ -17835,7 +17835,7 @@ a:hover {
 }
 
 .intro.sintemplate a i {
-    border: 3px solid #c80000;
+    border: 3px solid #E6037E;
     border-radius: 50%;
     clear: both;
     font-size: 40px;
@@ -18232,7 +18232,7 @@ nav.main {
     left: -400px;
     height: 100%;
     z-index: 999;
-    background-color: rgba(200, 0, 0, .95);
+    background-color: #E6037E;
     overflow: hidden
 }
 
@@ -18392,7 +18392,7 @@ nav.main .menu-social-container ul li {
 
 nav.main .menu-social-container ul li a {
     background-color: #fff;
-    color: #c80000;
+    color: #E6037E;
     display: block;
     width: 40px;
     height: 40px;
@@ -18411,7 +18411,7 @@ nav.main .menu-social-container ul li a:hover {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #c80000;
+    background-color: #E6037E;
     text-align: left;
     padding: 20px 0;
     z-index: 1000
@@ -18436,7 +18436,7 @@ nav.main .menu-social-container ul li a:hover {
     background-size: 100% 100%;
     border: 0;
     border-radius: 0;
-    color: #c80000;
+    color: #E6037E;
     display: inline-block;
     font-size: 16px;
     font-weight: 800;
@@ -18685,7 +18685,7 @@ footer .amarillo ul li a:hover {
 .page-template-new-home .carousel .carousel-cell .texto a.boton {
     background-image: url("../images/home-slidebutton-bg.svg");
     background-size: 100% 100%;
-    color: #c80000;
+    color: #E6037E;
     font-size: 12px;
         padding: 15px 28px;
     font-weight: 800;
@@ -18994,7 +18994,7 @@ footer .amarillo ul li a:hover {
 .page-template-new-home .newsletter h2 {
     font-family: Panton;
     font-size: 50px;
-    color: #c80000;
+    color: #E6037E;
     text-transform: uppercase;
     width: 100%
 }
@@ -19157,7 +19157,7 @@ footer .amarillo ul li a:hover {
 .page-template-historia .intro h1 {
     font-family: Panton;
     font-size: 50px;
-    color: #c80000;
+    color: #E6037E;
     text-transform: uppercase;
     width: 100%;
     font-weight: 600;
@@ -19179,7 +19179,7 @@ footer .amarillo ul li a:hover {
 }
 
 .page-template-historia .intro a {
-    color: #c80000;
+    color: #E6037E;
     font-size: 16px;
     font-family: Panton;
     text-transform: uppercase;
@@ -19187,7 +19187,7 @@ footer .amarillo ul li a:hover {
 }
 
 .page-template-historia .intro a i {
-    border: 3px solid #c80000;
+    border: 3px solid #E6037E;
     border-radius: 50%;
     clear: both;
     font-size: 40px;
