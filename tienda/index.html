@@ -1,7 +1,7 @@
 
 <!doctype html>
 <html lang="es-ES">
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
@@ -71,7 +71,7 @@
       <span class="icon-bar"></span>
   </button>
   <button type="button" class="btn-menu  shop-menu">
-    <a href="../tienda/index.html"><img class="shop-icon" src="../tienda/icon-tienda.png"></a>
+    <a href="../carta/"><img class="shop-icon" src="../tienda/icon-carta.png"></a>
   </button>
 </header>
 
@@ -123,13 +123,12 @@ function mostrarPantallaCookies1(){jQuery("#cookies_pantalla_2").hide();jQuery("
 function guardaCookies(_dato){if(_dato==''){dato=jQuery('input[name=cookie-choice]:checked').val();}else{dato=_dato;}
 console.log(dato);Cookies.set('COOKIES_ACEPTADAS',dato,{expires:365});setTimeout(function(){location.reload();},1000);}</script> -->
 
-<style>.cookiesSeleccion .titular{color:#fff;font-size:24px;line-height:1em;margin-bottom:15px}.cookiesSeleccion .volver a{color:#fff;font-size:16px;line-height:1em;display:inline-block;text-decoration:none;margin-bottom:15px}.cookiesSeleccion p,.cookiesSeleccion label{font-size:16px;color:#fff;font-weight:normal}.cookiesSeleccion .cajaCheck{display:block;padding-left:10px;position:relative;margin-bottom:15px}.cookiesSeleccion .cajaCheck input{position:absolute;top:0px;left:0px}.cookiesSeleccion .cajaCheck input[type="radio"]:checked,
+<!-- <style>.cookiesSeleccion .titular{color:#fff;font-size:24px;line-height:1em;margin-bottom:15px}.cookiesSeleccion .volver a{color:#fff;font-size:16px;line-height:1em;display:inline-block;text-decoration:none;margin-bottom:15px}.cookiesSeleccion p,.cookiesSeleccion label{font-size:16px;color:#fff;font-weight:normal}.cookiesSeleccion .cajaCheck{display:block;padding-left:10px;position:relative;margin-bottom:15px}.cookiesSeleccion .cajaCheck input{position:absolute;top:0px;left:0px}.cookiesSeleccion .cajaCheck input[type="radio"]:checked,
   .cookiesSeleccion .cajaCheck input[type="radio"]:not(:checked) {position:absolute;left:-9999px;opacity:0}.cookiesSeleccion .cajaCheck input[type="radio"]:checked + label,
   .cookiesSeleccion .cajaCheck input[type="radio"]:not(:checked) + label
   {position:relative;padding-left:28px;cursor:pointer;line-height:20px;display:inline-block;color:#fff}.cookiesSeleccion .cajaCheck input[type="radio"]:checked + label:before,
   .cookiesSeleccion .cajaCheck input[type="radio"]:not(:checked) + label:before {content:'';position:absolute;left:0;top:0;width:18px;height:18px;border:2px solid #fff;border-radius:100%}.cookiesSeleccion .cajaCheck input[type="radio"]:checked + label:after,
-  .cookiesSeleccion .cajaCheck input[type="radio"]:not(:checked) + label:after {content:'';width:18px;height:18px;background:#fff;position:absolute;top:0px;left:0px;border-radius:100%;-webkit-transition:all .2s ease;transition:all .2s ease}.cookiesSeleccion .cajaCheck input[type="radio"]:not(:checked) + label:after {opacity:0;-webkit-transform:scale(0);transform:scale(0)}.cookiesSeleccion .cajaCheck input[type="radio"]:checked+label:after{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.cookiesSeleccion .tit{font-weight:bold;margin-bottom:15px;color:#fff}.cookiesSeleccion button{margin-top:15px}</style>
-
+  .cookiesSeleccion .cajaCheck input[type="radio"]:not(:checked) + label:after {content:'';width:18px;height:18px;background:#fff;position:absolute;top:0px;left:0px;border-radius:100%;-webkit-transition:all .2s ease;transition:all .2s ease}.cookiesSeleccion .cajaCheck input[type="radio"]:not(:checked) + label:after {opacity:0;-webkit-transform:scale(0);transform:scale(0)}.cookiesSeleccion .cajaCheck input[type="radio"]:checked+label:after{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.cookiesSeleccion .tit{font-weight:bold;margin-bottom:15px;color:#fff}.cookiesSeleccion button{margin-top:15px}</style> -->
 
 
 <nav class="main">
@@ -174,11 +173,11 @@ var cajas=[];var ic=1;var chX=[rnum(),rnum(),rnum(),rnum()];var chY=[rnum(),rnum
 
 if(ic%4==0)
 {chX[1]=0;chX[2]=0;}
-ic++;cajas.push({nombre:'Valentina picante',bgcolor:'#ff6600',bgcolor2:'#f79a23',chch:'../tienda/img/valentina-picante.png',titulo:'../tienda/productos/valentina-picante.png',titulo_blur:'../tienda/productos/valentina-picante-blur.png',Yalign:'center',enlace:'https://changarrito.es/tienda/valentina-picante/',changesX:chX,changesY:chY,currentX:[0,0,0,0],currentY:[0,0,0,0],origX:[0,0,0,0],origY:[0,0,0,0],objX:[0,0,0,0],objY:[0,0,0,0],desplazamiento_producto:'1',modificar:false});var chX=[rnum(),rnum(),rnum(),rnum()];var chY=[rnum(),rnum(),rnum(),rnum()];if(ic%4==1)
+ic++;cajas.push({nombre:'Valentina picante',bgcolor:'#ff6600',bgcolor2:'#f79a23',chch:'../tienda/img/valentina-picante.png',titulo:'../tienda/productos/valentina-picante.png',titulo_blur:'../tienda/productos/valentina-picante-blur.png',Yalign:'center',enlace:'../tienda/producto/valentina-picante/',changesX:chX,changesY:chY,currentX:[0,0,0,0],currentY:[0,0,0,0],origX:[0,0,0,0],origY:[0,0,0,0],objX:[0,0,0,0],objY:[0,0,0,0],desplazamiento_producto:'1',modificar:false});var chX=[rnum(),rnum(),rnum(),rnum()];var chY=[rnum(),rnum(),rnum(),rnum()];if(ic%4==1)
 {chX[0]=0;chX[3]=0;}
 if(ic%4==0)
 {chX[1]=0;chX[2]=0;}
-ic++;cajas.push({nombre:'Pasta de Chile Habanero',bgcolor:'#ff28c5',bgcolor2:'#7200b1',chch:'../tienda/img/pasta-de-chile-habanero.png',titulo:'../tienda/productos/pasta-de-chile-habanero.png',titulo_blur:'../tienda/productos/pasta-de-chile-habanero-blur.png',Yalign:'right',enlace:'https://changarrito.es/tienda/pasta-de-chile-habanero/',changesX:chX,changesY:chY,currentX:[0,0,0,0],currentY:[0,0,0,0],origX:[0,0,0,0],origY:[0,0,0,0],objX:[0,0,0,0],objY:[0,0,0,0],desplazamiento_producto:'1',modificar:false});var chX=[rnum(),rnum(),rnum(),rnum()];var chY=[rnum(),rnum(),rnum(),rnum()];if(ic%4==1)
+ic++;cajas.push({nombre:'Pasta de Chile Habanero',bgcolor:'#ff28c5',bgcolor2:'#7200b1',chch:'../tienda/img/pasta-de-chile-habanero.png',titulo:'../tienda/productos/pasta-de-chile-habanero.png',titulo_blur:'../productos/pasta-de-chile-habanero-blur.png',Yalign:'right',enlace:'https://changarrito.es/tienda/pasta-de-chile-habanero/',changesX:chX,changesY:chY,currentX:[0,0,0,0],currentY:[0,0,0,0],origX:[0,0,0,0],origY:[0,0,0,0],objX:[0,0,0,0],objY:[0,0,0,0],desplazamiento_producto:'1',modificar:false});var chX=[rnum(),rnum(),rnum(),rnum()];var chY=[rnum(),rnum(),rnum(),rnum()];if(ic%4==1)
 {chX[0]=0;chX[3]=0;}
 if(ic%4==0)
 {chX[1]=0;chX[2]=0;}
@@ -187,7 +186,7 @@ ic++;cajas.push({nombre:'Achiote',bgcolor:'#ff6630',bgcolor2:'#ff6630',chch:'../
 if(ic%4==0)
 {chX[1]=0;chX[2]=0;}
 
-ic++;cajas.push({nombre:'Flor de Calabaza',bgcolor:'#ea0457',bgcolor2:'#ea0457',chch:'../tienda/img/flor-de-calabaza.png',titulo:'../tienda/productos/flor-de-calabaza.png',titulo_blur:'https://chupachups.es/wp-content/uploads/2004/01/melodypops.png',Yalign:'center',enlace:'https://chupachups.es/productos/melody-pops/',changesX:chX,changesY:chY,currentX:[0,0,0,0],currentY:[0,0,0,0],origX:[0,0,0,0],origY:[0,0,0,0],objX:[0,0,0,0],objY:[0,0,0,0],desplazamiento_producto:'1',modificar:false});var chX=[rnum(),rnum(),rnum(),rnum()];var chY=[rnum(),rnum(),rnum(),rnum()];if(ic%4==1)
+ic++;cajas.push({nombre:'Flor de Calabaza',bgcolor:'#ea0457',bgcolor2:'#ea0457',chch:'../tienda/img/flor-de-calabaza.png',titulo:'../tienda/productos/flor-de-calabaza.png',titulo_blur:'../tienda/productos/flor-de-calabaza-blur.png',Yalign:'center',enlace:'https://chupachups.es/productos/melody-pops/',changesX:chX,changesY:chY,currentX:[0,0,0,0],currentY:[0,0,0,0],origX:[0,0,0,0],origY:[0,0,0,0],objX:[0,0,0,0],objY:[0,0,0,0],desplazamiento_producto:'1',modificar:false});var chX=[rnum(),rnum(),rnum(),rnum()];var chY=[rnum(),rnum(),rnum(),rnum()];if(ic%4==1)
 {chX[0]=0;chX[3]=0;}
 
 if(ic%4==0)
