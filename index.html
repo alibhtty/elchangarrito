@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="theme-color" content="#000000" />
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+    <!-- <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script> -->
 	<!-- This site is optimized with the Yoast SEO plugin v16.1.1 - https://yoast.com/wordpress/plugins/seo/ -->
 	<title>El Changarrito</title>
 	<meta name="description" content="Haz tu pedido en línea para retirar / entrega a domicilio o reservar una mesa. Aquí en El Changarrito - Barcelona experimentarás una deliciosa cocina Mexicana. ¡Pruebe nuestros deliciosos platillos, cuidadosamente preparados con ingredientes frescos! En El Changarrito, nuestra receta para el éxito es simple: Calidad y sabor hace que los clientes cada vez regresen."/>
@@ -23,7 +23,16 @@
 	<meta property="article:modified_time" content="2022-01-04T04:10:14+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<!-- <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.elchangarrito.es/#website","url":"https://www.elchangarrito.es/","name":"Restaurante El Changarrito","description":"","potentialAction":[{"@type":"SearchAction","target":"https://www.elchangarrito.es/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.elchangarrito.es/#webpage","url":"https://www.elchangarrito.es/","name":"Restaurante El Changarrito","isPartOf":{"@id":"https://www.elchangarrito.es/#website"},"datePublished":"2018-06-25T12:43:15+00:00","dateModified":"2021-11-01T03:59:14+00:00","description":"El Changarrito - Mexican Food","breadcrumb":{"@id":"https://www.elchangarrito.es/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.elchangarrito.es/"]}]},{"@type":"BreadcrumbList","@id":"https://www.elchangarrito.es/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.elchangarrito.es/","url":"https://www.elchangarrito.es/","name":"Home"}}]}]}</script> -->
-    
+
+<!-- Google Tag Manager -->
+	<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MGZVSS5');</script>
+        <!-- End Google Tag Manager -->
+
 <style type="text/css">
 img.wp-smiley,
 img.emoji {
@@ -45,6 +54,7 @@ img.emoji {
 
 <!-- SLIDE-TEXT -->
 <link rel="stylesheet" href="css/slide-text.css">
+<link rel="stylesheet" href="css/cookies.css">
 <link rel='stylesheet' id='quay-bootstrap-style-css'  href='css/bootstrap-91765ff28322b37b893490e4190c1f01.css' data-minify="1"  type='text/css' media='all' />
 <link rel='stylesheet' id='quay-custom-style-css'  href='css/style-dbdf4dfdc3c379d45fdcb06c12217f21.css' data-minify="1"  type='text/css' media='all' />
 <link rel='stylesheet' id='quay-aos-style-css'  href='css/aos-804bf1c3ad7fadaa65ade65a45884beb.css' data-minify="1"  type='text/css' media='all' />
@@ -91,6 +101,13 @@ img.emoji {
 
 <body class="home page-template page-template-front-page page-template-front-page-php page page-id-4 group-blog" oncontextmenu="return false" onkeydown="return false">
 	
+<!-- Google TAg Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGZVSS5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+
 <!-- END BARRA TEXTO -->
             
 <div id="wrapper">
@@ -571,6 +588,18 @@ img.emoji {
             &nbsp;</div>
     </div>
 </footer>
+
+<!-- cookies -->
+<div class="aviso-cookies" id="aviso-cookies">
+	<img class="galleta" src="/assets/icons/cookie.svg" alt="Galleta">
+	<h3 class="titulo">Cookies</h3>
+	<p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+	<button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+	<a class="enlace" href="aviso-cookies.html">Aviso de Cookies</a>
+</div>
+<div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+
 </section>
 
 <div class="clear"></div>
@@ -801,6 +830,7 @@ img.emoji {
 <!-- BACKend DELIVERY & RESERVAS -->
 <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
 
+<script src="js/cookies.js"></script>
 <!-- SLIDE-TEXT -->
  <script type="text/javascript" src="js/slide-text.js"></script>
 <script type="text/javascript" src="js/slide-text-2.js"></script>
@@ -826,11 +856,11 @@ img.emoji {
 </style>-->
 
 <!-- G.TRADUCTOR -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,en,fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
             }
     </script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 </body>
 </html>
