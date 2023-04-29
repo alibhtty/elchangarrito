@@ -54,7 +54,36 @@ img.emoji {
 
 <!-- SLIDE-TEXT -->
 <link rel="stylesheet" href="css/slide-text.css">
-<link rel="stylesheet" href="css/cookies.css">
+<!-- <link rel="stylesheet" href="css/cookies.css"> -->
+
+<!-- cookies -->
+<link rel="stylesheet" href="assets/cookies/pdcc.min.css">
+<script charset="utf-8" src="assets/cookies/pdcc.min.js"></script>
+<script type="text/javascript">
+            PDCookieConsent.config({
+            "defaultLang" : "es",
+            "brand": {
+                "dev" : false,
+                "name": "PRUEBAS",
+                "url" : "https://localhost",
+                "websiteOwner" : "PRUEBAS"
+                },
+            "cookiePolicyLink": "http://localhost/cookies.php",
+            "hideModalIn": ["http://localhost/cookies.php"],
+            "styles": {
+                "primaryButton": {
+                "bgColor" : "#C92981",
+                "txtColor": "#ffffff"
+                    },
+                "secondaryButton": {
+                "bgColor" : "#EEEEEE",
+                "txtColor": "#333333"
+                    }
+                }
+        });
+</script>
+
+
 <link rel='stylesheet' id='quay-bootstrap-style-css'  href='css/bootstrap-91765ff28322b37b893490e4190c1f01.css' data-minify="1"  type='text/css' media='all' />
 <link rel='stylesheet' id='quay-custom-style-css'  href='css/style-dbdf4dfdc3c379d45fdcb06c12217f21.css' data-minify="1"  type='text/css' media='all' />
 <link rel='stylesheet' id='quay-aos-style-css'  href='css/aos-804bf1c3ad7fadaa65ade65a45884beb.css' data-minify="1"  type='text/css' media='all' />
@@ -589,12 +618,17 @@ img.emoji {
     </div>
 </footer>
 
+<!-- <a href="#" class="pdcc-open-modal">Panel Cookies</a> -->
+
 <!-- cookies -->
 <div class="aviso-cookies" id="aviso-cookies">
 	<img class="galleta" src="assets/icons/cookie.svg" alt="Galleta">
 	<h3 class="titulo">Cookies</h3>
-	<p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
-	<button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+	<p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios y personalizar nuestro sitio en base a un perfil elaborado a partir de hábitos de navegación.</p>
+	<div style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 1rem;">
+        <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+        <a href="#" class="boton pdcc-open-modal" id="pdcc-modal-config">Configurar</a>
+    </div>
 	<a class="enlace" href="aviso-cookies.html">Aviso de Cookies</a>
 </div>
 <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
@@ -830,7 +864,10 @@ img.emoji {
 <!-- BACKend DELIVERY & RESERVAS -->
 <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
 
-<script src="js/cookies.js"></script>
+<!-- cookies nativo -->
+<!-- <script src="js/cookies.js"></script> -->
+
+
 <!-- SLIDE-TEXT -->
  <script type="text/javascript" src="js/slide-text.js"></script>
 <script type="text/javascript" src="js/slide-text-2.js"></script>

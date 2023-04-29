@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="pdcc.min.css">
+<script charset="utf-8" src="pdcc.min.js"></script>
+<script type="text/javascript">
+PDCookieConsent.config({
+"defaultLang" : "es",
+"brand": {
+"dev" : false,
+"name": "PRUEBAS",
+"url" : "https://localhost",
+"websiteOwner" : "PRUEBAS"
+},
+"cookiePolicyLink": "http://localhost/cookies.php",
+"hideModalIn": ["http://localhost/cookies.php"],
+"styles": {
+"primaryButton": {
+"bgColor" : "#A1FFA1",
+"txtColor": "#036900"
+},
+"secondaryButton": {
+"bgColor" : "#EEEEEE",
+"txtColor": "#333333"
+}
+}
+});
+</script>
+
+
+<a href="#" class="pdcc-open-modal">Panel Cookies</a>
