@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900,400italic,700italic,900italic%7CMontserrat:400,700%7CInconsolata:400%7COpen+Sans:300,400,600,600i,700,800&subset=latin,latin-ext" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#E6037E" />
     <!-- <link rel="profile" href="http://gmpg.org/xfn/11"> -->
     <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
 
@@ -66,7 +66,34 @@ img.emoji {
 <link rel="manifest" href="../favicon/site.webmanifest">
 <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#ffc40d">
 <meta name="msapplication-TileColor" content="#ffc40d">
-<meta name="theme-color" content="#ffffff">
+
+
+<!-- cookies -->
+<link rel="stylesheet" href="../assets/cookies/pdcc.min.css">
+<script charset="utf-8" src="../assets/cookies/pdcc.min.js"></script>
+<script type="text/javascript">
+            PDCookieConsent.config({
+            "defaultLang" : "es",
+            "brand": {
+                "dev" : false,
+                "name": "Necesaarias",
+                "url" : "https://changarrito.es/",
+                "websiteOwner" : "Necesarias"
+                },
+            "cookiePolicyLink": "https://alibhtty.github.io/elchangarrito/cookies.html",
+            "hideModalIn": ["http://localhost/cookies.php"],
+            "styles": {
+                "primaryButton": {
+                "bgColor" : "#C92981",
+                "txtColor": "#ffffff"
+                    },
+                "secondaryButton": {
+                "bgColor" : "#EEEEEE",
+                "txtColor": "#333333"
+                    }
+                }
+        });
+</script>
 
 
 		<style type="text/css" id="wp-custom-css">
@@ -167,6 +194,9 @@ img.emoji {
                             <li id="menu-item-391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item"><a href="../restaurantes/" class="mobile_menu-nav-link menubar cta makebtn">Pedir a domicilio</a></li>
                             <!-- <li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190 mobile_menu-nav-list-item"><a class="mobile_menu-nav-link cta makebtn " href="https://changarrito.es/reservation-policy">Politicas de Reservas</a></li> -->
                             <li class="mobile_menu-nav-list-item link-btn" data-glf-cuid="0acdc474-aa05-4769-a0cc-71dc19f0860a" data-glf-ruid="c3887df0-9fec-4dc6-9376-e39f9392a131" data-glf-reservation="true"><button>Reservar en l'Eixample </button></li>
+                            <li id="menu-item-13294"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13294 mobile_menu-nav-list-item">
+                                <a class="mobile_menu-nav-link menubar cta makebtn pdcc-open-modal" style="position: absolute; bottom: 7rem ;font-size: 10px; font-family: 'Days';" href="#">Mis cookies</a></li>
                           </ul>
                         </div>
                       </div>
