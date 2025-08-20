@@ -9,28 +9,27 @@ const alergenosIcons = {
 const menuItems = {
   Batidos: [
     {
-      img: '../../assets/img/brunch/batido-de-fresa.png',
+      img: '../../assets/img/carta/batido-fresa.png',
       nombre: 'Batido de Fresa',
       descripcion: 'Fresas frescas, yogur natural y un toque de miel.',
       precio: '4.50€',
       alergenos: ["lacteos"]
     },
     {
-      img: '../../assets/img/carta/aguas-frescas.png',
-      //img: '../../assets/img/carta/batido-platano.png',
+      img: '../../assets/img/carta/batido-platano.png',
       nombre: 'Batido de Plátano y Avena',
       descripcion: 'Plátano maduro, leche vegetal, avena y canela.',
       precio: '4.80€',
       alergenos: ["gluten"]
     },
     {
-      img: '../../assets/img/brunch/batido-verde.png',
+      img: '../../assets/img/carta/batido-verde.png',
       nombre: 'Batido Verde Detox',
       descripcion: 'Espinaca, manzana verde, pepino y jengibre.',
       precio: '5.00€'
     },
     {
-      img: '../../assets/img/brunch/batido-cacao.png',
+      img: '../../assets/img/carta/batido-cacao.png',
       nombre: 'Batido de Cacao y Almendra',
       descripcion: 'Leche de almendra, cacao puro y dátiles.',
       precio: '5.20€',

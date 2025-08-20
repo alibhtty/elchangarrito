@@ -54,6 +54,33 @@ html, body {
   }
 }
 
+/* texturas */
+
+  /* SELECTOR ESPECIAL (BRUNCH) */
+  .selector-brunch, .selector-brunch:active {
+          position: relative; 
+          background-image: url('../image/app/nuevo2.gif');
+          background-size: cover;
+          /* background-color: rgb(255,255,255,.9); */
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        .selector-brunch::after {
+          content: "NUEVO!";
+          position: absolute;
+          top: -.2rem;
+          right: -.5rem;
+          background-color: #ffffff;
+          color: #000000;
+          font-size: .55rem;
+          font-weight: bold;
+          padding: .1rem .25rem;
+          padding-bottom: 0rem;
+          border-radius: .35rem;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
 h1, h2, h3, h4, a, img{
   user-select: none;
   -webkit-user-select: none;
@@ -314,7 +341,7 @@ h2 {
 h3 {
   font-size: 25px;
   color: #1a1a1a;
-  line-height: 35px;
+  line-height: 25px; /* 35px */
   margin-bottom: 15px;
 }
 h4 {
@@ -2638,7 +2665,7 @@ footer .copy-block {
     display: none;
   }
   footer .copy-block {
-    display: block;
+    display: flex; /* block */
   }
 }
 .derechos{
@@ -2650,7 +2677,7 @@ footer .copy-block {
 .content-alibhtty{
   width: fit-content;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   /* margin: 0 5em; */
   margin: 0 3em; /* 0 3em */
   justify-content: center;
@@ -2943,7 +2970,7 @@ footer .social-icon a.googleplus-icon:hover {
   display: block;
   text-transform: uppercase;
   font-family: "OakesGroteskBold";
-  font-size: 14px;
+  font-size: .9rem;
   margin-bottom: 0;
   line-height: 20px;
   text-align: left;
@@ -3000,16 +3027,17 @@ footer .social-icon a.googleplus-icon:hover {
 .full-width-block {
   width: 70%;
   margin: auto;
-  padding-top: 110px;
-  font-size: 14px;
+  padding-top: 4rem;
+  font-size: .9rem;
   color: #1a1a11;
 }
 .full-width-block p {
-  font-size: 14px;
+  font-size: .95rem;
   color: #1a1a11;
-  line-height: 25px;
-  margin-bottom: 35px;
-  letter-spacing: 2px;
+  font-family: "OakesGroteskRegular";
+  /* line-height: 25px; */
+  margin-bottom: 2rem; /* 35px */
+  letter-spacing: 0;
 }
 @media (min-width: 768px) {
   .make-btn-main {

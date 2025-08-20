@@ -647,5 +647,14 @@ const menuItems = {
         precio: '€4.00🍷 / €20.00🍾',
         alergenos: ['alcohol']
       }
-    ]
+    ],
+    brunch: [
+      {
+        img: '../assets/img/carta/nachos.png',
+        nombre: '',
+        descripcion: '',
+        precio: '',
+        alergenos: ["gluten", "lacteos"],
+      }
+    ],
   };

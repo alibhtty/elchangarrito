@@ -1,115 +1,121 @@
 const alergenosIcons = {
-    frutosSecos: "../../assets/icons/alergenos/frutos-secos.svg",
-    gluten: "../../assets/icons/alergenos/gluten.svg",
-    lacteos: "../../assets/icons/alergenos/lacteos.svg",
-    alcohol: "../../assets/icons/alergenos/alcohol.svg",
-    huevo: "../../assets/icons/alergenos/huevo.svg",
-  };
-  
+  frutosSecos: "../../assets/icons/alergenos/frutos-secos.svg",
+  gluten: "../../assets/icons/alergenos/gluten.svg",
+  lacteos: "../../assets/icons/alergenos/lacteos.svg",
+  alcohol: "../../assets/icons/alergenos/alcohol.svg",
+  huevo: "../../assets/icons/alergenos/huevo.svg",
+};
+
 const menuItems = {
-    Batidos: [
-      {
-        img: '../../assets/img/carta/nachos.png',
-        nombre: '',
-        descripcion: '',
-        precio: '',
-        alergenos: ["gluten", "lacteos"],
-      },
-      {
-        img: '../../assets/img/carta/guacamole.png',
-        nombre: '',
-        descripcion: '',
-        precio: '',
-      },
-      {
-        img: '../../assets/img/carta/sincronizada.png',
-        nombre: '',
-        descripcion: '',
-        precio: '',
-        alergenos: ["lacteos"]
-      },
-      {
-        img: '../../assets/img/carta/ensalada-de-nopales.png',
-        nombre: '',
-        descripcion: 'Nopalitos frescos con cebolla, jitomate, cilantro, queso fresco y aceite de oliva.',
-        precio: '8.00€',
-        alergenos: ["lacteos"]
-      }  
-    ],
-    Huevos: [
-      {
-        img: '../../assets/img/carta/taco-de-tinga-de-pollo.png',
-        nombre: 'Segundo de Pollo',
-        descripcion: 'Pechuga de pollo desmenuzada en salsa de casa.',
-        precio: '2.50€',
-      },
-      {
-        img: '../../assets/img/carta/taco-de-cochinita-pibil.png',
-        nombre: 'Taco de Cochinita Pibil',
-        descripcion: 'Carne de cerdo en salsa pibil con cebolla morada encurtida en limón por encima.',
-        precio: '2.50€',
-      },
-      {
-        img: '../../assets/img/carta/taco-al-pastor.png',
-        nombre: 'Taco al Pastor',
-        descripcion: 'Cerdo adobado en salsa pastor, a la plancha y servido con cebollita, cilantro y limón.',
-        precio: '2.50€',
-      },
-      {
-        img: '../../assets/img/carta/taco-de-mole-verde.png',
-        nombre: 'Taco de Mole Verde',
-        descripcion: 'Pechuga de pollo desmenuzada en una salsa prehispánica de hierbas mexicanas.',
-        precio: '2.50€',
-        alergenos: ["lacteos"]
-      }
-    ],
-    Tostas: [
-      {
-        img: '../../assets/img/carta/tres-leches.png',
-        nombre: 'Tartita Tres Leches',
-        descripcion: 'Bañada con tres leches.',
-        precio: '4.00€',
-        alergenos: ["huevo", "lacteos"]
-      },
-      {
-        img: '../../assets/img/carta/chocoflan.png',
-        nombre: 'Chocoflán',
-        descripcion: 'Esponjoso y cremoso.',
-        precio: '4.00€',
-        alergenos: ["huevo", "lacteos"]
-      },
-      {
-        img: '../../assets/img/carta/chocoflan.png',
-        nombre: 'Borrachito Catalán',
-        descripcion: 'Bizcocho bañado en almíbar, brandy y relleno de crema catalana.',
-        precio: '4.00€',
-        alergenos: ["huevo", "lacteos"]
-      },
-    ],
-    Ensaladas: [
-      {
-        img: '../../assets/img/carta/aguas-frescas.png',
-        nombre: 'Zumo de frutas natural',
-        descripcion: 'Zumo natural de naranja, papaya o fresa.',
-        precio: '4.00€',
-      },
-      {
-        img: '../../assets/img/carta/agua.png',
-        nombre: 'Agua',
-        descripcion: 'Agua 33cl, 50cl.',
-        precio: '2.50€',
-      },
-      {
-        img: '../../assets/img/carta/coca-cola.png',
-        nombre: 'Coca-Cola',
-        descripcion: 'Coca-Cola.',
-        precio: '2.50€',
-      },
-      {
-        img: '../../assets/img/carta/coca-cola-zero.png',
-        nombre: 'Coca-Cola Zero',
-        descripcion: 'Coca-Cola Zero.',
-        precio: '2.50€',
-      }
-    ],
-  };
+  Batidos: [
+    {
+      img: '../../assets/img/brunch/batido-de-fresa.png',
+      nombre: 'Batido de Fresa',
+      descripcion: 'Fresas frescas, yogur natural y un toque de miel.',
+      precio: '4.50€',
+      alergenos: ["lacteos"]
+    },
+    {
+      img: '../../assets/img/carta/aguas-frescas.png',
+      //img: '../../assets/img/carta/batido-platano.png',
+      nombre: 'Batido de Plátano y Avena',
+      descripcion: 'Plátano maduro, leche vegetal, avena y canela.',
+      precio: '4.80€',
+      alergenos: ["gluten"]
+    },
+    {
+      img: '../../assets/img/brunch/batido-verde.png',
+      nombre: 'Batido Verde Detox',
+      descripcion: 'Espinaca, manzana verde, pepino y jengibre.',
+      precio: '5.00€'
+    },
+    {
+      img: '../../assets/img/brunch/batido-cacao.png',
+      nombre: 'Batido de Cacao y Almendra',
+      descripcion: 'Leche de almendra, cacao puro y dátiles.',
+      precio: '5.20€',
+      alergenos: ["frutosSecos"]
+    }
+  ],
+  Huevos: [
+    {
+      img: '../../assets/img/carta/huevos-benedict.png',
+      nombre: 'Huevos Benedict',
+      descripcion: 'Huevos escalfados sobre pan brioche con jamón y salsa holandesa.',
+      precio: '7.50€',
+      alergenos: ["gluten", "huevo", "lacteos"]
+    },
+    {
+      img: '../../assets/img/carta/huevos-revueltos.png',
+      nombre: 'Huevos Revueltos con Aguacate',
+      descripcion: 'Huevos cremosos con aguacate sobre pan integral.',
+      precio: '6.80€',
+      alergenos: ["huevo", "gluten"]
+    },
+    {
+      img: '../../assets/img/carta/shakshuka.png',
+      nombre: 'Shakshuka',
+      descripcion: 'Huevos cocidos en salsa de tomate especiada con pimientos.',
+      precio: '7.00€',
+      alergenos: ["huevo"]
+    },
+    {
+      img: '../../assets/img/carta/tortilla-espinacas.png',
+      nombre: 'Tortilla de Espinacas y Queso',
+      descripcion: 'Tortilla francesa con espinacas frescas y queso feta.',
+      precio: '6.50€',
+      alergenos: ["huevo", "lacteos"]
+    }
+  ],
+  Tostas: [
+    {
+      img: '../../assets/img/carta/tosta-aguacate.png',
+      nombre: 'Tosta de Aguacate y Huevo',
+      descripcion: 'Pan de masa madre con aguacate, huevo poché y semillas.',
+      precio: '6.90€',
+      alergenos: ["gluten", "huevo"]
+    },
+    {
+      img: '../../assets/img/carta/tosta-salmon.png',
+      nombre: 'Tosta de Salmón Ahumado',
+      descripcion: 'Salmón ahumado, queso crema y eneldo sobre pan integral.',
+      precio: '7.20€',
+      alergenos: ["gluten", "lacteos"]
+    },
+    {
+      img: '../../assets/img/carta/tosta-hummus.png',
+      nombre: 'Tosta de Hummus y Tomate Seco',
+      descripcion: 'Hummus casero, rúcula y tomate seco sobre pan de centeno.',
+      precio: '6.50€',
+      alergenos: ["gluten"]
+    }
+  ],
+  Ensaladas: [
+    {
+      img: '../../assets/img/carta/ensalada-quinoa.png',
+      nombre: 'Ensalada de Quinoa',
+      descripcion: 'Quinoa, pepino, tomate cherry, menta y limón.',
+      precio: '7.50€'
+    },
+    {
+      img: '../../assets/img/carta/ensalada-caprese.png',
+      nombre: 'Ensalada Caprese',
+      descripcion: 'Tomate, mozzarella fresca, albahaca y aceite de oliva virgen.',
+      precio: '6.80€',
+      alergenos: ["lacteos"]
+    },
+    {
+      img: '../../assets/img/carta/ensalada-pollo.png',
+      nombre: 'Ensalada César con Pollo',
+      descripcion: 'Lechuga romana, pollo a la plancha, croutons y parmesano.',
+      precio: '8.20€',
+      alergenos: ["gluten", "lacteos"]
+    },
+    {
+      img: '../../assets/img/carta/ensalada-frutas.png',
+      nombre: 'Ensalada de Frutas Frescas',
+      descripcion: 'Mezcla de frutas de temporada con menta fresca.',
+      precio: '5.00€'
+    }
+  ]
+};

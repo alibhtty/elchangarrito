@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-	<title>Brunch - El Changarrito</title>
+	<title>La Carta - El Changarrito</title>
     <link rel="canonical" href="index.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="theme-color" content="#E6037E" />
-	<meta name="description" content="Prueba nuestro sabor! Nuevo Brunch" />
+	<meta name="description" content="Prueba el sabor exótico de nuestra Amazonía, y la variedad de platos fusión asiática en Yankú y disfruta de nuestra variedad de platos." />
 	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="msapplication-TileColor" content="#E6037E">
   
@@ -16,22 +16,23 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="El Changarrito - Barcelona" />
 	<meta property="og:description" content="El Changarrito - Barcelona" />
-	<meta property="og:url" content="https://changarrito.es/" />
+	<meta property="og:url" content="https://changarrito.es" />
 	<meta property="og:site_name" content="El Changarrito - Barcelona" />
-	<meta property="article:modified_time" content="2025-08-20T04:10:14+00:00" />
+	<meta property="article:modified_time" content="2024-10-01T04:10:14+00:00" />
 	<meta name="twitter:card" content="summary_large_image" />
 
     <!-- Slide Text -->
-    <!-- <link rel="stylesheet" href="../assets/css/slide-text.css"> -->
+    <!-- <link rel="stylesheet" href="../../assets/css/slide-text.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel='stylesheet' href='../../assets/css/main.css' data-minify="1"  type='text/css' media='all' />
     <link rel='stylesheet' href='../../assets/css/aos.css' data-minify="1"  type='text/css' media='all' />
     <link rel='stylesheet' href='../../assets/fonts/fonts.css' data-minify="1"  type='text/css' media='all' />
-    <link rel='stylesheet' href='./../carta.css' type='text/css'>
+    <link rel='stylesheet' href='../carta.css' type='text/css'>
+    <script type="text/javascript" src='../../carta/brunch.js'></script>
   
     <script type="text/javascript" src='./data.js'></script>
-    <script type="text/javascript" src='../brunch.js'></script>
+    <!-- <script type="text/javascript" src='../menu.js'></script> -->
     <script type='text/javascript' src='../../assets/js/jquery/jquery.min-ver=3.5.1.js' id='jquery-core-js'></script>
     <script type='text/javascript' src='../../assets/js/jquery/jquery-migrate.min-ver=3.3.2.js'></script>
     <script type='text/javascript' src='../../assets/js/html5-ver=3.7.3.js'></script>
@@ -39,64 +40,22 @@
   
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon/apple-touch-icon.png">  <!-- ../assets/icons/favicon/safari-pinned-tab.svg -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon/apple-touch-icon.png">  <!-- ../../assets/icons/favicon/safari-pinned-tab.svg -->
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/icons/favicon/favicon-32x32.png">
     <link rel="manifest" href="../../assets/icons/favicon/site.webmanifest">
     <link rel="mask-icon" href="../../assets/icons/favicon/safari-pinned-tab.svg" color="#ff0000">
-
-    <style>
-        /* body{
-            background-color: var(--color-menu);
-        }
-        header.active {
-            background: var(--color-menu);
-        } */
-
-        body {
-          background-color: var(--color-menu);
-          position: relative;
-          overflow: hidden;
-        }
-        header.active {
-            background: var(--color-menu);
-            opacity: 1;
-        }
-        
-        .texture {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-image: url('../../assets/image/app/texture.jpg');
-          background-repeat: no-repeat;
-          object-fit: cover;
-          mix-blend-mode: multiply;
-          opacity: .2;
-          pointer-events: none;
-          z-index: -1;
-        }
-        @media (orientation: landscape){
-            .logo .texture{
-                display: none;
-            }
-        }
-    </style>
 </head>
 
 <body class="home page-template page-template-front-page page-template-front-page-php page page-id-4 group-blog" > <!-- oncontextmenu="return false" onkeydown="return false" -->
 	      
 <div id="wrapper">
-
-        <div class="texture"></div>
     <!-- Header -->
     <div class='panel home' data-section-name="home">
-      <div style="height: 5.5em; width: 100%; ">
+      <div style="height: 5.5em; width: 100%; background-color: var(--color-uno)">
           <div style="text-align: center">
               <a class="logo-icon" href="../../">
-                  <img style="width: 18rem; align-items: center; padding-top: 1em; margin-left: -6em"
+                  <img style="width:18rem; align-items: center;z-index: 999; padding-top: 1em;"
                       src="../../assets/icons/elchangarrito.png" alt="">
-                  <!-- <h1 class="logo-top" style="font-family: days; font-size: 40px; padding-top: 10px;padding-left: -13px; color: #fff; white-space: nowrap; letter-spacing: -1.1px; margin-bottom: 0px" translate="no">Chifa Yanku</h1> -->
               </a>
           </div>
       </div>
@@ -118,22 +77,24 @@
 
                             <!-- LENGUAJES -->
                             <div class="languages-menu" translate="no">
-                              <strong>ES &nbsp </strong>
+                              <a style="color: #ffc1e2;" href="../index.html">
+                                <strong class="lang-switch">ES &nbsp</strong></a>
                               <a style="color: #ffc1e2;" href="../../qr/en/">
                                 <strong class="lang-switch">EN &nbsp</strong></a>
-                              <a style="color: #ffc1e2;" href="../../qr/ca/">
+                              <a style="color: #f1f1f1;" href="../../qr/ca/">
                                 <strong class="lang-switch">CA</strong></a>
                             </div>
+
 
                               <li id="menu-item-105"
                                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-105 mobile_menu-nav-list-item">
                                   <a class="mobile_menu-nav-link menubar cta makebtn" href="../../"
                                       aria-current="page">Inicio</a>
                               </li>
-                              <li id="menu-item-107"
+                              <!-- <li id="menu-item-107"
                                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107 mobile_menu-nav-list-item">
-                                  <a class="mobile_menu-nav-link menubar cta makebtn" href="../">La Carta</a>
-                              </li>
+                                  <a class="mobile_menu-nav-link menubar cta makebtn" href="#">La Carta</a>
+                              </li> -->
                               <li id="menu-item-391"
                                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-391 mobile_menu-nav-list-item">
                                   <a class="mobile_menu-nav-link menubar cta makebtn"
@@ -147,7 +108,7 @@
                               <li id="menu-item-13294"
                                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13294 mobile_menu-nav-list-item">
                                   <a class="mobile_menu-nav-link menubar cta makebtn"
-                                      href="../../terms/">Politicas <br> de Reserva</a>
+                                      href="../../reservation-policy.html">Politicas <br> de Reserva</a>
                               </li>
                               <li id="menu-item-13294"
                                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13294 mobile_menu-nav-list-item img-sub-nav">
@@ -155,8 +116,8 @@
                               </li>
                               <li id="menu-item-13294"
                                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13294 mobile_menu-nav-list-item img-sub-nav">
-                                  <h1 class="autor">Desarrollado por <a class="alibhtty"
-                                      href="https://ali-bhtty.web.app/go" target="_blank">4B</a></h1>
+                                  <div class="autor">Desarrollado por <a class="alibhtty"
+                                      href="https://ali-bhtty.web.app" target="_blank">4B</a></div>
                               </li>
 
                               <!-- <li id="menu-item-13294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13294 mobile_menu-nav-list-item">
@@ -173,10 +134,8 @@
               </div>
               <div class="col-md-4 col-sm-6" style="margin-right: 0;">
                   <a class="logo" href="./">
-                    <div class="texture"></div>
-                      <img style="width: 18rem;"
-                          src="./../../assets/icons/elchangarrito.png" alt=""> <!-- margin-top: -3px -->
-                      <!-- <h1 class="top-logo" style="font-family: days; color: #fff; font-size: 40px; margin-top: -.6rem; letter-spacing: -1.1px; white-space: nowrap;" translate="no">Chifa Yanku</h1> -->
+                      <img style="width:18rem; align-items: center;z-index: 1000;"
+                          src="../../assets/icons/elchangarrito.png" alt=""> <!-- margin-top: -3px -->
                   </a>
               </div>
               <div class="col-md-4 pull-right col-xs-12 right-button">
@@ -190,7 +149,7 @@
     </div>
 
 
-    <section id="our_menu" class="pb-5" style="background: linear-gradient(to bottom, var(--color-menu) 0%, #FFFFE0 100%);">
+    <section id="our_menu" class="pb-5">
         <div class="contenedor">
             <div class="row selectores">
                 <ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist"></ul> <!-- Aquí se generarán los selectores -->
@@ -285,7 +244,7 @@
                                             </li>
                                             <li id="menu-item-81"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81">
-                                                <a class="mobile_menu-nav-link cta makebtn " href="../">La
+                                                <a class="mobile_menu-nav-link cta makebtn " href="../../carta/">La
                                                     Carta</a>
                                             </li>
                                             <li id="menu-item-83"
@@ -296,7 +255,7 @@
                                             <li id="menu-item-746"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-746">
                                                 <a class="mobile_menu-nav-link cta makebtn "
-                                                    href="../../terms/">Políticas de Reserva</a>
+                                                    href="terms/">Políticas de Reserva</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -336,7 +295,7 @@
                             <div style="cursor:pointer" class="col-sm-5 col-xs-12 reservation-section">
                                 <div class="resrvation">
                                     <h3>RESERVAS</h3>
-                                    <a href="../../restaurantes/" class="makebutton toggleReservation" target="_blank">RESERVAR UNA MESA</a>
+                                    <a href="../../reservas/" class="makebutton toggleReservation" target="_blank">RESERVAR UNA MESA</a>
                                     <div class="textwidget">
                                         <p class="foot-content" style="padding-bottom:20px;">Completa la información
                                             necesaria en nuestro sistema de reservas, al terminar recibirá un correo de
@@ -355,9 +314,9 @@
                 <div class="copy-block">
                   <p class="derechos">Copyright 2025©</p>
                   <div class="content-alibhtty">   
-                      <a class="alibhtty" href="https://ali-bhtty.web.app" target="blank">
-                          <p class="disenado-por">Dev </p>
-                          <p class="alibhtty-led">&nbsp;4B</p>
+                      <a class="alibhtty" href="https://ali-bhtty.web.app/go" target="blank">
+                          <p class="disenado-por">Diseñado por</p>
+                          <a href="https://ali-bhtty.web.app/go" class="alibhtty-led">&nbsp;4B</a>
                       </a>
                   </div>
                 </div>

@@ -1,5 +1,5 @@
 // Función para generar dinámicamente los tabs de categorías
-function generarSelectores() {
+/* function generarSelectores() {
     const menuTab = document.getElementById('myTab');
     Object.keys(menuItems).forEach((categoria, index) => {
         const li = document.createElement('li');
@@ -25,7 +25,43 @@ function generarSelectores() {
 
         menuTab.appendChild(li);
     });
+} */
+
+function generarSelectores() {
+    const menuTab = document.getElementById('myTab');
+    Object.keys(menuItems).forEach((categoria, index) => {
+        const li = document.createElement('li');
+        li.className = 'nav-item';
+
+        // Verifica si es brunch para aplicar clase especial
+        const claseExtra = categoria === 'brunch' ? 'selector-brunch' : '';
+
+        li.innerHTML = `
+            <a class="nav-link ${index === 0 ? 'active' : ''} ${claseExtra}" 
+               id="${categoria}-tab" 
+               data-bs-toggle="tab" 
+               href="#${categoria}-content" 
+               role="tab" 
+               data-categoria="${categoria}">
+                ${categoria}
+            </a>`;
+
+        // Evento de clic
+        li.querySelector('a').addEventListener('click', (e) => {
+            e.preventDefault();
+            const categoriaSeleccionada = e.target.getAttribute('data-categoria');
+
+            if (categoriaSeleccionada === 'brunch') {
+                window.location.href = './brunch/';
+            } else {
+                cambiarCategoria(categoriaSeleccionada);
+            }
+        });
+
+        menuTab.appendChild(li);
+    });
 }
+
 
 // Función para generar el contenido del menú para una categoría
 function generarMenu(categoria) {
