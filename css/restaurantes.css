@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @font-face {
   font-family: "colby";
   src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StBld.ttf);
@@ -103,7 +102,8 @@ body {
   /* background-color: #f83e9e ;  */
   display: inline-block;
   vertical-align: top;
-  width: 300px; /* 300px */
+  /* width: 90%; */ /* 390px */
+  height: 240px;
   color: #eee;
   font-size: 30px;
   font-weight: 300;
@@ -124,19 +124,36 @@ body {
   z-index: 2;
 }
 .w-container .w-card .card-header .w-price {
-  font-size: 28px;
+  font-size: 35px;
   font-family: colby;
   text-transform: uppercase;
   font-weight: 500;
   padding: 20px 20px 20px;
+  text-stroke-width: 2px;
+  text-stroke-color: rgb(255, 146, 78);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(255, 0, 115, 1);
+  color: white;
+}
+.subtitle{
+  font-family: Colby;
+  color: var(--bg-light);
+  font-size: 15px;
+  padding-bottom: 1rem;
+  margin-top: -1rem;
+  text-stroke-width: .6px;
+  text-stroke-color: rgb(255, 146, 78);
+  -webkit-text-stroke-width: .6px;
+  -webkit-text-stroke-color: rgba(255, 0, 115, 1);
+  color: white;
 }
 .w-container .w-card .card-content {
   padding: .5rem 1rem;
 }
 .w-container .w-card .card-content .w-item {
   font-size: 18px;
-  padding: .6rem;
-  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  padding: 0rem; /* .6rem */
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 .w-container .w-card .card-content .w-item:last-child {
   border-bottom: none;
@@ -223,7 +240,7 @@ body {
 }
 
 .section-rest{
-  height: 107vh;
+  height: 100vh; /* 107 */
 }
 
 .bg-city {
@@ -232,18 +249,18 @@ body {
 }
 
 @media screen and (min-width:992px) {
-  .w-container .w-card {
+  /* .w-container .w-card {
     width: 400px;
-    /* height: 280px; */
-  }
+    height: 280px;
+  } */
   .texto{
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
   .w-table{
     padding-top: 2rem;
   }
   .section-rest{
-    height: 91.5vh;
+    height: 93vh;
   }
 
   .bg-city {
@@ -252,12 +269,161 @@ body {
   }
 }
 
-a.reserva {
-  color: #eee;
-  font-size: 20px;
+
+/* BOTONES */
+.w-card{
+  height: 200px;
+}
+.calabria{
+  background-image: url("../assets/img/calabria.jpg"); /* https://changarrito.es/assets/img/calabria.jpg */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.poblesec{
+  background-image: url("../assets/img/poble-sec.jpg"); /* https://changarrito.es/assets/img/poble-sec.jpg */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.botonera{
+  padding: 8px;
+  font-family: "colby";
+  display: grid;
+  grid-template-columns: 25% 25% 1fr;
+  gap: 10px;
+  position: relative;
+  /* margin-top: 60px; */
+}
+.delivery, .reserva{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  justify-content: center;
+  font-size: 15px; /* 12px */
+  letter-spacing: .4px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 13px;
+  padding: 10px 5px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 25px;
+  transition: all .4s ease;
+}
+.botonera:hover{
+  color: #ffffff;
+}
+.reserva:hover{
+  scale: 1.02;
+  background-color: rgb(255, 61, 142); /* 255, 143, 184 */
+}
+.delivery:hover{
+  scale: 1.02;
+  background-color: rgb(255, 230, 0); /* 255, 247, 178 */
+}
+.card-header{
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+/* a.reserva {
+  color: #111111; /* eeeeee /
+  font-size: 16px; /* 20 /
   font-family: Roboto;
   font-weight: 800;
-  line-height: 25px;
-  /* text-transform: uppercase; */
+  line-height: 16px; /* 25 */
+  /* text-transform: uppercase; /
   transition: all .4s ease-in-out;
+  padding: 0 0;
+} */
+
+.w-container .w-card:hover{
+  background-color: rgba(0, 0, 0, .4);
+}
+
+@media screen and (orientation: portrait) {
+  .delivery, .reserva{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+    justify-content: center;
+    font-size: 13px; /* 12px */
+    letter-spacing: .4px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 13px;
+    padding: 9px 5px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+  }
+  .texto{
+    padding-bottom: 2.5rem;
+  }
+  .w-card{
+    width: 90%;
+  }
+  .section-rest{
+    height: 100vh;
+  }
+  .espacio{
+    height: 95px;
+    background-color: transparent;
+  }
+  .w-container .w-card {
+    height: 235px;
+  }
+}
+@media screen and (orientation: landscape) {
+.botonera{
+    padding: 8px;
+    font-family: "colby";
+    display: grid;
+    grid-template-columns: 35% 25% 1fr;
+    gap: 10px;
+    position: relative;
+  }
+  .w-price{
+    font-size: 30px;
+  }
+  .delivery, .reserva{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 5px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+  }
+  .w-table-cell{
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+  .w-card {
+    width: 100%;
+    height: 300px;
+  }
+  .section-rest{
+    height: 85vh;
+  }
+  .w-container{
+    width: 40%;
+    height: 300px;
+    margin: auto;
+  }
+  .w-container .w-card {
+    height: 400px;
+  }
+  .espacio{
+    height: 240px;
+    background-color: transparent;
+  }
 }

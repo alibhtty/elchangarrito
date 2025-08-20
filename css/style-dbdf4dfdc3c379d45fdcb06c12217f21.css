@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 :root {
-  --magenta-logo:#E6037E; /* #E6037E #FF0066 */
-  /* --magenta: #FF00FF; */
+  --magenta-logo:#E6037E; /* #E6037E  #FF0066 */
+  --magenta: #FF00FF;
   --amarillo: #FFFF00; /* FFBB00 */
   --azul: #0000FF;
   --bg-light: #FFF0F8;
@@ -969,7 +969,7 @@ h1 {
   text-align: center;
 }
 .our-banner .banner-description:after {
-  /* background: url("https://alibhtty.github.io/elchangarrito/assets/img/salon-bg.jpg")
+  /* background: url("https://changarrito.es/assets/img/salon-bg.jpg")
     no-repeat left; */
   position: absolute;
   content: "";
@@ -1054,7 +1054,7 @@ h1 {
   padding-top: 0px !important;
 }
 .left-content .block1-left:after {
-  /* background: url("https://alibhtty.github.io/elchangarrito/assets/icons/planta.png")
+  /* background: url("https://changarrito.es/assets/icons/planta.png")
     no-repeat left; */
   position: absolute;
   content: "";
@@ -1131,7 +1131,7 @@ h1 {
   position: relative;
 }
 .content-area .latest-block:after {
-  /* background: url("https://alibhtty.github.io/elchangarrito/assets/icons/planta.png")
+  /* background: url("https://changarrito.es/assets/icons/planta.png")
     no-repeat left; */
   position: absolute;
   content: "";
@@ -1509,8 +1509,8 @@ p.menu-price-ind {
   display: block;
 }
 .content-area .gallery-block .image1 {
-  /* background: url("https://www.quay.com.au/wp-content/themes/quay/images/gallery-image6.jpg")
-    no-repeat left top; */
+  background: url("https://www.quay.com.au/wp-content/themes/quay/images/gallery-image6.jpg")
+    no-repeat left top;
   background-size: cover !important;
   width: 100%;
   min-height: 50vh;
@@ -1866,16 +1866,16 @@ div#MGLSubmit {
 .content-area .form-control {
   background: transparent;
 }
-.lunch {
+/*.lunch {
   background: url("https://www.quay.com.au/wp-content/themes/quay/images/lunch-icon.png")
     no-repeat left top;
   padding: 0 0 0 30px;
-}
+} 
 .geu {
   background: url("https://www.quay.com.au/wp-content/themes/quay/images/guess.png")
     no-repeat left top;
   padding: 0 0 0 30px;
-}
+} */
 .filler-q {
   width: 100%;
   min-height: 50vh;
@@ -1899,7 +1899,7 @@ h3.quote {
   font-family: "OakesGroteskBold";
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: url("https://www.quay.com.au/wp-content/themes/quay/images/quote.png")
+  /*background: url("https://www.quay.com.au/wp-content/themes/quay/images/quote.png") */
     no-repeat top left;
 }
 p.quote-author {
@@ -2093,6 +2093,7 @@ footer {
 }
 footer .footer-left {
   width: 100%;
+  height: 600px;
   display: block;
   background-color: var(--light-amarillo); /* d5dddb */
   padding: 40px 50px;
@@ -3311,7 +3312,7 @@ footer .social-icon a.googleplus-icon:hover {
   .menu {
     width: 100%;
     float: none;
-    margin-top: 18px;
+    margin-top: 22px; /* 18px */
     margin-left: 5px;
     /* margin: 12px 0 0 5px; */
   }
@@ -3387,7 +3388,7 @@ footer .social-icon a.googleplus-icon:hover {
   }
   header {
     height: 70px; /* 59px */
-    padding: 4px 10px;
+    padding: 0px 10px;
   }
   /* header .logo-image1 {
     width: 80%;
@@ -3423,7 +3424,7 @@ footer .social-icon a.googleplus-icon:hover {
   }
   @media (max-width: 576px) {
     .logo{
-      margin-top: -2.2rem;
+      margin-top: -2.4rem;
     }
   }
   @media (min-width: 992px) {
@@ -3633,7 +3634,7 @@ a {
   -moz-animation: spin 5s;
   -webkit-animation: spin 5s;
   -o-animation: spin 5s;
-  background: url("https://alibhtty.github.io/elchangarrito/assets/img/salon-bg.jpg")
+  background: url("https://changarrito.es/assets/img/salon-bg.jpg")
     no-repeat center center;
   margin: 0 auto;
   position: absolute;
@@ -4249,12 +4250,12 @@ strong{
 
 /* SWEET ALERT */
 .swal2-title {
-  font-size: 4em;
+  font-size: 3.8em;
   font-family: colby;
   line-height: 1em;
 }
 .swal2-popup {
-  font-size: .95rem;
+  font-size: .75rem;
   font-family: colby;
   font-weight: 300;
 }
@@ -4264,6 +4265,6 @@ strong{
 }
 
 b{
-  color: #7a1c5e;
-  font-size: 12px;
+    color: #7a1c5e;
+    font-size: 11px;
 }

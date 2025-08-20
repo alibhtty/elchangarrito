@@ -1,5 +1,5 @@
 :root {
-    --magenta-logo: #E6037E; /* #E6037E #FF0066 */
+    --magenta-logo:#E6037E; /* #ff0066 #E6037E */
     --magenta: #FF00FF;
     --amarillo: #FFFF00; /* FFBB00 */
     --azul: #0000FF;
@@ -23,16 +23,12 @@
 }
 
 @font-face {
-    font-family: "colby-blk";
-    src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StBlk.ttf);
-}
-@font-face {
     font-family: "colby";
-    src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StBld.ttf);
+    src: url(https://changarrito.es/assets/fonts/Colby-StBld.ttf);
 }
 @font-face {
     font-family: "colby-light";
-    src: url(https://alibhtty.github.io/elchangarrito/assets/fonts/Colby-StLt.ttf);
+    src: url(https://changarrito.es/assets/fonts/Colby-StLt.ttf);
 }
 
 /* .nav-link a{
@@ -77,7 +73,7 @@ ul li{
 /* LA CARTA CSS */
 #our_menu{
      /* background-color: #ffc934; */
-     background: var(--magenta-logo); background: -moz-linear-gradient(to bottom,  #e6037e 0%,#FFFFE0 100%); background: -webkit-linear-gradient(to bottom,  #e6037e 0%,#FFFFE0 100%); background: linear-gradient(to bottom,  #e6037e 0%,#FFFFE0 100%);
+     background: var(--magenta-logo); background: -moz-linear-gradient(to bottom,  #E6037E 0%,#FFFFE0 100%); background: -webkit-linear-gradient(to bottom,  #E6037E 0%,#FFFFE0 100%); background: linear-gradient(to bottom,  #E6037E 0%,#FFFFE0 100%);
      /* background: #ffc037; background: -moz-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc037 0%,#d5dddb 100%); */
      /* background-color: #ffbf34; */
      /* background: #ffc934; background: -moz-linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); background: -webkit-linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); background: linear-gradient(to bottom,  #ffc934 0%,#d5dddb 100%); */
@@ -207,11 +203,9 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     padding-left: 4px;
     font-size: 18px;
     font-family: colby;  /* OakesGroteskBold */
-    /* font-family: dinot;  */
     font-weight: 800;
     float: right;
-    /* font-style: italic; */
-    color: #7a1c5e; /* 222 */
+    color: #7A1C5E; /* 222 */
 }
 .menu_content p {
     color: var(--magenta-oscuro);
@@ -300,7 +294,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     .menu {
         width: 100%;
         float: none;
-        margin-top: 14px;
+        margin-top: 25px; /* 14px */
         margin-left: 5px;
     }
 }
@@ -327,7 +321,11 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
       }
   }
   
-  /* NO SELECCIONABLE */
+.jcuervo{
+     background-color: #ffcd4d;
+}
+
+    /* NO SELECCIONABLE */
   h1, h2, h3, p, img {
     user-drag: none;
     user-select: none;

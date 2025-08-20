@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url(./OpenSans-Bold.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OakesGroteskBold";
+  src: url(./OakesGroteskBold.ttf);
+  src: url(./OakesGroteskBold.eot?#iefix)
+      format("embedded-opentype"),
+    url(./OakesGroteskBold.woff)
+      format("woff"),
+    url(./OakesGroteskBold.ttf)
+      format("truetype"),
+    url(./OakesGroteskBold.svg#OakesGroteskBold)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "OakesGroteskRegular";
+  src: url(./OakesGroteskRegular.ttf);
+  src: url(./OakesGroteskRegular.eot?#iefix)
+  format("embedded-opentype"),
+url(./OakesGroteskRegular.woff)
+  format("woff"),
+url(./OakesGroteskRegular.ttf)
+  format("truetype"),
+url(./OakesGroteskRegular.svg#OakesGroteskRegular)
+  format("svg");
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "colby";
+  src: url(./Colby-StBld.ttf);
+}
+@font-face {
+  font-family: "colby-light";
+  src: url(./Colby-StLt.ttf);
+}
+@font-face {
+  font-family: "colby-black";
+  src: url(./Colby-StBlk.ttf);
+}
+@font-face {
+  font-family: "days";
+  src: url(./Days.otf);
+}
