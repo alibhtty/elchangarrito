@@ -2613,6 +2613,7 @@ footer .footer-left .location {
 }
 footer .footer-right {
   /* width: 100%; */
+  width: auto;
   filter: drop-shadow(2px 4px 6px black);
   display: block;
   padding: 2.5rem;
