@@ -146,6 +146,7 @@ ul li{
     letter-spacing: normal;
     transition-duration: .6s;
     background-color: rgb(250, 250, 250, .2);
+    box-shadow: inset 0 0 0 .05rem rgba(255,255,255,.5);
     border-radius: 1em;
 }
 .nav-tabs .nav-link.active {
@@ -239,6 +240,7 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 .top-names p{
     margin: 0;
     font-size: 1rem;
+    line-height: 1;
     font-weight: 600;
     color: var(--morado-vino);
     font-family: colby; /* OakesGroteskBold */

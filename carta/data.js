@@ -639,7 +639,100 @@ const menuItems = {
         alergenos: ['alcohol']
       }
     ],
-    "brunch": [
+    "extras": [
+      {
+        img: '../assets/img/carta/extras/pico-de-gallo.png',
+        nombre: 'Pico de gallo',
+        descripcion: 'Mezcla fresca de tomate, cebolla y cilantro.',
+        precio: '',
+        alergenos: []
+      },
+      {
+        img: '../assets/img/carta/extras/crema-agria.png',
+        nombre: 'Crema agria',
+        descripcion: 'Suave y ligeramente ácida, ideal para tacos.',
+        precio: '',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../assets/img/carta/extras/limas.png',
+        nombre: 'Limas',
+        descripcion: 'Rodajas de lima para dar un toque cítrico.',
+        precio: '',
+        alergenos: []
+      },
+      {
+        img: '../assets/img/carta/extras/cebolla-cilantro.png',
+        nombre: 'Cebolla y cilantro',
+        descripcion: 'Frescos y picados, el clásico topping mexicano.',
+        precio: '',
+        alergenos: []
+      },
+      {
+        img: '../assets/img/carta/extras/queso-fundido.png',
+        nombre: 'Queso fundido',
+        descripcion: 'Queso derretido, perfecto para nachos o tacos.',
+        precio: '',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../assets/img/carta/extras/queso-panela.png',
+        nombre: 'Queso panela',
+        descripcion: 'Queso blanco suave, ideal para acompañar platos.',
+        precio: '',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../assets/img/carta/extras/aguacate.png',
+        nombre: 'Aguacate',
+        descripcion: 'Cremoso y fresco, cortado en láminas.',
+        precio: '',
+        alergenos: []
+      },
+      {
+        img: '../assets/img/carta/extras/trio-toppings.png',
+        nombre: 'Trío de toppings',
+        descripcion: 'Nopales, frijoles y guacamole en una sola porción.',
+        precio: '',
+        alergenos: []
+      },
+      {
+        img: '../assets/img/carta/extras/totopos.png',
+        nombre: 'Totopos',
+        descripcion: 'Crujientes chips de maíz, perfectos para salsas.',
+        precio: '',
+        alergenos: []
+      },
+      {
+        img: '../assets/img/carta/extras/tortillas.png',
+        nombre: 'Tortillas',
+        descripcion: 'Tortillas de maíz suaves, recién hechas.',
+        precio: '',
+        alergenos: []
+      },
+      {
+        img: '../assets/img/carta/extras/salsas.png',
+        nombre: 'Salsas',
+        descripcion: 'Variedad de salsas mexicanas: verde, roja y habanero.',
+        precio: '',
+        alergenos: []
+      },
+      {
+        img: '../assets/img/carta/extras/cilantro.png',
+        nombre: 'Cilantro',
+        descripcion: 'Cilantro fresco, ideal para cualquier plato.',
+        precio: '',
+        alergenos: []
+      },
+      {
+        img: '../assets/img/carta/extras/cebolla.png',
+        nombre: 'Cebolla',
+        descripcion: 'Cebolla blanca picada, crujiente y sabrosa.',
+        precio: '',
+        alergenos: []
+      }
+    ],
+    /* "brunch": [
       {
         img: '../assets/img/carta/nachos.png',
         nombre: '',
@@ -647,5 +740,5 @@ const menuItems = {
         precio: '',
         alergenos: ["gluten", "lacteos"],
       }
-    ]
+    ] */
   };

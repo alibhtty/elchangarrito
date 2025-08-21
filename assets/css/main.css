@@ -58,7 +58,7 @@ html, body {
 
   /* SELECTOR ESPECIAL (BRUNCH) */
   .selector-brunch, .selector-brunch:active {
-          position: relative; 
+          position: relative;
           background-image: url('../image/app/nuevo2.gif');
           background-size: cover;
           /* background-color: rgb(255,255,255,.9); */
@@ -77,6 +77,7 @@ html, body {
           padding: .1rem .25rem;
           padding-bottom: 0rem;
           border-radius: .35rem;
+          border: solid .05rem #000000;
           box-shadow: 0 2px 4px rgba(0,0,0,0.2);
           z-index: 1;
         }
