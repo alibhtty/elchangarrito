@@ -595,7 +595,7 @@ const menuItems = {
         nombre: 'La Bestia Blanca',
         tipo: 'Vino Blanco',
         descripcion: 'Silvestre, Suave, Elegante.',
-        precio: '€4.00🍷 / €20.00🍾',
+        precio: '€4.30🍷 / €20.00🍾',
         alergenos: ['alcohol']
       },
       {
@@ -635,7 +635,7 @@ const menuItems = {
         nombre: 'Finca San Martín',
         tipo: 'Vino Tinto',
         descripcion: 'Frescura, Vivacidad, Potencia y Frutosidad.',
-        precio: '€4.00🍷 / €20.00🍾',
+        precio: '€4.30🍷 / €20.00🍾',
         alergenos: ['alcohol']
       }
     ],
