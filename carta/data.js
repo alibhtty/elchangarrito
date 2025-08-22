@@ -139,7 +139,7 @@ const menuItems = {
         alergenos: ['gluten', 'lacteos']
       },
       {
-        img: '../assets/img/carta/q-de-champiñones-al-ajillo.png',
+        img: '../assets/img/carta/q-de-champinones-al-ajillo.png',
         nombre: 'Quesadilla de Champiñones al Ajillo',
         descripcion: 'Champiñones a la mexicana con queso fundido.',
         precio: '',

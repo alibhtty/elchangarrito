@@ -139,7 +139,7 @@ const menuItems = {
         alergenos: ['gluten', 'lacteos']
       },
       {
-        img: '../../../assets/img/carta/q-de-champiñones-al-ajillo.png',
+        img: '../../../assets/img/carta/q-de-champinones-al-ajillo.png',
         nombre: 'Garlic Mushroom Quesadilla',
         descripcion: 'Mexican mushrooms with melted cheese.',
         precio: '€3.50',

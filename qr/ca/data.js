@@ -139,7 +139,7 @@ const menuItems = {
         alergenos: ['gluten', 'lacteos']
       },
       {
-        img: '../../assets/img/carta/q-de-champiñones-al-ajillo.png',
+        img: '../../assets/img/carta/q-de-champinones-al-ajillo.png',
         nombre: "Quesadilla de Xampinyons a l'Aixillo",
         descripcion: 'Xampinyons a la mexicana amb formatge fos.',
         precio: '€3.50',
