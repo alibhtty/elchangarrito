@@ -7,216 +7,216 @@ const alergenosIcons = {
   };
   
 const menuItems = {
-    botanas: [
+    Snacks: [
       {
         img: '../../../assets/img/carta/nachos.png',
-        nombre: 'Nachos con Guacamole eng',
-        descripcion: 'Crujientes totopos de maíz con frijoles negros, queso fundido y guacamole por encima.',
+        nombre: 'Nachos with Guacamole',
+        descripcion: 'Crispy corn chips with black beans, melted cheese and guacamole on top.',
         precio: '€13.00',
-        alergenos: ["gluten", "lacteos"],
+        alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../../assets/img/carta/guacamole.png',
         nombre: 'Guacamole',
-        descripcion: 'Aguacate martajado al momento con jitomate, cebolla, cilantro y acompañado de totopos.',
-        precio: '€9.90',
-      },
-      {
-        img: '../../../assets/img/carta/sincronizada.png',
-        nombre: 'Sincronizada',
-        descripcion: 'Tortillas de trigo con jamón York, queso fundido y pico de gallo.',
-        precio: '€7.50',
-        alergenos: ["lacteos"]
+        descripcion: 'Avocado mashed at the moment with tomato, onion, cilantro and accompanied by tortilla chips.',
+        precio: '€9.90'
       },
       {
         img: '../../../assets/img/carta/ensalada-de-nopales.png',
-        nombre: 'Ensalada de Nopales',
-        descripcion: 'Nopalitos frescos con cebolla, jitomate, cilantro, queso fresco y aceite de oliva.',
+        nombre: 'Nopales Salad',
+        descripcion: 'Fresh nopalitos with onion, tomato, cilantro, fresh cheese and olive oil.',
+        precio: '€7.50',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/sincronizada.png',
+        nombre: 'Synchronized',
+        descripcion: 'Wheat tortillas with York ham, melted cheese and pico de gallo.',
         precio: '€9.90',
-        alergenos: ["lacteos"]
+        alergenos: ['lacteos']
       },
       {
         img: '../../../assets/img/carta/frijoles-de-la-olla.png',
         nombre: 'Frijoles de la Olla',
-        descripcion: 'Frijoles negros de la olla con cebolla, cilantro, queso fresco, y acompañados con totopos.',
+        descripcion: 'Black beans from the pot with onion, cilantro, fresh cheese, and accompanied with tortilla chips.',
         precio: '€7.90',
-        alergenos: ["lacteos"]
-      },
+        alergenos: ['lacteos']
+      }
     ],
     tacos: [
       {
         img: '../../../assets/img/carta/taco-de-tinga-de-pollo.png',
-        nombre: 'Taco de Tinga de Pollo',
-        descripcion: 'Pechuga de pollo desmenuzada en salsa de casa.',
-        precio: '2.50€ und.',
+        nombre: 'Chicken Tinga Taco',
+        descripcion: 'Shredded chicken breast in house sauce.',
+        precio: '€2.50 und.'
       },
       {
         img: '../../../assets/img/carta/taco-de-cochinita-pibil.png',
-        nombre: 'Taco de Cochinita Pibil',
-        descripcion: 'Carne de cerdo en salsa pibil con cebolla morada encurtida en limón por encima.',
-        precio: '2.50€ und.',
+        nombre: 'Cochinita Pibil Taco',
+        descripcion: 'Pork in pibil sauce with red onion pickled in lemon on top.',
+        precio: '€2.50 und.'
       },
       {
         img: '../../../assets/img/carta/taco-al-pastor.png',
         nombre: 'Taco al Pastor',
-        descripcion: 'Cerdo adobado en salsa pastor, a la plancha y servido con cebollita, cilantro y limón.',
-        precio: '2.50€ und.',
+        descripcion: 'Marinated pork in pastor sauce, grilled and served with onion, cilantro and lime.',
+        precio: '€2.50 und.'
       },
       {
         img: '../../../assets/img/carta/taco-de-mole-verde.png',
-        nombre: 'Taco de Mole Verde',
-        descripcion: 'Pechuga de pollo desmenuzada en una salsa prehispánica de hierbas mexicanas.',
-        precio: '2.50€ und.',
-        alergenos: ["lacteos"]
+        nombre: 'Green Mole Taco',
+        descripcion: 'Shredded chicken breast in a pre-Hispanic sauce of Mexican herbs.',
+        precio: '€2.50 und.',
+        alergenos: ['lacteos']
       },
       {
         img: '../../../assets/img/carta/taco-de-mole-poblano.png',
-        nombre: 'Taco de Mole Poblano',
-        descripcion: 'Pechuga de pollo desmenuzada en una salsa prehispánica de chiles, frutos secos y cacao.',
-        precio: '2.50€ und.',
-        alergenos: ["frutosSecos"]
+        nombre: 'Mole Poblano Taco',
+        descripcion: 'Shredded chicken breast in a pre-Hispanic sauce of chiles, nuts and cocoa.',
+        precio: '€2.50 und.',
+        alergenos: ['frutosSecos']
       },
       {
         img: '../../../assets/img/carta/taco-de-papa-con-frijol.png',
-        nombre: 'Taco de Papa con frijol',
-        descripcion: 'Patata con frijoles negros de la olla.',
-        precio: '2.50€ und.',
+        nombre: 'Potato Taco with Beans',
+        descripcion: 'Potato with black beans from the pot.',
+        precio: '€2.50 und.',
       },
       {
         img: '../../../assets/img/carta/taco-de-carne.png',
-        nombre: 'Taco de Carne',
-        descripcion: 'Ternera desmenuzada en salsa de jitomate y cebolla.',
-        precio: '2.50€ und.',
+        nombre: 'Meat Taco',
+        descripcion: 'Shredded beef in tomato and onion sauce.',
+        precio: '€2.50 und.'
       },
       {
         img: '../../../assets/img/carta/taco-de-papa-con-chorizo.png',
-        nombre: 'Taco de Papa con Chorizo',
-        descripcion: 'Patata con chorizo.',
-        precio: '2.50€ und.',
+        nombre: 'Potato Taco with Chorizo',
+        descripcion: 'Potato with sausage.',
+        precio: '€2.50 und.'
       },
       {
         img: '../../../assets/img/carta/taco-de-queso-panela.png',
-        nombre: 'Taco de Queso Panela',
-        descripcion: 'Queso fresco mexicano y frijoles negros de la olla.',
-        precio: '2.50€ und.',
-        alergenos: ["lacteos"]
-      },
+        nombre: 'Panela Cheese Taco',
+        descripcion: 'Mexican fresh cheese and black beans from the pot.',
+        precio: '€2.50 und.',
+        alergenos: ['lacteos']
+      }
     ],
-    "quesadillas": [
+    'quesadillas': [
       {
         img: '../../../assets/img/carta/q-flor-de-calabaza.png',
-        nombre: 'Quesadilla de Flor de Calabaza',
-        descripcion: 'Flores de calabaza con queso fundido.',
+        nombre: 'Pumpkin Flower Quesadilla',
+        descripcion: 'Pumpkin flowers with melted cheese.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../../assets/img/carta/q-de-huitlacoche.png',
-        nombre: 'Quesadilla de Huitlacoche',
-        descripcion: 'Hongo de maíz con queso fundido.',
+        nombre: 'Huitlacoche Quesadilla',
+        descripcion: 'Corn mushroom with melted cheese.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../../assets/img/carta/q-rajas-con-queso.png',
-        nombre: 'Quesadilla de Rajas con Queso',
-        descripcion: 'Tiras de chile poblano, papa y queso fundido.',
+        nombre: 'Rajas Quesadilla with Cheese',
+        descripcion: 'Poblano chili strips, potato and melted cheese.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../../assets/img/carta/q-de-huevo-trufa.png',
-        nombre: 'Quesadilla de Huevo Trufa',
-        descripcion: 'Huevo frito con crema de trufa negra y queso fundido.',
+        nombre: 'Truffle Egg Quesadilla',
+        descripcion: 'Fried egg with black truffle cream and melted cheese.',
         precio: '€3.50',
         alergenos: ['gluten', 'huevo', 'lacteos']
       },
       {
         img: '../../../assets/img/carta/q-de-cochinita.png',
-        nombre: 'Quesadilla de Cochinita Pibil',
-        descripcion: 'Carne de cerdo en salsa pibil y queso fundido.',
+        nombre: 'Cochinita Pibil Quesadilla',
+        descripcion: 'Pork meat in pibil sauce and melted cheese.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../../assets/img/carta/q-de-champiñones-al-ajillo.png',
-        nombre: 'Quesadilla de Champiñones al Ajillo',
-        descripcion: 'Champiñones a la mexicana con queso fundido.',
+        nombre: 'Garlic Mushroom Quesadilla',
+        descripcion: 'Mexican mushrooms with melted cheese.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../../assets/img/carta/q-carne.png',
-        nombre: 'Quesadilla de Carne',
-        descripcion: 'Ternera desmenuzada en salsa de jitomate, cebolla y con queso fundido.',
+        nombre: 'Meat Quesadilla',
+        descripcion: 'Shredded beef in tomato sauce, onion and melted cheese.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       }
     ],
-    especialidades: [
-        {
-          img: '../../../assets/img/carta/tacos-dorados.png',
-          nombre: 'Tacos Dorados',
-          descripcion: 'Pollo o ternera envuelta en crujientes tortillas de maíz con lechuga, cebolla, jitomate, crema agria y queso fresco por encima.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
-        {
-          img: '../../../assets/img/carta/enchiladas-verdes.png',
-          nombre: 'Enchiladas Verdes',
-          descripcion: 'Pechuga de pollo envuelta en tortillas de maíz y bañadas con salsa verde asada y con cebolla, queso fresco y crema agria.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
-        {
-          img: '../../../assets/img/carta/choriqueso.png',
-          nombre: 'Choriqueso',
-          descripcion: 'Chorizo a la plancha con queso fundido y acompañado con cuatro tortillas de trigo.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
-        {
-          img: '../../../assets/img/carta/champiqueso.png',
-          nombre: 'Champiqueso',
-          descripcion: 'Champiñones, cebolla y queso fundido a la plancha y acompañado con cuatro tortillasde trigo.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
-        {
-          img: '../../../assets/img/carta/alambre.png',
-          nombre: 'Alambre',
-          descripcion: 'Ternera o pollo, pimiento verde y rojo, cebolla, queso fundido y acompañado con cuatro tortillas de trigo.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
+    specialties: [
+      {
+        img: '../../../assets/img/carta/tacos-dorados.png',
+        nombre: 'Golden Tacos',
+        descripcion: 'Chicken or beef wrapped in crispy corn tortillas with lettuce, onion, tomato, sour cream and fresh cheese on top.',
+        precio: '€15.95',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/enchiladas-verdes.png',
+        nombre: 'Green Enchiladas',
+        descripcion: 'Chicken breast wrapped in corn tortillas and topped with grilled green sauce and onion, fresh cheese and sour cream.',
+        precio: '€15.95',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/choriqueso.png',
+        nombre: 'Choriqueso',
+        descripcion: 'Grilled chorizo with melted cheese and served with four wheat tortillas.',
+        precio: '€15.95',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/champiqueso.png',
+        nombre: 'Champiqueso',
+        descripcion: 'Grilled mushrooms, onion and melted cheese accompanied by four wheat tortillas.',
+        precio: '€15.95',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/alambre.png',
+        nombre: 'Alambre',
+        descripcion: 'Beef or chicken, green and red pepper, onion and melted cheese accompanied by four wheat tortillas.',
+        precio: '€15.95',
+        alergenos: ['lacteos']
+      }
     ],
-    postres: [
+    desserts: [
       {
         img: '../../../assets/img/carta/tres-leches.png',
-        nombre: 'Tartita Tres Leches',
-        descripcion: 'Bañada con tres leches.',
+        nombre: 'Three milk cake',
+        descripcion: 'Bathed with three milks.',
         precio: '6.00€',
         alergenos: ["huevo", "lacteos"]
       },
       {
         img: '../../../assets/img/carta/chocoflan.png',
         nombre: 'Chocoflán',
-        descripcion: 'Esponjoso y cremoso.',
+        descripcion: 'Fluffy and creamy.',
         precio: '6.00€',
         alergenos: ["huevo", "lacteos"]
       }
     ],
-    "bebidas": [
+    drinks: [
       {
         img: '../../../assets/img/carta/aguas-frescas.png',
-        nombre: 'Aguas de frutos naturales',
-        descripcion: 'Aguas de frutas como fresa, papaya, mango, melón, lima, jamaica o tamarindo.',
+        nombre: 'Natural fruit waters',
+        descripcion: 'Fruit waters such as strawberry, papaya, mango, melon, lime, jamaica or tamarind.',
         precio: '€5.50'
       },
       {
         img: '../../../assets/img/carta/agua.png',
-        nombre: 'Agua',
-        descripcion: 'Agua 33cl, 50cl',
+        nombre: 'Water',
+        descripcion: 'Water 33cl, 50cl',
         precio: '€2.80, €3.00'
       },
       {
@@ -280,32 +280,32 @@ const menuItems = {
         precio: '€1.80'
       }
     ],
-    "chelas": [
+    beers: [
       {
         img: '../../../assets/img/carta/corona.png',
         nombre: 'Corona',
-        descripcion: 'Coronita en España.',
+        descripcion: 'Coronita in Spain.',
         precio: '€4.50',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/negra-modelo.png',
-        nombre: 'Negra Modelo',
+        nombre: 'Black Modelo',
         descripcion: 'La crema de la cerveza.',
         precio: '€4.50',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/modelo-especial.png',
-        nombre: 'Modelo Especial',
-        descripcion: 'La especial.',
+        nombre: 'Modelo Special',
+        descripcion: 'The special.',
         precio: '€4.50',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/pacifico.png',
         nombre: 'Pacífico',
-        descripcion: 'La norteña.',
+        descripcion: 'the northern.',
         precio: '€4.50',
         alergenos: ['alcohol']
       },
@@ -319,43 +319,43 @@ const menuItems = {
       {
         img: '../../../assets/img/carta/ocho-reales-trio.png',
         nombre: 'Ocho Reales',
-        descripcion: 'La artesana mexicana sin gluten. Clara, rubia y negra.',
+        descripcion: 'The gluten-free Mexican artisan.',
         precio: '€4.90',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/stela-artois.png',
         nombre: 'Estela Artois',
-        descripcion: 'Fría y directa del barril.',
+        descripcion: 'Cold and straight from the barrel.',
         precio: '€2.80',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/sol.png',
         nombre: 'Sol',
-        descripcion: 'El auténtico espíritu de México.',
+        descripcion: 'The authentic spirit of México.',
         precio: '€4.50',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/free-damm.png',
-        nombre: 'Cerveza sin Alcohol',
+        nombre: 'Alcohol-free beer',
         descripcion: 'Free Damm',
         precio: '€2.80'
       }
     ],
-    "cócteles": [
+    cocktails: [
       {
         img: '../../../assets/img/carta/michelada.png',
         nombre: 'Michelada',
-        descripcion: 'Jugo de tomate natural, jugo de ostras, salsa inglesa, jugo de limón, sal, chile y pimienta. Con cervezas Mexicanas 1.00€ extra.',
+        descripcion: 'Natural tomato juice, oyster juice, Worcestershire sauce, lemon juice, salt, chili and pepper. With Mexican beers €1.00 extra.',
         precio: '€6.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/chelada.png',
         nombre: 'Chelada',
-        descripcion: 'Copa escarchada con sal, jugo de limón natural y cerveza de barril. Con cervezas Mexicanas 1.00€ extra.',
+        descripcion: 'Frosted glass with salt, and natural lemon juice and draft beer. With Mexican beers €1.00 extra.',
         precio: '€6.00',
         alergenos: ['alcohol']
       },
@@ -369,54 +369,54 @@ const menuItems = {
       {
         img: '../../../assets/img/carta/margarita-de-tamarindo.png',
         nombre: 'Margarita de Tamarindo',
-        descripcion: 'Tequila José Cuervo Especial Silver, tamarindo natural, licor de naranja, azúcar y mezclado en coctelera.',
+        descripcion: 'Tequila José Cuervo, natural tamarind, orange liqueur, sugar and mixed in a shaker',
         precio: '€12.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/margarita.png',
         nombre: 'Margarita Frozen',
-        descripcion: 'Tequila José Cuervo Especial Silver, limón natural, licor de naranja y azúcar, con textura de sorbete.',
+        descripcion: 'Tequila José Cuervo, natural lemon, orange liqueur and sugar, with a sorbet texture.',
         precio: '€10.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/coctail-fresa-picosa.png',
         nombre: 'Fresa Picosa',
-        descripcion: 'Tequila José Cuervo Fresa Picosa combinado con Sprite.',
+        descripcion: 'José Cuervo Strawberry Spicy Tequila combined with Sprite.',
         precio: '€10.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/coctail-cuervo-lemon.png',
         nombre: 'Cuervo Lemon',
-        descripcion: 'Tequila José Cuervo Especial Blanco, con fanta limón.',
+        descripcion: 'José Cuervo Especial White Tequila, with fanta lemon.',
         precio: '€10.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/margarita.png',
         nombre: 'Mezcalita',
-        descripcion: 'Mezcal 400 Conejos Joven, jugo de limón natural y mezclado en cóctelera.',
+        descripcion: 'Mezcal 400 Conejos Joven, natural lemon juice and mixed in a cocktail shaker.',
         precio: '€12.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/paloma.png',
         nombre: 'Paloma 1800',
-        descripcion: 'Tequila 1800 Silver, jugo de limón natural y refresco de pomelo.',
+        descripcion: 'Tequila 1800 Silver, grenadine and natural orange juice.',
         precio: '€12.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../../assets/img/carta/coctail-sunrise.png',
         nombre: 'Sunrise',
-        descripcion: 'Tequila José Cuervo, granadina y jugo de naranja natural.',
+        descripcion: 'Tequila José Cuervo, natural lemon juice and grapefruit soda.',
         precio: '€10.00',
         alergenos: ['alcohol']
       }
     ],
-    "tequilas Y Mezcales": [
+    "tequilas & Mezcals": [
       {
         img: '../../../assets/img/carta/tequila-jose-cuervo.png',
         nombre: 'José Cuervo',
@@ -589,12 +589,12 @@ const menuItems = {
         alergenos: ['alcohol']
       }
     ],
-    "vinos": [
+    wines: [
       {
         img: '../../../assets/img/carta/vino-la-bestia-blanca.png',
         nombre: 'La Bestia Blanca',
         tipo: 'Vino Blanco',
-        descripcion: 'Silvestre, Suave, Elegante.',
+        descripcion: 'Wild, Gentle, Elegant.',
         precio: '€4.30🍷 / €20.00🍾',
         alergenos: ['alcohol']
       },
@@ -602,7 +602,7 @@ const menuItems = {
         img: '../../../assets/img/carta/vino-la-dansada.png',
         nombre: 'La Dansada',
         tipo: 'Vino Blanco',
-        descripcion: 'Fresco, Persistente, Mineral.',
+        descripcion: 'Fresh, Persistent, Mineral.',
         precio: '€20.00🍾',
         alergenos: ['alcohol']
       },
@@ -610,7 +610,7 @@ const menuItems = {
         img: '../../../assets/img/carta/vino-lagar-d-cervera.png',
         nombre: 'Lagar D Cervera',
         tipo: 'Vino Blanco',
-        descripcion: 'Fresco, Elegante, Cautivador.',
+        descripcion: 'Fresh, Elegant, Captivating.',
         precio: '€23.00🍾',
         alergenos: ['alcohol']
       },
@@ -618,7 +618,7 @@ const menuItems = {
         img: '../../../assets/img/carta/vino-petit-sios.png',
         nombre: 'Petit Siós',
         tipo: 'Vino Tinto',
-        descripcion: 'Afrutado, fresco, directo y desenfadado.',
+        descripcion: 'Fruity, fresh, direct and carefree.',
         precio: '€20.00🍾',
         alergenos: ['alcohol']
       },
@@ -626,7 +626,7 @@ const menuItems = {
         img: '../../../assets/img/carta/vino-cau-del-gat.png',
         nombre: 'Siós Cau del Gat',
         tipo: 'Vino Tinto',
-        descripcion: 'Estructura, fruta y frescura.',
+        descripcion: 'Structure, fruit and freshness.',
         precio: '€23.00🍾',
         alergenos: ['alcohol']
       },
@@ -634,12 +634,105 @@ const menuItems = {
         img: '../../../assets/img/carta/vino-finca-san-martin.png',
         nombre: 'Finca San Martín',
         tipo: 'Vino Tinto',
-        descripcion: 'Frescura, Vivacidad, Potencia y Frutosidad.',
+        descripcion: 'Freshness, Vivacity, Power and Fruitiness.',
         precio: '€4.30🍷 / €20.00🍾',
         alergenos: ['alcohol']
       }
     ],
-    brunch: [
+    'extras': [
+      {
+        img: '../../../assets/img/carta/extras/pico-de-gallo.png',
+        nombre: 'Pico de gallo',
+        descripcion: 'Fresh mix of tomato, onion, and cilantro.',
+        precio: '€1.50',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/crema-agria.png',
+        nombre: 'Sour cream',
+        descripcion: 'Smooth and slightly tangy, ideal for tacos.',
+        precio: '€2.00',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/extras/limas.png',
+        nombre: 'Limes',
+        descripcion: 'Lime slices to add a citrus touch.',
+        precio: '€1.00',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/cebolla-cilantro.png',
+        nombre: 'Onion and cilantro',
+        descripcion: 'Freshly chopped, the classic Mexican topping.',
+        precio: '€1.50',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/queso-fundido.png',
+        nombre: 'Melted cheese',
+        descripcion: 'Melted cheese, perfect for nachos or tacos.',
+        precio: '€1.50',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/extras/queso-panela.png',
+        nombre: 'Panela cheese',
+        descripcion: 'Soft white cheese, ideal to accompany dishes.',
+        precio: '€2.00',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/extras/aguacate.png',
+        nombre: 'Avocado',
+        descripcion: 'Creamy and fresh, sliced thin.',
+        precio: '€3.80',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/trio-toppings.png',
+        nombre: 'Toppings trio',
+        descripcion: 'Nopales, beans, and guacamole in a single portion.',
+        precio: '€6.50',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/totopos.png',
+        nombre: 'Totopos',
+        descripcion: 'Crunchy corn chips, perfect for dipping sauces.',
+        precio: '€1.50',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/tortillas.png',
+        nombre: 'Tortillas',
+        descripcion: 'Soft corn tortillas, freshly made.',
+        precio: '€0.40',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/salsas.png',
+        nombre: 'Salsas',
+        descripcion: 'Variety of Mexican sauces: green, red, and habanero.',
+        precio: '€2.00',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/cilantro.png',
+        nombre: 'Cilantro',
+        descripcion: 'Fresh cilantro, perfect for any dish.',
+        precio: '€1.00',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/cebolla.png',
+        nombre: 'Onion',
+        descripcion: 'Chopped white onion, crunchy and flavorful.',
+        precio: '€1.00',
+        alergenos: []
+      }
+    ],
+    /* brunch: [
       {
         img: '../../../assets/img/carta/nachos.png',
         nombre: '',
@@ -647,5 +740,5 @@ const menuItems = {
         precio: '',
         alergenos: ["gluten", "lacteos"],
       }
-    ],
+    ], */
   };

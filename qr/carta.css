@@ -318,7 +318,8 @@ clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
     right: 0;
     font-family: "colby";
     border-left:  1px dashed var(--color-uno); /* dashed */
-    font-size: 21px;
+    font-size: 1.2rem;
+    line-height: .9;
     padding: 0 .3em;
 }
 .menu_btn.btn.btn-danger {

@@ -7,225 +7,216 @@ const alergenosIcons = {
   };
   
 const menuItems = {
-    /* brunch: [
+    aperitius: [
       {
         img: '../../assets/img/carta/nachos.png',
-        nombre: '',
-        descripcion: '',
-        precio: '',
-        alergenos: ["gluten", "lacteos"],
-      }
-    ], */
-    botanas: [
-      {
-        img: '../../assets/img/carta/nachos.png',
-        nombre: 'Nachos con Guacamole cat',
-        descripcion: 'Crujientes totopos de maíz con frijoles negros, queso fundido y guacamole por encima.',
+        nombre: 'Nachos amb Guacamole',
+        descripcion: 'Cruixents totopos de blat de moro amb fesols negres, formatge fos, bec de gall i guacamole per sobre.',
         precio: '€13.00',
         alergenos: ["gluten", "lacteos"],
       },
       {
         img: '../../assets/img/carta/guacamole.png',
         nombre: 'Guacamole',
-        descripcion: 'Aguacate martajado al momento con jitomate, cebolla, cilantro y acompañado de totopos.',
+        descripcion: 'Alvocat martejat al moment amb jitomate, ceba, coriandre i acompanyat de totopos.',
         precio: '€9.90',
       },
       {
         img: '../../assets/img/carta/sincronizada.png',
-        nombre: 'Sincronizada',
-        descripcion: 'Tortillas de trigo con jamón York, queso fundido y pico de gallo.',
+        nombre: 'Sincronitzada',
+        descripcion: 'Truites de blat amb pernil York, formatge fos i bec de gall.',
         precio: '€7.50',
         alergenos: ["lacteos"]
       },
       {
         img: '../../assets/img/carta/ensalada-de-nopales.png',
-        nombre: 'Ensalada de Nopales',
-        descripcion: 'Nopalitos frescos con cebolla, jitomate, cilantro, queso fresco y aceite de oliva.',
+        nombre: 'Nopales Salad',
+        descripcion: 'Nopalitos frescos amb ceba, jitomate, coriandre, formatge fresc i oli d\'oliva.',
         precio: '€9.90',
         alergenos: ["lacteos"]
       },
       {
         img: '../../assets/img/carta/frijoles-de-la-olla.png',
-        nombre: 'Frijoles de la Olla',
-        descripcion: 'Frijoles negros de la olla con cebolla, cilantro, queso fresco, y acompañados con totopos.',
+        nombre: 'Fesols de l\'Olla',
+        descripcion: 'Fesols negres de l\'olla amb ceba, coriandre, formatge fresc, i acompanyats amb totopos.',
         precio: '€7.90',
         alergenos: ["lacteos"]
       },
     ],
-    tacos: [
+    tacs: [
       {
         img: '../../assets/img/carta/taco-de-tinga-de-pollo.png',
-        nombre: 'Taco de Tinga de Pollo',
-        descripcion: 'Pechuga de pollo desmenuzada en salsa de casa.',
+        nombre: 'Tac de Tinga de Pollastre',
+        descripcion: 'Pit de pollastre esmicolat amb salsa de casa.',
         precio: '2.50€ und.',
       },
       {
         img: '../../assets/img/carta/taco-de-cochinita-pibil.png',
-        nombre: 'Taco de Cochinita Pibil',
-        descripcion: 'Carne de cerdo en salsa pibil con cebolla morada encurtida en limón por encima.',
+        nombre: 'Tac de Cochinita Pibil',
+        descripcion: 'Carn de porc amb salsa pibil amb ceba morada adobada en llimona per sobre.',
         precio: '2.50€ und.',
       },
       {
         img: '../../assets/img/carta/taco-al-pastor.png',
-        nombre: 'Taco al Pastor',
-        descripcion: 'Cerdo adobado en salsa pastor, a la plancha y servido con cebollita, cilantro y limón.',
+        nombre: 'Tac al Pastor',
+        descripcion: 'Porc adobat amb salsa pastor, a la planxa i servit amb cebeta, coriandre i llimona.',
         precio: '2.50€ und.',
       },
       {
         img: '../../assets/img/carta/taco-de-mole-verde.png',
-        nombre: 'Taco de Mole Verde',
-        descripcion: 'Pechuga de pollo desmenuzada en una salsa prehispánica de hierbas mexicanas.',
+        nombre: 'Tac de Mola Verda',
+        descripcion: 'Pit de pollastre esmicolat en una salsa prehispànica d\'herbes mexicanes.',
         precio: '2.50€ und.',
         alergenos: ["lacteos"]
       },
       {
         img: '../../assets/img/carta/taco-de-mole-poblano.png',
-        nombre: 'Taco de Mole Poblano',
-        descripcion: 'Pechuga de pollo desmenuzada en una salsa prehispánica de chiles, frutos secos y cacao.',
+        nombre: 'Tac de Mole Poblano',
+        descripcion: 'Pit de pollastre esmicolat en una salsa prehispànica de chiles, fruits secs i cacau.',
         precio: '2.50€ und.',
         alergenos: ["frutosSecos"]
       },
       {
         img: '../../assets/img/carta/taco-de-papa-con-frijol.png',
-        nombre: 'Taco de Papa con frijol',
-        descripcion: 'Patata con frijoles negros de la olla.',
+        nombre: 'Tac de Papa amb Frijol',
+        descripcion: 'Patata amb fesols negres de l\'olla.',
         precio: '2.50€ und.',
       },
       {
         img: '../../assets/img/carta/taco-de-carne.png',
-        nombre: 'Taco de Carne',
-        descripcion: 'Ternera desmenuzada en salsa de jitomate y cebolla.',
+        nombre: 'Tac de Carn',
+        descripcion: 'Vedella esmicolada amb salsa de jitomate i ceba.',
         precio: '2.50€ und.',
       },
       {
         img: '../../assets/img/carta/taco-de-papa-con-chorizo.png',
-        nombre: 'Taco de Papa con Chorizo',
-        descripcion: 'Patata con chorizo.',
+        nombre: 'Tac de Papa amb Xoriço',
+        descripcion: 'Patata amb xoriço.',
         precio: '2.50€ und.',
       },
       {
         img: '../../assets/img/carta/taco-de-queso-panela.png',
-        nombre: 'Taco de Queso Panela',
-        descripcion: 'Queso fresco mexicano y frijoles negros de la olla.',
+        nombre: 'Tac de Formatge Panel·la',
+        descripcion: 'Formatge fresc mexicà i fesols negres de l\'olla.',
         precio: '2.50€ und.',
         alergenos: ["lacteos"]
       },
     ],
-    "quesadillas": [
+    quesadilles: [
       {
         img: '../../assets/img/carta/q-flor-de-calabaza.png',
-        nombre: 'Quesadilla de Flor de Calabaza',
-        descripcion: 'Flores de calabaza con queso fundido.',
+        nombre: 'Quesadilla de Flor de Carabassa',
+        descripcion: 'Flors de carbassa amb formatge fos.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../assets/img/carta/q-de-huitlacoche.png',
         nombre: 'Quesadilla de Huitlacoche',
-        descripcion: 'Hongo de maíz con queso fundido.',
+        descripcion: 'Fong de blat de moro amb formatge fos.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../assets/img/carta/q-rajas-con-queso.png',
-        nombre: 'Quesadilla de Rajas con Queso',
-        descripcion: 'Tiras de chile poblano, papa y queso fundido.',
+        nombre: 'Quesadilla de Rajas amb Formatge',
+        descripcion: 'Tires de Xile poblano, papa i formatge fos.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../assets/img/carta/q-de-huevo-trufa.png',
-        nombre: 'Quesadilla de Huevo Trufa',
-        descripcion: 'Huevo frito con crema de trufa negra y queso fundido.',
+        nombre: "Quesadilla d'Ou Trufa",
+        descripcion: "Ou fregit amb crema de tòfona negra i formatge fos.",
         precio: '€3.50',
         alergenos: ['gluten', 'huevo', 'lacteos']
       },
       {
         img: '../../assets/img/carta/q-de-cochinita.png',
         nombre: 'Quesadilla de Cochinita Pibil',
-        descripcion: 'Carne de cerdo en salsa pibil y queso fundido.',
+        descripcion: 'Carn de porc amb salsa pibil i formatge fos.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../assets/img/carta/q-de-champiñones-al-ajillo.png',
-        nombre: 'Quesadilla de Champiñones al Ajillo',
-        descripcion: 'Champiñones a la mexicana con queso fundido.',
+        nombre: "Quesadilla de Xampinyons a l'Aixillo",
+        descripcion: 'Xampinyons a la mexicana amb formatge fos.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       },
       {
         img: '../../assets/img/carta/q-carne.png',
-        nombre: 'Quesadilla de Carne',
-        descripcion: 'Ternera desmenuzada en salsa de jitomate, cebolla y con queso fundido.',
+        nombre: 'Quesadilla de Carn',
+        descripcion: 'Vedella esmicolada amb salsa de jitomate, ceba i amb formatge fos.',
         precio: '€3.50',
         alergenos: ['gluten', 'lacteos']
       }
     ],
-    especialidades: [
-        {
-          img: '../../assets/img/carta/tacos-dorados.png',
-          nombre: 'Tacos Dorados',
-          descripcion: 'Pollo o ternera envuelta en crujientes tortillas de maíz con lechuga, cebolla, jitomate, crema agria y queso fresco por encima.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
-        {
-          img: '../../assets/img/carta/enchiladas-verdes.png',
-          nombre: 'Enchiladas Verdes',
-          descripcion: 'Pechuga de pollo envuelta en tortillas de maíz y bañadas con salsa verde asada y con cebolla, queso fresco y crema agria.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
-        {
-          img: '../../assets/img/carta/choriqueso.png',
-          nombre: 'Choriqueso',
-          descripcion: 'Chorizo a la plancha con queso fundido y acompañado con cuatro tortillas de trigo.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
-        {
-          img: '../../assets/img/carta/champiqueso.png',
-          nombre: 'Champiqueso',
-          descripcion: 'Champiñones, cebolla y queso fundido a la plancha y acompañado con cuatro tortillasde trigo.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
-        {
-          img: '../../assets/img/carta/alambre.png',
-          nombre: 'Alambre',
-          descripcion: 'Ternera o pollo, pimiento verde y rojo, cebolla, queso fundido y acompañado con cuatro tortillas de trigo.',
-          precio: '15.95€',
-          alergenos: ["lacteos"]
-        },
+    especialitats: [
+      {
+        img: '../../assets/img/carta/tacos-dorados.png',
+        nombre: 'Tacs Daurats',
+        descripcion: 'Pollastre o vedella embolicada amb cruixents truites de blat de moro amb enciam, ceba, jitomate, crema agra i formatge fresc per sobre.',
+        precio: '15.95€',
+        alergenos: ["lacteos"]
+      },
+      {
+        img: '../../assets/img/carta/enchiladas-verdes.png',
+        nombre: 'Enchiladas Verdes',
+        descripcion: 'Pit de pollastre embolicada amb truites de blat de moro i banyades amb salsa verda rostida i amb ceba, formatge fresc i crema agra.',
+        precio: '15.95€',
+        alergenos: ["lacteos"]
+      },
+      {
+        img: '../../assets/img/carta/choriqueso.png',
+        nombre: 'Xoriquès',
+        descripcion: 'Xoriço a la planxa amb formatge fos i acompanyat amb quatre truites de blat.',
+        precio: '15.95€',
+        alergenos: ["lacteos"]
+      },
+      {
+        img: '../../assets/img/carta/champiqueso.png',
+        nombre: 'Xampicàs',
+        descripcion: 'Xampinyons a la planxa amb formatge fos i acompanyat amb quatre truites de blat.',
+        precio: '15.95€',
+        alergenos: ["lacteos"]
+      },
+      {
+        img: '../../assets/img/carta/alambre.png',
+        nombre: 'Filferro',
+        descripcion: 'Vedella o pollastre, pebrot verd i vermell, ceba, formatge fos i acompanyat de quatre truites de blat.',
+        precio: '15.95€',
+        alergenos: ["lacteos"]
+      }
     ],
     postres: [
       {
         img: '../../assets/img/carta/tres-leches.png',
-        nombre: 'Tartita Tres Leches',
-        descripcion: 'Bañada con tres leches.',
-        precio: '6.00€',
+        nombre: 'Tarteta Tres Llets',
+        descripcion: 'Banyada amb tres llets.',
+        precio: '€6.00',
         alergenos: ["huevo", "lacteos"]
       },
       {
         img: '../../assets/img/carta/chocoflan.png',
-        nombre: 'Chocoflán',
-        descripcion: 'Esponjoso y cremoso.',
-        precio: '6.00€',
+        nombre: 'Xocoflà',
+        descripcion: 'Esponjós i cremós.',
+        precio: '€6.00',
         alergenos: ["huevo", "lacteos"]
-      }
+      },
     ],
-    "bebidas": [
+    begudes: [
       {
         img: '../../assets/img/carta/aguas-frescas.png',
-        nombre: 'Aguas de frutos naturales',
-        descripcion: 'Aguas de frutas como fresa, papaya, mango, melón, lima, jamaica o tamarindo.',
+        nombre: 'Aigües de fruits naturals',
+        descripcion: 'Aigües de fruites com maduixa, papaia, mango, meló, llima, jamaica o tamarinde.',
         precio: '€5.50'
       },
       {
         img: '../../assets/img/carta/agua.png',
-        nombre: 'Agua',
-        descripcion: 'Agua 33cl, 50cl',
+        nombre: 'Aigua',
+        descripcion: 'Aigua 33cl, 50cl',
         precio: '€2.80, €3.00'
       },
       {
@@ -242,14 +233,14 @@ const menuItems = {
       },
       {
         img: '../../assets/img/carta/cortado.png',
-        nombre: 'Cortado',
-        descripcion: 'Café cortado',
+        nombre: 'Tallat',
+        descripcion: 'Cafè tallat',
         precio: '€1.80'
       },
       {
         img: '../../assets/img/carta/cafe-con-leche.png',
-        nombre: 'Café con leche',
-        descripcion: 'Café con leche',
+        nombre: 'Cafè amb llet',
+        descripcion: 'Cafè amb llet',
         precio: '€1.80'
       },
       {
@@ -266,55 +257,55 @@ const menuItems = {
       },
       {
         img: '../../assets/img/carta/fanta-naranja.png',
-        nombre: 'Fanta Naranja',
-        descripcion: 'Fanta Naranja',
+        nombre: 'Fanta Taronja',
+        descripcion: 'Fanta Taronja',
         precio: '€2.80'
       },
       {
         img: '../../assets/img/carta/agua-con-gas.png',
-        nombre: 'Agua con gas',
+        nombre: 'Aigua amb gas',
         descripcion: 'Malavella.',
         precio: '€2.80'
       },
       {
         img: '../../assets/img/carta/cafe-americano.png',
-        nombre: 'Café Americano',
-        descripcion: 'Café americano.',
+        nombre: 'Cafè Americà',
+        descripcion: 'Cafè americà.',
         precio: '€1.80'
       },
       {
         img: '../../assets/img/carta/cafe-expreso.png',
-        nombre: 'Café Expreso',
-        descripcion: 'Café Expreso.',
+        nombre: 'Cafè Exprés',
+        descripcion: 'Cafè exprés.',
         precio: '€1.80'
       }
     ],
-    "chelas": [
+    cerveses: [
       {
         img: '../../assets/img/carta/corona.png',
         nombre: 'Corona',
-        descripcion: 'Coronita en España.',
+        descripcion: 'Coroneta a Espanya.',
         precio: '€4.50',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/negra-modelo.png',
         nombre: 'Negra Modelo',
-        descripcion: 'La crema de la cerveza.',
+        descripcion: 'La crema de la cervesa.',
         precio: '€4.50',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/modelo-especial.png',
         nombre: 'Modelo Especial',
-        descripcion: 'La especial.',
+        descripcion: "L'especial.",
         precio: '€4.50',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/pacifico.png',
         nombre: 'Pacífico',
-        descripcion: 'La norteña.',
+        descripcion: 'La del nord.',
         precio: '€4.50',
         alergenos: ['alcohol']
       },
@@ -322,110 +313,110 @@ const menuItems = {
         img: '../../assets/img/carta/clara.png',
         nombre: 'Clara',
         descripcion: 'Amstel.',
-        precio: '€2.80',
+        precio: '€2.60',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/ocho-reales-trio.png',
         nombre: 'Ocho Reales',
-        descripcion: 'La artesana mexicana sin gluten. Clara, rubia y negra.',
+        descripcion: "L'artesana mexicana sense gluten. Clara, rubia y negra.",
         precio: '€4.90',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/stela-artois.png',
         nombre: 'Estela Artois',
-        descripcion: 'Fría y directa del barril.',
-        precio: '€2.80',
+        descripcion: 'Freda i directa del barril.',
+        precio: '€2.60',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/sol.png',
         nombre: 'Sol',
-        descripcion: 'El auténtico espíritu de México.',
+        descripcion: "L'autèntic esperit de Mèxic.",
         precio: '€4.50',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/free-damm.png',
-        nombre: 'Cerveza sin Alcohol',
+        nombre: 'Cervesa sense alcohol',
         descripcion: 'Free Damm',
-        precio: '€2.80'
+        precio: '€2.60'
       }
     ],
-    "cócteles": [
+    còctels: [
       {
         img: '../../assets/img/carta/michelada.png',
         nombre: 'Michelada',
-        descripcion: 'Jugo de tomate natural, jugo de ostras, salsa inglesa, jugo de limón, sal, chile y pimienta. Con cervezas Mexicanas 1.00€ extra.',
+        descripcion: "Suc de tomàquet natural, suc d'ostres, salsa anglesa, suc de llimona, sal, Xile i pimineta. Amb cerveses Mexicanes 1.00€ extra.",
         precio: '€6.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/chelada.png',
         nombre: 'Chelada',
-        descripcion: 'Copa escarchada con sal, jugo de limón natural y cerveza de barril. Con cervezas Mexicanas 1.00€ extra.',
+        descripcion: "Copa gebrada amb sal, i suc de llimona natural i cervesa de barril. Amb cerveses Mexicanes 1.00€ extra.",
         precio: '€6.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/margarita.png',
         nombre: 'Margarita Shake',
-        descripcion: 'Tequila José Cuervo Especial Silver, limón natural, licor de naranja, azúcar y mezclado en coctelera.',
+        descripcion: 'Tequila José Cuervo, llimona natural, licor de taronja, sucre i barrejat amb coctelera.',
         precio: '€10.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/margarita-de-tamarindo.png',
         nombre: 'Margarita de Tamarindo',
-        descripcion: 'Tequila José Cuervo Especial Silver, tamarindo natural, licor de naranja, azúcar y mezclado en coctelera.',
+        descripcion: 'Tequila José Cuervo, tamarinde natural, licor de taronja, sucre i barrejat amb coctelera.',
         precio: '€12.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/margarita.png',
         nombre: 'Margarita Frozen',
-        descripcion: 'Tequila José Cuervo Especial Silver, limón natural, licor de naranja y azúcar, con textura de sorbete.',
+        descripcion: 'Tequila José Cuervo, llimona natural, licor de taronja i sucre, amb textura de sorbet.',
         precio: '€10.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/coctail-fresa-picosa.png',
         nombre: 'Fresa Picosa',
-        descripcion: 'Tequila José Cuervo Fresa Picosa combinado con Sprite.',
+        descripcion: 'Tequila José Cuervo Fresa Picosa combinat amb Sprite.',
         precio: '€10.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/coctail-cuervo-lemon.png',
         nombre: 'Cuervo Lemon',
-        descripcion: 'Tequila José Cuervo Especial Blanco, con fanta limón.',
+        descripcion: 'Tequila José Cuervo Especial Blanco, amb Fanta llimona.',
         precio: '€10.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/margarita.png',
         nombre: 'Mezcalita',
-        descripcion: 'Mezcal 400 Conejos Joven, jugo de limón natural y mezclado en cóctelera.',
+        descripcion: 'Mescal 400 Conejos Jove, suc de llimona natural i barrejat en còctelera.',
         precio: '€12.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/paloma.png',
         nombre: 'Paloma 1800',
-        descripcion: 'Tequila 1800 Silver, jugo de limón natural y refresco de pomelo.',
+        descripcion: 'Tequila 1800 Silver, suc de llimona natural i refresc de pomelo.',
         precio: '€12.00',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/coctail-sunrise.png',
         nombre: 'Sunrise',
-        descripcion: 'Tequila José Cuervo, granadina y jugo de naranja natural.',
+        descripcion: "Tequila José Cuervo, granadina i suc de taronja natural.",
         precio: '€10.00',
         alergenos: ['alcohol']
       }
     ],
-    "tequilas Y Mezcales": [
+    "Tequiles i Mezcals": [
       {
         img: '../../assets/img/carta/tequila-jose-cuervo.png',
         nombre: 'José Cuervo',
@@ -598,57 +589,150 @@ const menuItems = {
         alergenos: ['alcohol']
       }
     ],
-    "vinos": [
+    vins: [
       {
         img: '../../assets/img/carta/vino-la-bestia-blanca.png',
         nombre: 'La Bestia Blanca',
-        tipo: 'Vino Blanco',
-        descripcion: 'Silvestre, Suave, Elegante.',
+        tipo: 'Vi Blanc',
+        descripcion: 'Silvestre, Suau, Elegant.',
         precio: '€4.30🍷 / €20.00🍾',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/vino-la-dansada.png',
         nombre: 'La Dansada',
-        tipo: 'Vino Blanco',
-        descripcion: 'Fresco, Persistente, Mineral.',
+        tipo: 'Vi Blanc',
+        descripcion: 'Fresc, Persistent, Mineral.',
         precio: '€20.00🍾',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/vino-lagar-d-cervera.png',
         nombre: 'Lagar D Cervera',
-        tipo: 'Vino Blanco',
-        descripcion: 'Fresco, Elegante, Cautivador.',
+        tipo: 'Vi Blanc',
+        descripcion: 'Fresc, Elegant, Captivador.',
         precio: '€23.00🍾',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/vino-petit-sios.png',
         nombre: 'Petit Siós',
-        tipo: 'Vino Tinto',
-        descripcion: 'Afrutado, fresco, directo y desenfadado.',
+        tipo: 'Vi Negre',
+        descripcion: 'Afruitat, fresc, directe i desenfadat.',
         precio: '€20.00🍾',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/vino-cau-del-gat.png',
         nombre: 'Siós Cau del Gat',
-        tipo: 'Vino Tinto',
-        descripcion: 'Estructura, fruta y frescura.',
+        tipo: 'Vi Negre',
+        descripcion: 'Estructura, fruita i frescor.',
         precio: '€23.00🍾',
         alergenos: ['alcohol']
       },
       {
         img: '../../assets/img/carta/vino-finca-san-martin.png',
         nombre: 'Finca San Martín',
-        tipo: 'Vino Tinto',
-        descripcion: 'Frescura, Vivacidad, Potencia y Frutosidad.',
+        tipo: 'Vi Negre',
+        descripcion: 'Frescor, Vivacitat, Potència i Frutositat.',
         precio: '€4.30🍷 / €20.00🍾',
         alergenos: ['alcohol']
       }
     ],
-    brunch: [
+    'extras': [
+      {
+        img: '../../../assets/img/carta/extras/pico-de-gallo.png',
+        nombre: 'Pico de gallo',
+        descripcion: 'Barreja fresca de tomàquet, ceba i coriandre.',
+        precio: '€1.50',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/crema-agria.png',
+        nombre: 'Crema agra',
+        descripcion: 'Suau i lleugerament àcida, ideal per a tacos.',
+        precio: '€2.00',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/extras/limas.png',
+        nombre: 'Llimones',
+        descripcion: 'Rodes de llima per donar un toc cítric.',
+        precio: '€1.00',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/cebolla-cilantro.png',
+        nombre: 'Ceba i coriandre',
+        descripcion: 'Frescos i picats, el clàssic topping mexicà.',
+        precio: '€1.50',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/queso-fundido.png',
+        nombre: 'Formatge fos',
+        descripcion: 'Formatge fos, perfecte per a nachos o tacos.',
+        precio: '€1.50',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/extras/queso-panela.png',
+        nombre: 'Formatge panela',
+        descripcion: 'Formatge blanc suau, ideal per acompanyar plats.',
+        precio: '€2.00',
+        alergenos: ['lacteos']
+      },
+      {
+        img: '../../../assets/img/carta/extras/aguacate.png',
+        nombre: 'Alvocat',
+        descripcion: 'Cremós i fresc, tallat en làmines.',
+        precio: '€3.80',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/trio-toppings.png',
+        nombre: 'Trio de toppings',
+        descripcion: 'Nopals, mongetes i guacamole en una sola ració.',
+        precio: '€6.50',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/totopos.png',
+        nombre: 'Totopos',
+        descripcion: 'Xips de blat de moro cruixents, perfectes per a salses.',
+        precio: '€1.50',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/tortillas.png',
+        nombre: 'Tortillas',
+        descripcion: 'Tortillas de blat de moro suaus, acabades de fer.',
+        precio: '€0.40',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/salsas.png',
+        nombre: 'Salses',
+        descripcion: 'Varietat de salses mexicanes: verda, vermella i habanero.',
+        precio: '€2.00',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/cilantro.png',
+        nombre: 'Coriandre',
+        descripcion: 'Coriandre fresc, ideal per a qualsevol plat.',
+        precio: '€1.00',
+        alergenos: []
+      },
+      {
+        img: '../../../assets/img/carta/extras/cebolla.png',
+        nombre: 'Ceba',
+        descripcion: 'Ceba blanca picada, cruixent i saborosa.',
+        precio: '€1.00',
+        alergenos: []
+      }
+    ],
+    /* brunch: [
       {
         img: '../../assets/img/carta/nachos.png',
         nombre: '',
@@ -656,5 +740,5 @@ const menuItems = {
         precio: '',
         alergenos: ["gluten", "lacteos"],
       }
-    ],
+    ], */
   };
